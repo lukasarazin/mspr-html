@@ -46,7 +46,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  font-family: Popins;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -5414,7 +5414,7 @@ textarea.form-control-lg {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  font-family: Popins;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5516,7 +5516,7 @@ textarea.form-control-lg {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: var(--bs-font-sans-serif);
+  font-family: Popins;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -10731,8 +10731,5 @@ h1, .h1 {
 
 .button {
   color: red;
-  border: 2px solid red;
-  background-color: transparent;
-  border-radius: 50rem;
-  padding: 10px 20px;
+  text-decoration: none;
 }
