@@ -17,9 +17,11 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
+
             <a class="navbar-brand" href="#">
                 <img src="assets/image/TREES.png" alt="" width="30" height="24" class="d-inline-block align-top">
             </a>
+
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -56,9 +58,8 @@
         </div>
     </nav>
 </header>
-<main>
 
-    <button type="button" class="btn btn-primary">Success</button>
+<main>
 
 </main>
 
