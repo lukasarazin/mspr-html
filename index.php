@@ -22,6 +22,15 @@
                 <img src="assets/image/TREES.png" alt="" width="30" height="24" class="d-inline-block align-top">
             </a>
 
+
+            <div class="row">
+            <div class="col-xl-11">
+            <a class="navbar-brand" href="#">
+                <img src="assets/image/TREES.png" alt="" width="30" height="24" class="d-inline-block align-top">
+            </a>
+            </div>
+            <div class="col-xl-1">
+
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -55,11 +64,21 @@
                     </li>
                 </ul>
             </div>
+            </div>
+            </div>
         </div>
     </nav>
 </header>
 
+
+
+
+
+
+
 <main>
+
+    <button type="button" class="btn btn-primary">Success</button>
 
 </main>
 
@@ -74,16 +93,12 @@
 
 
 
+    <footer class="footer" id="delta">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="assets/js/app.js"></script>
+    </footer>
 
 
-<footer>
-
-
-</footer>
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-<script src="assets/js/app.js"></script>
 </body>
 </html>
