@@ -10,19 +10,21 @@
     <link rel="shortcut icon" href="assets/image/TREES.png" type="image/x-icon">
     <link rel="icon" href="assets/image/TREES.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/app.css">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com">
-    <link href = "https://fonts.googleapis.com/css2? family = Poppins: wght @ 300; 400; 700 & display = swap "rel =" styleheet ">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family = Poppins: wght @ 300; 400; 700 & display = swap "
+          rel=" styleheet ">
 </head>
 <body>
 <header>
     <nav class="navbar navbar-expand-md navbar-light bg-white">
-        <div class="container">
+        <div class="container-fluid">
 
             <a class="navbar-brand" href="#">
-                <img src="assets/image/TREES.png" alt="" width="30" height="24" loading="lazy"
+                <img src="assets/image/TREES.png" alt="" width="50" height="44" loading="lazy"
                      class="d-inline-block align-top">
             </a>
 
+<span class="d-inline-block align-top">Trees</span>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
                     aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +55,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                data-bs-toggle="dropdown" aria-expanded="false">
-                                A propos
+                                À propos
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="#">Qui nous sommes ?</a></li>
@@ -75,18 +77,19 @@
 
 
 <main id="main">
-    <div class="container">
+    <div class="container hero_logo">
         <div class="brand_logo">
+            <div class="avatar">
             <img src="assets/image/TREES.png"
                  class="rounded mx-auto d-block"
                  alt="logo-site"
-                 title="Trees_logo"
-                 width="200px"
-                 height="auto">
+                 title="Trees_logo">
+            </div>
         </div>
         <p class="text-center">Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Animi, molestiae!</p>
     </div>
 </main>
+
 
 
 <footer class="footer" id="delta">
