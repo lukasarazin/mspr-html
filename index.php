@@ -15,9 +15,50 @@
 
 <body>
 
+<header>
 
+
+</header>
+
+
+
+
+
+
+
+
+
+
+<main>
+
+
+
+
+</main>
 
 <h1>COUCOU</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+
+
+</footer>
+
+
+
 
 <script src="assets/js/app.js"></script>
 </body>
