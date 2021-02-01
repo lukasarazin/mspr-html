@@ -110,16 +110,19 @@
                         voluptatem veniam, est atque cumque eum delectus sint! Lorem ipsum dolor sit amet.
                     </p>
                     <div class="social-network">
+
                         <a href="#">
                             <img src="assets/svg/Icon%20awesome-instagram.svg"
                                  alt="icon_instagram"
                                  width="35px">
                         </a>
+
                         <a href="#">
                             <img src="assets/svg/Icon%20awesome-twitter.svg"
                                  alt="icon_twitter"
                                  width="35px">
                         </a>
+
                     </div>
                 </div>
                 <!--Grid column-->

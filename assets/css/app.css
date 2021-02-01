@@ -10770,3 +10770,13 @@ textarea.form-control-lg {
   width: 100%;
   height: auto;
 }
+
+.social-network img {
+  margin-right: 1.5rem;
+}
+
+.social-network {
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
