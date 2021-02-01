@@ -71,13 +71,16 @@
                         </li>
                     </ul>
                 </div>
-
         </div>
     </nav>
 </header>
 
 
 <main id="main">
+    <div class="symbol">
+        <div class="deathly"></div>
+        <div class="hallows"></div>
+    </div>
     <div class="container hero_logo">
         <div class="brand_logo">
             <div class="avatar">
@@ -95,8 +98,8 @@
 
 
 <footer class="footer" id="delta">
-    <img src="assets/svg/divisor.svg" alt="" class="mb-0">
-    <footer class="bg-secondary text-center text-lg-start text-white">
+    <img src="assets/svg/divisor.svg" alt="">
+    <div class="bg-secondary text-center text-lg-start text-white">
         <div class="container p-4">
             <div class="row">
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
