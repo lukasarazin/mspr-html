@@ -103,15 +103,13 @@
 
 </main>
 
-<footer id="footer" id="delta">
-    <div class="mb-0">
-        <img src="assets/svg/divisor.svg" alt="" class="mb-0">
-    </div>
+
+
 
 
 
 <footer class="footer" id="delta">
-    <img src="assets/svg/divisor.svg" alt="" width="1519">
+    <img src="assets/svg/divisor.svg" alt="" class="mb-0" width="1519">
     <div class="bg-secondary text-center text-lg-start text-white">
         <div class="container p-4">
             <div class="row">
