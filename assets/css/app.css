@@ -10758,7 +10758,7 @@ textarea.form-control-lg {
 
 .avatar {
   width: 150px;
-  height: 100px;
+  height: auto;
   box-sizing: border-box;
   border: 5px white solid;
   overflow: hidden;
