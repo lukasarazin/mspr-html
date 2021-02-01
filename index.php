@@ -10,7 +10,7 @@
 </head>
 <body>
 
-COUCOU
+<h1>COUCOU</h1>
 
 <script src="assets/js/app.js"></script>
 </body>
