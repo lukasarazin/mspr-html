@@ -71,10 +71,12 @@
                         </li>
                     </ul>
                 </div>
+
+            </button>
+
         </div>
     </nav>
 </header>
-
 
 <main id="main">
 
@@ -101,6 +103,10 @@
 
 </main>
 
+<footer id="footer" id="delta">
+    <div class="mb-0">
+        <img src="assets/svg/divisor.svg" alt="" class="mb-0">
+    </div>
 
 
 
@@ -123,7 +129,6 @@
                                  alt="icon_instagram"
                                  width="35px">
                         </a>
-
                         <a href="#">
                             <img src="assets/svg/Icon%20awesome-twitter.svg"
                                  alt="icon_twitter"
@@ -168,11 +173,12 @@
             © Copyright 2021 | Site créé par
             <a class="text-white" href="index.php">TREES</a>
         </div>
-    </footer>
+    </div>
+</footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-            crossorigin="anonymous"></script>
-    <script src="assets/js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>
