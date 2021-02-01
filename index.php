@@ -10,6 +10,8 @@
     <link rel="shortcut icon" href="assets/image/TREES.png" type="image/x-icon">
     <link rel="icon" href="assets/image/TREES.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/app.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Poppins: wght @ 300; 400; 700 & display = swap "rel =" styleheet ">
 </head>
 <body>
 <header>
