@@ -77,6 +77,7 @@
 
 
 <main id="main">
+
     <div class="symbol">
         <div class="deathly"></div>
         <div class="hallows"></div>
@@ -90,15 +91,21 @@
                      title="Trees_logo">
             </div>
         </div>
-        <p class="text-center">Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Animi, molestiae!</p>
+        <p class="text-center">Laissez votre emprunte dans ce monde,<br>choisissez et voyagez avec <strong>votre</strong> arbre.</p>
+        <div class="hero_banner">
+        <img src="assets/image/grey.jpg" alt="" width="200px" height="200px">
+        <img src="assets/image/grey.jpg" alt="" width="200px" height="200px">
+        <img src="assets/image/grey.jpg" alt="" width="200px" height="200px">
+        </div>
     </div>
+
 </main>
 
 
 
 
 <footer class="footer" id="delta">
-    <img src="assets/svg/divisor.svg" alt="">
+    <img src="assets/svg/divisor.svg" alt="" width="1519">
     <div class="bg-secondary text-center text-lg-start text-white">
         <div class="container p-4">
             <div class="row">

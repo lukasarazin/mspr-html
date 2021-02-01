@@ -1,5 +1,9 @@
 $body-bg: #fcfcfc;
 
+.text-center {
+  font-size: 22px;
+}
+
 @keyframes float {
   0% {
     transform: translatey(0px);
@@ -20,6 +24,10 @@ $body-bg: #fcfcfc;
   justify-content: center;
   align-items: center;
   margin-top: -8rem;
+}
+
+.hero_banner {
+  margin-top: 4rem;
 }
 
 .avatar {

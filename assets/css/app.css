@@ -10725,6 +10725,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.text-center {
+  font-size: 22px;
+}
+
 @-webkit-keyframes float {
   0% {
     transform: translatey(0px);
@@ -10736,6 +10740,7 @@ textarea.form-control-lg {
     transform: translatey(0px);
   }
 }
+
 @keyframes float {
   0% {
     transform: translatey(0px);
@@ -10755,6 +10760,10 @@ textarea.form-control-lg {
   justify-content: center;
   align-items: center;
   margin-top: -8rem;
+}
+
+.hero_banner {
+  margin-top: 4rem;
 }
 
 .avatar {
