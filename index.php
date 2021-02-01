@@ -14,7 +14,6 @@
 
 
 <body>
-
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -57,23 +56,11 @@
         </div>
     </nav>
 </header>
-
-
-
-
-
-
-
-
-
-
 <main>
 
-    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-primary">Success</button>
 
 </main>
-
-
 
 
 
