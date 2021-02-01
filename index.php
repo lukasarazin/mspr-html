@@ -17,14 +17,16 @@
         <div class="container">
 
             <a class="navbar-brand" href="#">
-                <img src="assets/image/TREES.png" alt="" width="30" height="24" class="d-inline-block align-top">
+                <img src="assets/image/TREES.png" alt="" width="30" height="24" loading="lazy"
+                     class="d-inline-block align-top">
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Accueil</a>
@@ -66,28 +68,18 @@
 
 
 <main>
-
-    <button type="button" class="btn btn-primary">Success</button>
-
+    <div class="container py-5">
+        <button type="button" class="button">Success</button>
+    </div>
 </main>
 
 
-<footer>
+<footer class="footer" id="delta">
+
+</footer>
 
 
-    <footer class="footer" id="delta">
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-                crossorigin="anonymous"></script>
-        <script src="assets/js/app.js"></script>
-    </footer>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-            crossorigin="anonymous"></script>
-    <script src="assets/js/app.js"></script>
+<script src="assets/js/app.js"></script>
 
 </body>
 </html>
