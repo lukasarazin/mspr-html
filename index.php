@@ -15,7 +15,7 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
         <div class="container">
 
             <a class="navbar-brand" href="#">
@@ -74,8 +74,17 @@
 </header>
 
 
-<main>
-<div class="button">coucou</div>
+<main id="main">
+    <div class="container">
+        <div class="brand_logo">
+            <img src="assets/image/TREES.png"
+                 class="rounded mx-auto d-block"
+                 alt="..."
+                 width="200px"
+                 height="auto">
+        </div>
+        <p class="text-center">Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Animi, molestiae!</p>
+    </div>
 </main>
 
 
