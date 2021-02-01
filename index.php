@@ -79,7 +79,8 @@
         <div class="brand_logo">
             <img src="assets/image/TREES.png"
                  class="rounded mx-auto d-block"
-                 alt="..."
+                 alt="logo-site"
+                 title="Trees_logo"
                  width="200px"
                  height="auto">
         </div>
