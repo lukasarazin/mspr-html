@@ -1,0 +1,26 @@
+#contact{
+  border: 3px solid blue;
+  padding: 75px 0;
+  .container{
+    border: 3px solid red;
+    max-width: 800px;
+    height: auto;
+    padding: 0;
+  }
+  input{
+    background-color: $secondary;
+    color: #fff;
+    font-size: 90%;
+    border-radius: 0;
+    border: none;
+    padding: 18px;
+  }
+}
+
+.brand-logo img{
+  max-width: 150px;
+  margin: 0 0 75px 0;
+  display: block;
+  width: 100%;
+  height: auto;
+}
