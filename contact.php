@@ -40,9 +40,16 @@
                     <p class="succes_answer">Merci <?php echo $_POST['first_name'] . ' ' .$_POST['last_name'] ?> pour votre message =).</p>
                 <?php endif; ?>
 
+                <?php if ($_POST): ?>
                 <div class="button-wrapper">
-                    <button type="submit" class="btn btn-primary">Envoyer</button>
-                </div>
+                    <a class="btn btn-outline-secondary">
+                        Retour à l'accueil
+                    </a>
+                    <?php else: ?>
+                        <div class="button-wrapper">
+                            <button type="submit" class="btn btn-primary">Envoyer</button>
+                        </div>
+                    <?php endif; ?>
 
             </form>
 

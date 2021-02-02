@@ -11119,18 +11119,18 @@ textarea.form-control-lg {
 
 .btn:not([class*=outline]) {
   color: #fff;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
 }
 .btn:not([class*=outline]):hover {
   background-color: transparent;
 }
 .btn:not([class*=outline]):hover.btn-primary {
   color: #3bc36e;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
 }
 .btn:not([class*=outline]):hover.btn-secondary {
   color: #333333;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
 }
 .btn:not([class*=outline]) .button-secondary:hover {
   background-color: #333333;
@@ -11148,7 +11148,7 @@ textarea.form-control-lg {
   color: #3bc36e;
   max-width: 300px;
   mix-blend-mode: soft-light;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
 }
 .home_card:hover {
   background-color: red;

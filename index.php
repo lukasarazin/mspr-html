@@ -82,7 +82,7 @@
                     <h3>Comment nous proçedons ?</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aliquam animi commodi consequatur consequuntur culpa dicta dolorum eos esse expedita facere hic itaque laudantium nobis perspiciatis, provident quaerat quam quas sequi. Assumenda, atque blanditiis consectetur eius minus natus, nulla odio quidem ratione recusandae reiciendis sapiente similique sit! Eligendi, exercitationem?</p>
                     <div class="button-wrapper">
-                        <a class="btn btn-outline-secondary">
+                        <a href="#" class="btn btn-outline-secondary">
                             En savoir plus
                         </a>
                     </div>
