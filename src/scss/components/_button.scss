@@ -1,30 +1,15 @@
-.button-primary {
-  border-radius: 50px;
-  background-color: $primary;
-  height: 35px;
-  color: white;
-  border: transparent;
-}
+.btn:not([class*="outline"]) {
+  color: #fff;
 
-.button-primary:hover {
-  border: 2px solid $primary;
-  background-color: transparent;
-  color: $primary;
-  transition: 0.4s;
-}
+  &:hover {
+    background-color: transparent;
 
-.button-secondary {
-  border-radius: 50px;
-  background-color: transparent;
-  height: 35px;
-  color: $secondary;
-  border: 2px solid $secondary;
-}
+    &.btn-primary {
+      color: $primary;
+    }
 
-.button-secondary:hover {
-  background-color: $secondary;
-  color: white;
-  transition: 0.4s;
+    &.btn-secondary {
+      color: $secondary;
+    }
+  }
 }
-
-oui

@@ -1,19 +1,19 @@
-.card{
+.home_card {
   padding: 45px;
-  border-radius: 15px;
-}
-
-.number {
-  color: #fff;
-  font-size: 35px;
-}
-
-.text {
-  color: white;
-}
-
-.home_cards {
+  border-radius: $border-radius;
   margin: auto;
-}
+  background-color: $secondary;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  max-width: 300px;
+  //mix-blend-mode: darken;
 
-oui
+  & > * {
+    display: block;
+  }
+
+  data {
+    font-size: 35px;
+  }
+}
