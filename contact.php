@@ -7,29 +7,31 @@
                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                 <lottie-player class="lottie" src="https://assets6.lottiefiles.com/private_files/lf30_czbttpus.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;"    autoplay></lottie-player>
             </div>
-            <span>Nous contacter</span>
+            <div class="title_line">
+                <h1>Nous contacter<div class="line"></div></h1>
+            </div>
 
             <form method="POST" action="">
 
                 <div class="row mb-5">
                     <div class="col first_name">
                         <div class="form">
-                            <input type="text" id="form3Example1" class="form-control" placeholder="Prénom" name="first_name"/>
+                            <input type="text" id="form3Example1" class="form-control" placeholder="Prénom" name="first_name" required/>
                         </div>
                     </div>
                     <div class="col name">
                         <div class="form">
-                            <input type="text" id="form3Example2" class="form-control" placeholder="Nom" name="last_name"/>
+                            <input type="text" id="form3Example2" class="form-control" placeholder="Nom" name="last_name" required/>
                         </div>
                     </div>
                 </div>
 
                 <div class="form mb-5">
-                    <input type="text" id="form3Example3" class="form-control" placeholder="Objet" />
+                    <input type="text" id="form3Example3" class="form-control" placeholder="Objet" required/>
                 </div>
 
                 <div class="form mb-5">
-                    <input type="email" id="form3Example3" class="form-control" placeholder="Adresse email" />
+                    <input type="email" id="form3Example3" class="form-control" placeholder="Adresse email" required/>
                 </div>
 
                 <div class="form">
