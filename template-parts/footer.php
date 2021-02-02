@@ -6,7 +6,6 @@
              fill="var(--bs-secondary)"/>
     </svg>
 
-
     <div class="bg-secondary text-center text-lg-start text-white">
         <div class="container p-4">
             <div class="row">
