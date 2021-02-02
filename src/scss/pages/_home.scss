@@ -77,7 +77,7 @@
     display: block;
     max-width: 500px;
     color: #fff;
-    margin: auto auto 5rem;
+    margin: auto auto 4.5rem;
 
 
     span {
@@ -126,15 +126,12 @@
   top: 20%;
   left: -10%;
   transform: scale(0) translateX(-10vw);
-  will-change: transform;
-
   animation-name: fly-right-one;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 
   &--one {
     animation-duration: 15s;
-    animation-delay: 0;
   }
 
   &--two {

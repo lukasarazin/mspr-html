@@ -5,8 +5,6 @@
     <section id="home-hero">
         <div class="container">
 
-            <div class="container">
-
                 <div class="bird-container bird-container--one">
                     <div class="bird bird--one"></div>
                 </div>
@@ -23,9 +21,6 @@
                     <div class="bird bird--four"></div>
                 </div>
 
-            </div>
-
-
             <div class="brand-logo">
                 <img src="assets/image/TREES.png"
                      alt="Logo site"
@@ -37,21 +32,21 @@
 
             <div class="row g-4 home_cards">
                 <div class="home_card col-lg-4">
-                    <div class="card text-center bg-secondary">
+                    <div class="card text-center">
                         <span class="number"><?php echo date('321s') ?></span>
-                        <span>Arbres plantés</span>
+                        <span class="text">Arbres plantés</span>
                     </div>
                 </div>
                 <div class="home_card col-lg-4">
-                    <div class="card text-center bg-secondary">
+                    <div class="card text-center">
                         <span class="number">4</span>
-                        <span>Biomes</span>
+                        <span class="text" >Biomes</span>
                     </div>
                 </div>
                 <div class="home_card col-lg-4">
-                    <div class="card text-center bg-secondary">
+                    <div class="card text-center">
                         <span class="number">100%</span>
-                        <span>écologies</span>
+                        <span class="text">écologies</span>
                     </div>
                 </div>
             </div>
@@ -60,7 +55,7 @@
 
     <section id="noname">
         <div class="container">
-            <div class="cotainer">
+            <div class="container">
                 <h2>QUI SOMMES NOUS ?</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa ipsum minus nam? Asperiores minima quas repellat veniam! Ab deleniti earum minus, nam natus ut.</p>
                 <button class="button-primary">En savoir plus</button>
