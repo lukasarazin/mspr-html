@@ -1,9 +1,8 @@
 #contact{
-  padding: 75px 0;
   .container{
     max-width: 800px;
     height: auto;
-    padding: 0;
+    padding: 50px 75px 75px 75px;
   }
   input,textarea{
     background-color: $secondary;
@@ -15,16 +14,26 @@
   }
   .button-wrapper {
     text-align: center;
+    margin-top: 50px;
   }
   .brand-logo{
     max-width: 150px;
     margin: auto;
-    padding-bottom: 75px;
   }
   .lottie{
     display: block;
     width: 100%;
     height: auto;
+  }
+  span{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    max-width: 500px;
+    color: $secondary;
+    margin: auto auto 4.5rem;
+    padding-bottom: 50px;
   }
 }
 

@@ -11073,13 +11073,10 @@ textarea.form-control-lg {
   margin-bottom: 25px;
 }
 
-#contact {
-  padding: 75px 0;
-}
 #contact .container {
   max-width: 800px;
   height: auto;
-  padding: 0;
+  padding: 50px 75px 75px 75px;
 }
 #contact input, #contact textarea {
   background-color: #333333;
@@ -11091,16 +11088,26 @@ textarea.form-control-lg {
 }
 #contact .button-wrapper {
   text-align: center;
+  margin-top: 50px;
 }
 #contact .brand-logo {
   max-width: 150px;
   margin: auto;
-  padding-bottom: 75px;
 }
 #contact .lottie {
   display: block;
   width: 100%;
   height: auto;
+}
+#contact span {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  max-width: 500px;
+  color: #333333;
+  margin: auto auto 4.5rem;
+  padding-bottom: 50px;
 }
 
 .btn:not([class*=outline]) {
