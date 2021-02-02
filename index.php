@@ -57,16 +57,35 @@
         </div>
     </section>
 
-    <section id="home_infos">
+    <section id="home_about">
         <div class="container">
             <div class="content">
-                <h3>QUI SOMMES NOUS ?</h3>
+                <h3>Qui sommes nous ?</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa ipsum minus nam? Asperiores
-                    minima quas repellat veniam! Ab deleniti earum minus, nam natus ut.</p>
+                    minima quas repellat veniam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores, culpa deserunt ea expedita labore laborum minus nobis repellat sint. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, nemo!</p>
                 <div class="button-wrapper">
                     <a class="btn btn-primary">
                         En savoir plus
                     </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="home_process">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="assets/image/process.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h3>Comment nous proçedons ?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aliquam animi commodi consequatur consequuntur culpa dicta dolorum eos esse expedita facere hic itaque laudantium nobis perspiciatis, provident quaerat quam quas sequi. Assumenda, atque blanditiis consectetur eius minus natus, nulla odio quidem ratione recusandae reiciendis sapiente similique sit! Eligendi, exercitationem?</p>
+                    <div class="button-wrapper">
+                        <a class="btn btn-outline-secondary">
+                            En savoir plus
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
