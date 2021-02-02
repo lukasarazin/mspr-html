@@ -11110,3 +11110,7 @@ textarea.form-control-lg {
   font-size: 35px;
   color: #000;
 }
+
+.home_card:hover {
+  background-color: red;
+}
