@@ -5,7 +5,7 @@
 
             <div class="brand-logo">
                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_czbttpus.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"    autoplay></lottie-player>
+                <lottie-player class="lottie" src="https://assets6.lottiefiles.com/private_files/lf30_czbttpus.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;"    autoplay></lottie-player>
             </div>
 
             <form>
@@ -31,8 +31,8 @@
                     <input type="email" id="form3Example3" class="form-control" placeholder="Adresse email" />
                 </div>
 
-                <div class="">
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message"></textarea>
+                <div class="form">
+                    <textarea class="form-control" name="message" id="form3Example3" cols="30" rows="10" placeholder="Votre message"></textarea>
                 </div>
 
                 <div class="button-wrapper">

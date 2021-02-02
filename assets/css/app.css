@@ -10831,13 +10831,13 @@ textarea.form-control-lg {
     transform: translatey(0px);
   }
 }
-#home-hero ² .brand-logo {
+#home-hero .brand-logo {
   max-width: 150px;
   margin: auto;
   -webkit-animation: float 6s ease-in-out infinite;
           animation: float 6s ease-in-out infinite;
 }
-#home-hero ² .brand-logo img {
+#home-hero .brand-logo img {
   display: block;
   width: 100%;
   height: auto;
@@ -11081,7 +11081,7 @@ textarea.form-control-lg {
   height: auto;
   padding: 0;
 }
-#contact input {
+#contact input, #contact textarea {
   background-color: #333333;
   color: #fff;
   font-size: 90%;
@@ -11093,25 +11093,30 @@ textarea.form-control-lg {
   text-align: center;
 }
 #contact .brand-logo {
-  max-width: 300px;
+  max-width: 150px;
   margin: auto;
+  padding-bottom: 75px;
+}
+#contact .lottie {
   display: block;
   width: 100%;
   height: auto;
-  padding-bottom: 75px;
 }
 
 .btn:not([class*=outline]) {
   color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn:not([class*=outline]):hover {
   background-color: transparent;
 }
 .btn:not([class*=outline]):hover.btn-primary {
   color: #3bc36e;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn:not([class*=outline]):hover.btn-secondary {
   color: #333333;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn:not([class*=outline]) .button-secondary:hover {
   background-color: #333333;

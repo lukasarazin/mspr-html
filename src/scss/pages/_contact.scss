@@ -5,7 +5,7 @@
     height: auto;
     padding: 0;
   }
-  input{
+  input,textarea{
     background-color: $secondary;
     color: #fff;
     font-size: 90%;
@@ -17,12 +17,14 @@
     text-align: center;
   }
   .brand-logo{
-    max-width: 300px;
+    max-width: 150px;
     margin: auto;
+    padding-bottom: 75px;
+  }
+  .lottie{
     display: block;
     width: 100%;
     height: auto;
-    padding-bottom: 75px;
   }
 }
 

@@ -1,16 +1,19 @@
 .btn:not([class*="outline"]) {
   color: #fff;
+  box-shadow: $shadow;
 
   &:hover {
     background-color: transparent;
 
     &.btn-primary {
       color: $primary;
+      box-shadow: $shadow;
     }
 
 
     &.btn-secondary {
       color: $secondary;
+      box-shadow: $shadow;
     }
   }
 
