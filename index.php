@@ -4,29 +4,29 @@
 
     <section id="home-hero">
         <div class="container">
+            <div class="birds-wrapper">
+                <div class="bird-container bird-container--one">
+                    <div class="bird bird--one"></div>
+                </div>
 
-            <div class="bird-container bird-container--one">
-                <div class="bird bird--one"></div>
+                <div class="bird-container bird-container--two">
+                    <div class="bird bird--two"></div>
+                </div>
+
+                <div class="bird-container bird-container--three">
+                    <div class="bird bird--three"></div>
+                </div>
+
+                <div class="bird-container bird-container--four">
+                    <div class="bird bird--four"></div>
+                </div>
+
+                <div class="brand-logo">
+                    <img src="assets/image/TREES.png"
+                         alt="Logo site"
+                         class="rounded mx-auto d-block">
+                </div>
             </div>
-
-            <div class="bird-container bird-container--two">
-                <div class="bird bird--two"></div>
-            </div>
-
-            <div class="bird-container bird-container--three">
-                <div class="bird bird--three"></div>
-            </div>
-
-            <div class="bird-container bird-container--four">
-                <div class="bird bird--four"></div>
-            </div>
-
-            <div class="brand-logo">
-                <img src="assets/image/TREES.png"
-                     alt="Logo site"
-                     class="rounded mx-auto d-block">
-            </div>
-
 
             <h1>Laissez votre emprunte dans ce monde, choisissez et voyagez avec
                 <span>votre</span> arbre.</h1>
