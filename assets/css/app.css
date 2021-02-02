@@ -10746,6 +10746,14 @@ textarea.form-control-lg {
   font-size: 15px;
   max-width: 450px;
 }
+#footer .text-center a:hover {
+  opacity: 20%;
+  color: #fff;
+  transition: 0.2s;
+}
+#footer .text-uppercase {
+  color: #3bc36e;
+}
 
 #home-hero {
   padding: 80px 0 150px 0;
@@ -11055,20 +11063,27 @@ textarea.form-control-lg {
 .btn:not([class*=outline]):hover.btn-secondary {
   color: #333333;
 }
+.btn:not([class*=outline]) .button-secondary:hover {
+  background-color: #333333;
+  color: white;
+  transition: 0.4s;
+}
 
 .home_card {
   padding: 45px;
   border-radius: 15px;
   margin: auto;
-  background-color: #333333;
+  background-color: #fff;
   height: 100%;
   text-align: center;
-  color: #fff;
+  color: #3bc36e;
   max-width: 300px;
+  mix-blend-mode: soft-light;
 }
 .home_card > * {
   display: block;
 }
 .home_card data {
   font-size: 35px;
+  color: #000;
 }
