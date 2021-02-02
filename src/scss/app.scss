@@ -9,9 +9,10 @@
 @import "layout/footer";
 
 // Pages
-
+@import "pages/home";
+@import "pages/contact";
 
 // Components
-@import "components/button-primary";
-@import "components/button-secondary";
+@import "components/button";
 @import "components/logo";
+@import "components/home_cards";

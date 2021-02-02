@@ -1,20 +1,24 @@
-.social-network img {
-  margin-right: 1.5rem;
-}
+#footer {
 
-.social-network {
-  display: flex;
-  align-items: center;
-  align-items: center;
-}
+  svg {
+    position: relative;
+    display: block;
+    width: 100% !important;
+  }
 
-.list-unstyled li a {
-  text-decoration: none;
-  text-align: center;
-}
+  .social-network {
+    display: flex;
+    align-items: center;
+  }
 
-footer p {
-  font-size: 15px;
-  max-width: 450px;
+  .list-unstyled li a {
+    text-decoration: none;
+    text-align: center;
+  }
+
+  footer p {
+    font-size: 15px;
+    max-width: 450px;
+  }
 }
 

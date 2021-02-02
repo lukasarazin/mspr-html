@@ -1,5 +1,12 @@
-<footer class="footer" id="delta">
-    <img src="assets/svg/divisor.svg" alt="" class="mb-0" width="1519">
+<footer class="footer" id="footer">
+
+
+    <svg viewBox="2 0 1900 180" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1904 189.5H0.5V75L67.5 0.5L142 75L256.5 0.5L307 75L424 0.5L480 59L597 0.5L685 75L796.5 38L890 22L938 75L1182.5 0.5L1281 75L1401 38L1523.5 75L1758 38L1904 75V189.5Z"
+             fill="var(--bs-secondary)"/>
+    </svg>
+
+
     <div class="bg-secondary text-center text-lg-start text-white">
         <div class="container p-4">
             <div class="row">
@@ -52,7 +59,7 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!"  class="text-white">Mentions légales</a>
+                            <a href="#!" class="text-white">Mentions légales</a>
                         </li>
                     </ul>
                     <img width="100px" height="auto" src="assets/image/TREES.png" alt="">

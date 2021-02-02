@@ -5,40 +5,31 @@
     <section id="home-hero">
         <div class="container">
 
-            <div class="symbol">
-                <div class="deathly"></div>
-                <div class="hallows"></div>
+            <div class="brand-logo">
+                <img src="assets/image/TREES.png"
+                     alt="Logo site"
+                     class="rounded mx-auto d-block">
             </div>
 
-            <div class="brand_logo">
-                <div class="avatar">
-                    <img src="assets/image/TREES.png"
-                         alt="Logo site"
-                         class="rounded mx-auto d-block">
-                </div>
-            </div>
-
-            <div class="title-wrapper">
-                <h1 class="text-center">Laissez votre emprunte dans ce monde,<br>choisissez et voyagez avec
-                    <strong>votre</strong> arbre.</h1>
-            </div>
+            <h1>Laissez votre emprunte dans ce monde, choisissez et voyagez avec
+                <span>votre</span> arbre.</h1>
 
             <div class="row g-4">
                 <div class="col-lg-4">
                     <div class="card text-center bg-secondary p-5">
-                        <span>56165</span>
+                        <span><?php echo date('321s') ?></span>
                         <span>Arbres plantés</span>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card text-center bg-secondary p-5">
-                        <span>56165</span>
-                        <span>Arbres plantés</span>
+                        <span>4</span>
+                        <span>Biomes</span>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="card text-center bg-secondary p-5">
-                        <span>56165</span>
+                        <span>100% écologies</span>
                         <span>Arbres plantés</span>
                     </div>
                 </div>
@@ -47,10 +38,6 @@
     </section>
 
 </main>
-
-<!-- <button class="button-primary">Accueil</button>
-<button class="button-secondary">Accueil</button> -->
-
 
 <?php require_once 'template-parts/footer.php' ?>
 
