@@ -29,7 +29,7 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="">Baobab</a></li>
                             <li><a class="dropdown-item" href="#">Araucaria</a></li>
-                            <li><a class="dropdown-item" href="#">Ginko</a></li>
+                            <li><a class="dropdown-item" href="#">Ginkgo</a></li>
                             <li><a class="dropdown-item" href="#">Cocotier</a></li>
                         </ul>
                     </li>

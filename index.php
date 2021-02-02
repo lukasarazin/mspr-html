@@ -41,7 +41,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="home_card">
+                        <div class="home_card2">
                             <data value="4">4</data>
                             <span>Biomes</span>
                         </div>

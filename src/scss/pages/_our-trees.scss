@@ -1,1 +1,56 @@
+.trees {
+  margin: 1rem;
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.tree-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+}
+
+.tree-name{
+  color: hsl(0, 0%, 90%);
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+}
+
+.tree-title {
+  font-size: 4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: .8;
+  font-weight: 900;
+}
+
+/* effect-4 */
+.effect {
+  display: block;
+  width: 100%;
+  max-width: 80rem;
+}
+
+.effect .tree-img {
+  transition: .8s;
+}
+
+.effect:hover .tree-img {
+  filter: saturate(0);
+}
+
+.effect .tree-title {
+  transition: .9s;
+}
+
+.effect:hover .tree-title {
+  color: $primary;
+}
 

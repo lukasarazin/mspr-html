@@ -11117,6 +11117,62 @@ textarea.form-control-lg {
   margin-top: 25px;
 }
 
+.trees {
+  margin: 1rem;
+  position: relative;
+  width: 100%;
+  max-width: 1400px;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.tree-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+}
+
+.tree-name {
+  color: #e6e6e6;
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+}
+
+.tree-title {
+  font-size: 4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  font-weight: 900;
+}
+
+/* effect-4 */
+.effect {
+  display: block;
+  width: 100%;
+  max-width: 80rem;
+}
+
+.effect .tree-img {
+  transition: 0.8s;
+}
+
+.effect:hover .tree-img {
+  filter: saturate(0);
+}
+
+.effect .tree-title {
+  transition: 0.9s;
+}
+
+.effect:hover .tree-title {
+  color: #3bc36e;
+}
+
 .btn:not([class*=outline]) {
   color: #fff;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
@@ -11138,7 +11194,7 @@ textarea.form-control-lg {
   transition: 0.4s;
 }
 
-.home_card {
+.home_card, .home_card2 {
   padding: 45px;
   border-radius: 15px;
   margin: auto;
@@ -11149,14 +11205,18 @@ textarea.form-control-lg {
   max-width: 300px;
   mix-blend-mode: soft-light;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+  /* &.home_card2 {
+    background-color: $primary;
+    color: #fff;
+  } */
 }
-.home_card:hover {
+.home_card:hover, .home_card2:hover {
   background-color: red;
 }
-.home_card > * {
+.home_card > *, .home_card2 > * {
   display: block;
 }
-.home_card data {
+.home_card data, .home_card2 data {
   font-size: 35px;
   color: #000;
 }
