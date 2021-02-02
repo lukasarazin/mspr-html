@@ -123,6 +123,7 @@
 <script src="assets/js/app.js"></script>
 </body>
 </html>
+<<<<<<< HEAD
 
     <div class="symbol">
         <div class="deathly"></div>
@@ -148,3 +149,6 @@
 
 <?php require_once 'template-parts/footer.php' ?>
 
+=======
+a
+>>>>>>> main
