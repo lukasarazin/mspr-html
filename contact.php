@@ -1,8 +1,12 @@
 <?php require_once 'template-parts/header.php' ?>
 
     <section id="contact">
-        <div class="container">
 
+        <img src="http://www.myolab.com.au/wp-content/uploads/2016/09/contact-leaves1.png" alt="">
+        <div class="contact-img2">
+        <img src="http://www.myolab.com.au/wp-content/uploads/2016/09/services-leaves5.png" alt="">
+        </div>
+        <div class="container">
             <div class="brand-logo">
                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                 <lottie-player class="lottie" src="https://assets6.lottiefiles.com/private_files/lf30_czbttpus.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;"    autoplay></lottie-player>

@@ -11086,6 +11086,21 @@ textarea.form-control-lg {
   height: auto;
   padding: 75px 75px 75px 75px;
 }
+#contact img {
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  display: block;
+  left: 90%;
+}
+#contact .contact-img2 {
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  display: block;
+  right: 100%;
+  top: 100%;
+}
 #contact input, #contact textarea {
   background-color: #333333;
   color: #fff;
