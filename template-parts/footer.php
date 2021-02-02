@@ -35,15 +35,23 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                     <h5 class="text-uppercase">Plan du site</h5>
-
-
-
-                    <div class="pole-container">
-                        <div class ="pole"></div>
-                        <div class ="sign-1 sign"><a target = "_blank" href = "https://www.gabrielajohnson.com/">Home</a></div>
-                        <div class = "sign-2 sign"><a target = "_blank" href = "https://twitter.com/gabbyjohnsonweb">About</a></div>
-                        <div class = "sign-3 sign"><a target = "_blank" href = "https://medium.com/@gabrielajohnson">Contact</a></div>
-                    </div>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Nos arbres</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">A propos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white">Acheter</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white">Contact</a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
                     <h5 class="text-uppercase mb-0">Informations</h5>

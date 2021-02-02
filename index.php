@@ -30,20 +30,20 @@
             <h1>Laissez votre emprunte dans ce monde, choisissez et voyagez avec
                 <span>votre</span> arbre.</h1>
 
-            <div class="row g-4 home_cards">
-                <div class="home_card col-lg-4">
+            <div class="row g-8 home_cards">
+                <div class="home_card col-lg-3">
                     <div class="card text-center">
                         <span class="number"><?php echo date('321s') ?></span>
                         <span class="text">Arbres plantés</span>
                     </div>
                 </div>
-                <div class="home_card col-lg-4">
+                <div class="home_card col-lg-3">
                     <div class="card text-center">
                         <span class="number">4</span>
                         <span class="text" >Biomes</span>
                     </div>
                 </div>
-                <div class="home_card col-lg-4">
+                <div class="home_card col-lg-3">
                     <div class="card text-center">
                         <span class="number">100%</span>
                         <span class="text">écologies</span>
