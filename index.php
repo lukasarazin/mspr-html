@@ -80,32 +80,50 @@
 
 <main id="main">
 
-    <div class="symbol">
-        <div class="deathly"></div>
-        <div class="hallows"></div>
-    </div>
-    <div class="container hero_logo">
-        <div class="brand_logo">
-            <div class="avatar">
-                <img src="assets/image/TREES.png"
-                     class="rounded mx-auto d-block"
-                     alt="logo-site"
-                     title="Trees_logo">
+    <section id="home-hero">
+        <div class="container">
+
+            <div class="symbol">
+                <div class="deathly"></div>
+                <div class="hallows"></div>
+            </div>
+
+            <div class="brand_logo">
+                <div class="avatar">
+                    <img src="assets/image/TREES.png"
+                         alt="Logo site"
+                         class="rounded mx-auto d-block">
+                </div>
+            </div>
+
+            <div class="title-wrapper">
+                <h1 class="text-center">Laissez votre emprunte dans ce monde,<br>choisissez et voyagez avec
+                    <strong>votre</strong> arbre.</h1>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card text-center bg-secondary p-5">
+                        <span>56165</span>
+                        <span>Arbres plantés</span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card text-center bg-secondary p-5">
+                        <span>56165</span>
+                        <span>Arbres plantés</span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card text-center bg-secondary p-5">
+                        <span>56165</span>
+                        <span>Arbres plantés</span>
+                    </div>
+                </div>
             </div>
         </div>
-        <p class="text-center">Laissez votre emprunte dans ce monde,<br>choisissez et voyagez avec <strong>votre</strong> arbre.</p>
-        <div class="hero_banner">
-        <img src="assets/image/grey.jpg" alt="" width="200px" height="200px">
-        <img src="assets/image/grey.jpg" alt="" width="200px" height="200px">
-        <img src="assets/image/grey.jpg" alt="" width="200px" height="200px">
-        </div>
-    </div>
-
+    </section>
 </main>
-
-
-
-
 
 
 <footer class="footer" id="delta">
@@ -160,7 +178,7 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!"  class="text-white">Mentions légales</a>
+                            <a href="#!" class="text-white">Mentions légales</a>
                         </li>
                     </ul>
                     <img width="100px" height="auto" src="assets/image/TREES.png" alt="">
