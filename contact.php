@@ -9,17 +9,17 @@
             </div>
             <span>Nous contacter</span>
 
-            <form>
+            <form method="POST" action="">
 
                 <div class="row mb-5">
                     <div class="col first_name">
                         <div class="form">
-                            <input type="text" id="form3Example1" class="form-control" placeholder="Prénom"/>
+                            <input type="text" id="form3Example1" class="form-control" placeholder="Prénom" name="first_name"/>
                         </div>
                     </div>
                     <div class="col name">
                         <div class="form">
-                            <input type="text" id="form3Example2" class="form-control" placeholder="Nom"/>
+                            <input type="text" id="form3Example2" class="form-control" placeholder="Nom" name="last_name"/>
                         </div>
                     </div>
                 </div>
@@ -36,12 +36,19 @@
                     <textarea class="form-control" name="message" id="form3Example3" cols="30" rows="10" placeholder="Votre message"></textarea>
                 </div>
 
+                <?php if ($_POST): ?>
+                    <p class="succes_answer">Merci <?php echo $_POST['first_name'] . ' ' .$_POST['last_name'] ?> pour votre message =).</p>
+                <?php endif; ?>
+
                 <div class="button-wrapper">
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Envoyer</button>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
                 </div>
 
             </form>
+
         </div>
     </section>
 
-<?php require_once 'template-parts/footer.php' ?>
+
+
+<?php require_once 'template-parts/footer.php'?>
