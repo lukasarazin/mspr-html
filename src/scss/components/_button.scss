@@ -8,8 +8,15 @@
       color: $primary;
     }
 
+
     &.btn-secondary {
       color: $secondary;
     }
   }
+
+.button-secondary:hover {
+  background-color: $secondary;
+  color: white;
+  transition: 0.4s;
+}
 }

@@ -49,7 +49,7 @@
                     <div class="col-lg-4">
                         <div class="home_card">
                             <data value="100%">100%</data>
-                            <span>écologies</span>
+                            <span>Écologie</span>
                         </div>
                     </div>
                 </div>

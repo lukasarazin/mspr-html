@@ -2,12 +2,12 @@
   padding: 45px;
   border-radius: $border-radius;
   margin: auto;
-  background-color: $secondary;
+  background-color: #fff;
   height: 100%;
   text-align: center;
-  color: #fff;
+  color: $primary;
   max-width: 300px;
-  //mix-blend-mode: darken;
+  mix-blend-mode: soft-light;
 
   & > * {
     display: block;
@@ -15,5 +15,7 @@
 
   data {
     font-size: 35px;
+    color: #000;
   }
 }
+
