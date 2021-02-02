@@ -27,14 +27,14 @@
                             Nos arbres
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Baobab</a></li>
+                            <li><a class="dropdown-item" href="">Baobab</a></li>
                             <li><a class="dropdown-item" href="#">Araucaria</a></li>
                             <li><a class="dropdown-item" href="#">Ginko</a></li>
                             <li><a class="dropdown-item" href="#">Cocotier</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        <a class="nav-link dropdown-toggle" href="./apropos.php" id="navbarDropdownMenuLink" role="button"
                            data-bs-toggle="dropdown" aria-expanded="false">
                             À propos
                         </a>
@@ -47,7 +47,7 @@
                         <a class="nav-link" href="#">Acheter</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="./contact.php">Contact</a>
                     </li>
                 </ul>
             </div>

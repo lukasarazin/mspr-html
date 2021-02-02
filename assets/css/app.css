@@ -10756,7 +10756,7 @@ textarea.form-control-lg {
 }
 
 #home-hero {
-  padding: 80px 0 150px 0;
+  padding: 55px 0 150px 0;
   min-height: calc(100vh - 70px);
   position: relative;
   overflow: hidden;
@@ -10833,7 +10833,7 @@ textarea.form-control-lg {
 }
 #home-hero .brand-logo {
   max-width: 150px;
-  margin: auto;
+  margin: 1.5rem auto 1rem auto;
   -webkit-animation: float 6s ease-in-out infinite;
           animation: float 6s ease-in-out infinite;
 }
@@ -10848,7 +10848,9 @@ textarea.form-control-lg {
   display: block;
   max-width: 500px;
   color: #fff;
+  padding-bottom: 1rem;
   margin: auto auto 4.5rem;
+  border-bottom: 2px solid #3bc36e;
 }
 #home-hero h1 span, #home-hero .h1 span {
   font-weight: 700;
@@ -11059,6 +11061,7 @@ textarea.form-control-lg {
 }
 
 #home_process {
+  border: 3px solid greenyellow;
   padding: 50px 0;
 }
 #home_process img {
@@ -11112,18 +11115,18 @@ textarea.form-control-lg {
 
 .btn:not([class*=outline]) {
   color: #fff;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
 }
 .btn:not([class*=outline]):hover {
   background-color: transparent;
 }
 .btn:not([class*=outline]):hover.btn-primary {
   color: #3bc36e;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
 }
 .btn:not([class*=outline]):hover.btn-secondary {
   color: #333333;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
 }
 .btn:not([class*=outline]) .button-secondary:hover {
   background-color: #333333;
@@ -11141,6 +11144,10 @@ textarea.form-control-lg {
   color: #3bc36e;
   max-width: 300px;
   mix-blend-mode: soft-light;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+.home_card:hover {
+  background-color: red;
 }
 .home_card > * {
   display: block;
@@ -11148,8 +11155,4 @@ textarea.form-control-lg {
 .home_card data {
   font-size: 35px;
   color: #000;
-}
-
-.home_card:hover {
-  background-color: red;
 }

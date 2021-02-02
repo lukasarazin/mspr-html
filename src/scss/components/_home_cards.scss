@@ -8,6 +8,11 @@
   color: $primary;
   max-width: 300px;
   mix-blend-mode: soft-light;
+  box-shadow: $shadow;
+
+  &:hover {
+    background-color: red;
+  }
 
   & > * {
     display: block;
@@ -19,7 +24,4 @@
   }
 }
 
-.home_card:hover {
-  background-color: red;
-}
 
