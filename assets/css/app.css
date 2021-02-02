@@ -10831,13 +10831,13 @@ textarea.form-control-lg {
     transform: translatey(0px);
   }
 }
-#home-hero .brand-logo {
+#home-hero ² .brand-logo {
   max-width: 150px;
   margin: auto;
   -webkit-animation: float 6s ease-in-out infinite;
           animation: float 6s ease-in-out infinite;
 }
-#home-hero .brand-logo img {
+#home-hero ² .brand-logo img {
   display: block;
   width: 100%;
   height: auto;
@@ -11074,11 +11074,9 @@ textarea.form-control-lg {
 }
 
 #contact {
-  border: 3px solid blue;
   padding: 75px 0;
 }
 #contact .container {
-  border: 3px solid red;
   max-width: 800px;
   height: auto;
   padding: 0;
@@ -11091,13 +11089,16 @@ textarea.form-control-lg {
   border: none;
   padding: 18px;
 }
-
-.brand-logo img {
-  max-width: 150px;
-  margin: 0 0 75px 0;
+#contact .button-wrapper {
+  text-align: center;
+}
+#contact .brand-logo {
+  max-width: 300px;
+  margin: auto;
   display: block;
   width: 100%;
   height: auto;
+  padding-bottom: 75px;
 }
 
 .btn:not([class*=outline]) {

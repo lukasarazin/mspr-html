@@ -1,8 +1,6 @@
 #contact{
-  border: 3px solid blue;
   padding: 75px 0;
   .container{
-    border: 3px solid red;
     max-width: 800px;
     height: auto;
     padding: 0;
@@ -15,12 +13,19 @@
     border: none;
     padding: 18px;
   }
+  .button-wrapper {
+    text-align: center;
+  }
+  .brand-logo{
+    max-width: 300px;
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 75px;
+  }
 }
 
-.brand-logo img{
-  max-width: 150px;
-  margin: 0 0 75px 0;
-  display: block;
-  width: 100%;
-  height: auto;
-}
+
+
+
