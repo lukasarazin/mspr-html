@@ -45,7 +45,12 @@
             </div>
         </div>
     </section>
+
 </main>
+
+<!-- <button class="button-primary">Accueil</button>
+<button class="button-secondary">Accueil</button> -->
+
 
 <?php require_once 'template-parts/footer.php' ?>
 

@@ -1,0 +1,15 @@
+.button-primary {
+  border-radius: 50px;
+  background-color: $primary;
+  width: 100px;
+  height: 35px;
+  color: white;
+  border: transparent;
+}
+
+.button-primary:hover {
+  border: 2px solid $primary;
+  background-color: transparent;
+  color: $primary;
+  transition: 0.4s;
+}
