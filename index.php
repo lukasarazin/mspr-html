@@ -58,6 +58,16 @@
         </div>
     </section>
 
+    <section id="noname">
+        <div class="container">
+            <div class="cotainer">
+                <h2>QUI SOMMES NOUS ?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa ipsum minus nam? Asperiores minima quas repellat veniam! Ab deleniti earum minus, nam natus ut.</p>
+                <button class="button-primary">En savoir plus</button>
+            </div>
+        </div>
+    </section>
+
 </main>
 
 <?php require_once 'template-parts/footer.php' ?>
