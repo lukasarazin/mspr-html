@@ -1,9 +1,9 @@
 <footer class="footer" id="footer">
 
 
-    <svg viewBox="2 0 1900 180" xmlns="http://www.w3.org/2000/svg">
-        <path d="M1904 189.5H0.5V75L67.5 0.5L142 75L256.5 0.5L307 75L424 0.5L480 59L597 0.5L685 75L796.5 38L890 22L938 75L1182.5 0.5L1281 75L1401 38L1523.5 75L1758 38L1904 75V189.5Z"
-             fill="var(--bs-secondary)"/>
+    <svg viewBox="2 0 1900 50" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 39V113.5L1920 108V39L1887.5 20.5L1836 39H1755.5L1509.5 0.5L1376 39L1307.5 20.5L1118 0.5L1047 53.5L908 39L836.5 20.5H698L580.5 39L399.5 7L202.5 39L99 7L0.5 39Z"
+              fill="var(--bs-secondary)"/>
     </svg>
 
 
@@ -73,7 +73,7 @@
     </div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+<script src="httpsX²//cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
 <script src="assets/js/app.js"></script>
