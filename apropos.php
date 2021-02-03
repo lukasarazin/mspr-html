@@ -1,10 +1,10 @@
 <?php require_once 'template-parts/header.php' ?>
 
 <main id="main">
+    <section id="globe">
     <h1>NOS BIOMES</h1>
 
-<section id="globe">
-<div class="container">
+<div class="container-fluid">
     <canvas class="globe" width="1800" height="1600"></canvas>
 </div>
     </section>

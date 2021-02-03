@@ -14,5 +14,5 @@ import 'bootstrap/js/dist/collapse';
 
 
 import './cursor'
-import './apropos'
+import './pourcent'
 import './number'

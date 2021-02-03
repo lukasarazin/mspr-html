@@ -11264,22 +11264,30 @@ textarea.form-control-lg {
   color: #3bc36e;
 }
 
-#globe .container {
+#globe {
+  background-color: #fcfcfc;
+}
+#globe h1, #globe .h1 {
+  font-size: 3rem;
+  text-align: center;
+  display: block;
+  color: #3bc36e;
+  margin: auto auto 1.5rem;
+}
+#globe .container-fluid, #globe .container-sm, #globe .container-md, #globe .container-lg, #globe .container-xl, #globe .container-xxl {
   display: flex;
   justify-content: center;
   max-height: 100vmin;
   max-width: 100vmin;
-  margin: 0 auto;
+  margin: auto auto;
 }
-
-.globe {
+#globe .globe {
   height: 100vmin;
   width: auto;
   cursor: -webkit-grab;
   cursor: grab;
 }
-
-.globe--dragging {
+#globe .globe--dragging {
   cursor: -webkit-grabbing;
   cursor: grabbing;
 }
