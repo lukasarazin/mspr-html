@@ -10734,6 +10734,9 @@ textarea.form-control-lg {
   z-index: 100;
   position: relative;
 }
+#header .panier {
+  margin-bottom: 3px;
+}
 
 #footer svg {
   position: relative;
@@ -11119,7 +11122,7 @@ textarea.form-control-lg {
 }
 #contact .button-wrapper {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 #contact .brand-logo {
   max-width: 150px;
@@ -11149,7 +11152,16 @@ textarea.form-control-lg {
 }
 #contact .succes_answer {
   color: #3bc36e;
+  margin-top: 15px;
+  font-size: 95%;
+}
+#contact .redirection span {
+  font-size: 12px;
+  color: #333333;
+  text-decoration: underline;
   margin-top: 25px;
+  display: block;
+  text-align: center;
 }
 
 .trees {
