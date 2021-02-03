@@ -3,9 +3,9 @@
 
     <section id="contact">
 
-        <img class="leave-top-right" src="http://www.myolab.com.au/wp-content/uploads/2016/09/contact-leaves1.png" alt="">
+        <img class="leave-top-right" src="assets/image/leave-right.png" alt="">
 
-        <img class="leave-top-left" src="http://www.myolab.com.au/wp-content/uploads/2016/09/services-leaves5.png" alt="">
+        <img class="leave-top-left" src="assets/image/leave-left.png" alt="">
 
         <div class="container">
             <div class="brand-logo">
@@ -55,22 +55,29 @@
                 </div>
 
                 <?php if ($_POST): ?>
-                <p class="succes_answer">Merci
-                    <strong><?php echo $_POST['first_name'] . ' ' . $_POST['last_name'] ?></strong>, votre message à
-                    bien été envoyé !</p> <p>Vous allez être redirigé vers la page d'accueil dans 5 secondes </p>
-                <div class="button-wrapper">
-                    <a class="btn btn-outline-secondary">
-                        Retour à l'accueil
-                    </a>
+                    <p class="succes_answer">Merci
+                        <strong><?php echo $_POST['first_name'] . ' ' . $_POST['last_name'] ?></strong>, votre message à
+                        bien été envoyé !
+                    </p>
 
-                    <?php else: ?>
-                        <div class="button-wrapper">
-                            <button type="submit" class="btn btn-primary">Envoyer</button>
-                        </div>
-                    <?php endif; ?>
+                    <div class="button-wrapper">
+                        <a class="btn btn-outline-secondary">
+                            Retour à l'accueil
+                        </a>
+                    </div>
+                    <div class="redirection">
+                        <span>Vous allez être redirigé vers la page d'accueil dans 5 secondes ➞</span>
+                    </div>
+
+                <?php else: ?>
+                    <div class="button-wrapper">
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </div>
+                <?php endif; ?>
             </form>
         </div>
     </section>
 
 
 <?php require_once 'template-parts/footer.php' ?>
+a

@@ -26,10 +26,11 @@
                          alt="Logo site"
                          class="rounded mx-auto d-block">
                 </div>
+                <h1>TREES</h1>
             </div>
 
-            <h1>Laissez votre emprunte dans ce monde, choisissez et voyagez avec
-                <span>votre</span> arbre.</h1>
+            <h2>Laissez votre emprunte dans ce monde, choisissez et voyagez avec
+                <span>votre</span> arbre.</h2>
 
             <div class="home_cards">
                 <div class="row g-4 ">
@@ -76,10 +77,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="assets/image/process.jpg" alt="">
+                    <img src="assets/image/graines.jpg" alt="">
                 </div>
                 <div class="col-lg-6">
-                    <h3>Comment nous proçedons ?</h3>
+                    <h3>Comment nous proçedons ?<div class="line"></div></h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aliquam animi commodi consequatur consequuntur culpa dicta dolorum eos esse expedita facere hic itaque laudantium nobis perspiciatis, provident quaerat quam quas sequi. Assumenda, atque blanditiis consectetur eius minus natus, nulla odio quidem ratione recusandae reiciendis sapiente similique sit! Eligendi, exercitationem?</p>
                     <div class="button-wrapper">
                         <a href="#" class="btn btn-outline-secondary">

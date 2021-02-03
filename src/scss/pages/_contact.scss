@@ -1,5 +1,6 @@
 #contact {
   position: relative;
+  background: #fcfcfc;
 
   .container {
     max-width: 800px;
@@ -36,7 +37,7 @@
 
   .button-wrapper {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 75px;
   }
 
   .brand-logo {
@@ -71,7 +72,16 @@
 
   .succes_answer {
     color: $primary;
+    margin-top: 15px;
+    font-size: 95%;
+  }
+  .redirection span{
+    font-size: 12px;
+    color: $secondary;
+    text-decoration: underline;
     margin-top: 25px;
+    display: block;
+    text-align: center;
   }
 }
 
