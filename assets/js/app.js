@@ -11,6 +11,8 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_js_dist_collapse__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap/js/dist/collapse */ "./node_modules/bootstrap/js/dist/collapse.js");
 /* harmony import */ var bootstrap_js_dist_collapse__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap_js_dist_collapse__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _pourcent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pourcent */ "./src/js/pourcent.js");
+/* harmony import */ var _pourcent__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pourcent__WEBPACK_IMPORTED_MODULE_1__);
 // Import just what we need
 // import 'bootstrap/js/dist/alert';
 // import 'bootstrap/js/dist/button';
@@ -22,6 +24,39 @@ __webpack_require__.r(__webpack_exports__);
 // import 'bootstrap/js/dist/tab';
 // import 'bootstrap/js/dist/toast';
 // import 'bootstrap/js/dist/tooltip';
+
+
+
+/***/ }),
+
+/***/ "./src/js/pourcent.js":
+/*!****************************!*\
+  !*** ./src/js/pourcent.js ***!
+  \****************************/
+/***/ (() => {
+
+var counterNumber = {
+  element: document.querySelector(".number span"),
+  init: function init() {
+    var pourcent = 100;
+    var numberEnd = this.element.innerHTML;
+    var numberStart = Math.round(numberEnd - numberEnd / 100 * pourcent);
+    this.anim(numberStart, numberEnd, 500);
+  },
+  anim: function anim(start, end, speed) {
+    var _this = this;
+
+    this.speed = speed / 30;
+    setInterval(function () {
+      if (start < end) {
+        _this.element.innerHTML = start++;
+      } else {
+        _this.element.innerHTML = end;
+      }
+    }, this.speed);
+  }
+};
+counterNumber.init();
 
 /***/ }),
 

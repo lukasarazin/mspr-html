@@ -42,14 +42,15 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="home_card2">
+                        <div class="home_card">
                             <data value="4">4</data>
                             <span>Biomes</span>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="home_card">
-                            <data value="100%">100%</data>
+
+                            <data value="100%"><div class="number"><span>100</span>%</div></data>
                             <span>Écologie</span>
                         </div>
                     </div>
@@ -77,7 +78,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="assets/image/graines.jpg" alt="">
+                    <img src="assets/image/graines.jpg" alt="plantation_graine" title="Nos plantations">
                 </div>
                 <div class="col-lg-6">
                     <h3>Comment nous proçedons ?<div class="line"></div></h3>
