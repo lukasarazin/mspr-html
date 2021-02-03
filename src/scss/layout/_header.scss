@@ -4,16 +4,15 @@
   position: relative;
 
   .icon_shop{
-    margin-bottom: 20px;
     fill: $secondary;
+    margin-top: 20px;
 
     &:hover{
-      fill: #fff;
+      fill: #6b6b6b;
+      transition: 0.2s;
+    }
+    svg {
+      margin: 7px 10px auto;
     }
   }
-
-  .panier{
-    margin-bottom: 3px;
-  }
-  background: #fcfcfc;
 }

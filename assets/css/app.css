@@ -10733,17 +10733,17 @@ textarea.form-control-lg {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
   z-index: 100;
   position: relative;
-  background: #fcfcfc;
 }
 #header .icon_shop {
-  margin-bottom: 20px;
   fill: #333333;
+  margin-top: 20px;
 }
 #header .icon_shop:hover {
-  fill: #fff;
+  fill: #6b6b6b;
+  transition: 0.2s;
 }
-#header .panier {
-  margin-bottom: 3px;
+#header .icon_shop svg {
+  margin: 7px 10px auto;
 }
 
 #footer svg {
