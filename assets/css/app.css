@@ -10729,6 +10729,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#header {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  position: relative;
+}
+
 #footer svg {
   position: relative;
   display: block;
@@ -11081,6 +11087,9 @@ textarea.form-control-lg {
   margin-bottom: 25px;
 }
 
+#contact {
+  position: relative;
+}
 #contact .container {
   max-width: 800px;
   height: auto;
@@ -11088,18 +11097,17 @@ textarea.form-control-lg {
 }
 #contact img {
   position: absolute;
-  width: 150px;
-  height: 250px;
   display: block;
-  left: 90%;
 }
-#contact .contact-img2 {
-  position: absolute;
-  width: 150px;
-  height: 250px;
-  display: block;
-  right: 100%;
-  top: 100%;
+#contact img.leave-top-left {
+  top: calc(-365px + 55px);
+  left: 0;
+  transform: rotate(90deg);
+  transform-origin: 0 100%;
+}
+#contact img.leave-top-right {
+  top: 0;
+  right: 0;
 }
 #contact input, #contact textarea {
   background-color: #333333;

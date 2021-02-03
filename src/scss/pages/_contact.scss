@@ -1,5 +1,7 @@
-#contact{
-  .container{
+#contact {
+  position: relative;
+
+  .container {
     max-width: 800px;
     height: auto;
     padding: 75px 75px 75px 75px;
@@ -7,23 +9,23 @@
 
   img {
     position: absolute;
-    width: 150px;
-    height: 250px;
     display: block;
-    left: 90%;
+
+    &.leave-top-left {
+      top: calc(-365px + 55px);
+      left: 0;
+      transform: rotate(90deg);
+      transform-origin: 0 100%;
+    }
+
+    &.leave-top-right {
+      top: 0;
+      right: 0;
+    }
   }
 
-  .contact-img2 {
-    position: absolute;
-    width: 150px;
-    height: 250px;
-    display: block;
-    right: 100%;
-    top: 100%;
-  }
-  
 
-  input,textarea{
+  input, textarea {
     background-color: $secondary;
     color: #fff;
     font-size: 90%;
@@ -31,20 +33,24 @@
     border: none;
     padding: 18px;
   }
+
   .button-wrapper {
     text-align: center;
     margin-top: 50px;
   }
-  .brand-logo{
+
+  .brand-logo {
     max-width: 150px;
     margin: auto;
   }
-  .lottie{
+
+  .lottie {
     display: block;
     width: 100%;
     height: auto;
   }
-  h1{
+
+  h1 {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -54,14 +60,16 @@
     margin: auto auto 4.5rem;
     padding-bottom: 50px;
   }
-  .line{
+
+  .line {
     border-bottom: 2px solid $primary;
     width: 100px;
     position: relative;
     margin: auto;
     padding-top: 5px;
   }
-  .succes_answer{
+
+  .succes_answer {
     color: $primary;
     margin-top: 25px;
   }

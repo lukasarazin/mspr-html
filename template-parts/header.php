@@ -1,6 +1,6 @@
 <?php require_once 'head.php' ?>
 
-<header>
+<header id="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
 
