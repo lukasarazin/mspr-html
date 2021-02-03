@@ -10734,6 +10734,13 @@ textarea.form-control-lg {
   z-index: 100;
   position: relative;
 }
+#header .icon_shop {
+  margin-bottom: 20px;
+  fill: #333333;
+}
+#header .icon_shop:hover {
+  fill: #fff;
+}
 
 #footer svg {
   position: relative;
