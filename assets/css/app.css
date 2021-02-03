@@ -11160,6 +11160,11 @@ textarea.form-control-lg {
   max-width: 150px;
   margin: auto;
 }
+#contact .message_send {
+  max-width: 100px;
+  margin: auto;
+  padding-bottom: 25px;
+}
 #contact .lottie {
   display: block;
   width: 100%;
@@ -11186,6 +11191,10 @@ textarea.form-control-lg {
   color: #3bc36e;
   font-size: 30px;
   text-align: center;
+}
+#contact .succes_answer .thanks {
+  text-align: center;
+  border: 3px solid blue;
 }
 #contact .redirection span {
   font-size: 12px;

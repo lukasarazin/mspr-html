@@ -25,7 +25,6 @@
     }
   }
 
-
   input, textarea {
     background-color: $secondary;
     color: #fff;
@@ -43,6 +42,12 @@
   .brand-logo {
     max-width: 150px;
     margin: auto;
+  }
+
+  .message_send{
+    max-width: 100px;
+    margin: auto;
+    padding-bottom: 25px;
   }
 
   .lottie {
@@ -74,6 +79,11 @@
     color: $primary;
     font-size: 30px;
     text-align: center;
+
+    .thanks{
+      text-align: center;
+      border: 3px solid blue;
+    }
   }
   .redirection span{
     font-size: 12px;

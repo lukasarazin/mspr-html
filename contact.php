@@ -7,6 +7,7 @@
 
     <img class="leave-top-left" src="assets/image/leave-left.png" alt="">
 
+    <?php if (!$_POST): ?>
     <div class="container">
         <div class="brand-logo">
             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -17,21 +18,32 @@
         <h1>Nous contacter
             <div class="line"></div>
         </h1>
+        <?php endif; ?>
 
         <?php if ($_POST): ?>
-            <p class="succes_answer">Merci
-                <strong><?php echo $_POST['first_name']?></strong>, votre message à
-                bien été envoyé !
-            </p>
+            <div class="container">
+                <div class="message_send">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player src="https://assets7.lottiefiles.com/datafiles/Bn3v9MQSL5CxM5a/data.json"
+                                   background="transparent"  speed="1"  style="width: 100px; height: 100px;"
+                                   autoplay></lottie-player>
+                </div>
+                <p class="succes_answer">
+                    Merci
+                    <strong><?php echo $_POST['first_name']?></strong>
+                    , votre message à
+                    bien été envoyé !
+                </p>
 
-            <div class="redirection">
-                <span>Vous allez être redirigé automatiquement vers la page d'accueil dans 5 secondes ➞</span>
-            </div>
+                <div class="redirection">
+                    <span>Vous allez être redirigé automatiquement vers la page d'accueil dans 5 secondes ➞</span>
+                </div>
 
-            <div class="button-wrapper">
-                <a class="btn btn-outline-secondary">
-                    Retour à l'accueil
-                </a>
+                <div class="button-wrapper">
+                    <a class="btn btn-outline-secondary">
+                        Retour à l'accueil
+                    </a>
+                </div>
             </div>
         <?php endif; ?>
 
