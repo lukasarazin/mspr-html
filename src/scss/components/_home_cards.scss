@@ -1,4 +1,4 @@
-.home_card, .home_card2 {
+.home_card {
   padding: 45px;
   border-radius: $border-radius;
   margin: auto;
@@ -10,15 +10,6 @@
   mix-blend-mode: soft-light;
   box-shadow: $shadow;
 
-  &:hover {
-    background-color: red;
-  }
-
-  /* &.home_card2 {
-    background-color: $primary;
-    color: #fff;
-  } */
-
   & > * {
     display: block;
   }
@@ -28,6 +19,5 @@
     color: #000;
   }
 }
-
 
 

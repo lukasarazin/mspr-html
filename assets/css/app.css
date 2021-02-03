@@ -11270,7 +11270,7 @@ textarea.form-control-lg {
   transition: 0.4s;
 }
 
-.home_card, .home_card2 {
+.home_card {
   padding: 45px;
   border-radius: 15px;
   margin: auto;
@@ -11281,18 +11281,11 @@ textarea.form-control-lg {
   max-width: 300px;
   mix-blend-mode: soft-light;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
-  /* &.home_card2 {
-    background-color: $primary;
-    color: #fff;
-  } */
 }
-.home_card:hover, .home_card2:hover {
-  background-color: red;
-}
-.home_card > *, .home_card2 > * {
+.home_card > * {
   display: block;
 }
-.home_card data, .home_card2 data {
+.home_card data {
   font-size: 35px;
   color: #000;
 }
