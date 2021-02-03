@@ -63,7 +63,7 @@
 
   .brand-logo {
     max-width: 150px;
-    margin: 1.5rem auto 1rem auto;
+    margin: 0.5rem auto 0 auto;
     animation: float 6s ease-in-out infinite;
 
     img {
@@ -73,14 +73,27 @@
     }
   }
 
+  @font-face
+  {
+    font-family: Browser;
+  }
+
   h1 {
+    font-size: 3rem;
+    text-align: center;
+    display: block;
+    color: $primary;
+    margin: auto auto 1.5rem;
+  }
+
+  h2 {
     font-size: 1.5rem;
     text-align: center;
     display: block;
     max-width: 500px;
     color: #fff;
     padding-bottom: 1rem;
-    margin: auto auto 4.5rem;
+    margin: auto auto 3.5rem;
     span {
       font-weight: 700;
     }
@@ -119,12 +132,11 @@
     animation-duration: 1.1s;
     animation-delay: -0.5s;
   }
-
 }
 
 .bird-container {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: -10%;
   transform: scale(0) translateX(-10vw);
   animation-name: fly-right-one;
@@ -267,6 +279,7 @@
   img {
     width: 500px;
     height: auto;
+    border-radius: $border-radius;
   }
 
   h3 {
@@ -276,6 +289,13 @@
 
   p, h3 {
     margin-bottom: 25px;
+  }
+  .line{
+    border-bottom: 2px solid $primary;
+    width: 150px;
+    position: relative;
+    margin: auto 4.9rem auto;
+    padding-top: 6px;
   }
 }
 
