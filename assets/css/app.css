@@ -11204,6 +11204,7 @@ textarea.form-control-lg {
   height: 20rem;
   overflow: hidden;
   margin: 1rem auto auto;
+  border: 3px solid blue;
 }
 
 .tree-img {
@@ -11213,6 +11214,7 @@ textarea.form-control-lg {
   right: 0;
   bottom: 0;
   background-size: cover;
+  border: 3px solid green;
 }
 
 .tree-name {
@@ -11260,6 +11262,13 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+#shop .bill_title h1, #shop .bill_title .h1 {
+  text-align: center;
+}
+#shop .bill_title .ticket {
+  font-weight: bold;
+  font-size: 20px;
+}
 .btn:not([class*=outline]) {
   color: #fff;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
