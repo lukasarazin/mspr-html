@@ -19,6 +19,8 @@ $products = [
             'country'=>'Thaiti'],
     ]
 ];
+
+$total = 0;
 ?>
 
 
@@ -63,9 +65,10 @@ $products = [
             <?php if (isset ($prices ['arbres']) && $prices['arbres']): ?>
                 <tr>
                     <td>Graine de <?php echo $prices['arbres'];?></td>
-                    <td>56</td>
+                    <td  class="ht"><?php echo $total = $total + $products['arbres'][$prices['arbres']]['price']; ?> € HT</td>
                 </tr>
             <?php endif; ?>
+           
             </tbody>
         </table>
     </div>
