@@ -1,24 +1,41 @@
 <?php require_once 'template-parts/header.php' ?>
 <?php require_once 'template-parts/functions.php' ?>
 
-    <section id="contact">
+<section id="contact">
 
-        <img class="leave-top-right" src="assets/image/leave-right.png" alt="">
+    <img class="leave-top-right" src="assets/image/leave-right.png" alt="">
 
-        <img class="leave-top-left" src="assets/image/leave-left.png" alt="">
+    <img class="leave-top-left" src="assets/image/leave-left.png" alt="">
 
-        <div class="container">
-            <div class="brand-logo">
-                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                <lottie-player class="lottie" src="https://assets6.lottiefiles.com/private_files/lf30_czbttpus.json"
-                               background="transparent" speed="1" style="width: 150px; height: 150px;"
-                               autoplay></lottie-player>
+    <div class="container">
+        <div class="brand-logo">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player class="lottie" src="https://assets6.lottiefiles.com/private_files/lf30_czbttpus.json"
+                           background="transparent" speed="1" style="width: 150px; height: 150px;"
+                           autoplay></lottie-player>
+        </div>
+        <h1>Nous contacter
+            <div class="line"></div>
+        </h1>
+
+        <?php if ($_POST): ?>
+            <p class="succes_answer">Merci
+                <strong><?php echo $_POST['first_name']?></strong>, votre message à
+                bien été envoyé !
+            </p>
+
+            <div class="redirection">
+                <span>Vous allez être redirigé automatiquement vers la page d'accueil dans 5 secondes ➞</span>
             </div>
-            <h1>Nous contacter
-                <div class="line"></div>
-            </h1>
 
+            <div class="button-wrapper">
+                <a class="btn btn-outline-secondary">
+                    Retour à l'accueil
+                </a>
+            </div>
+        <?php endif; ?>
 
+        <?php if (!$_POST): ?>
             <form method="POST" action="">
 
                 <div class="row mb-5">
@@ -34,7 +51,7 @@
                     <div class="col name">
                         <div class="form">
 
-                            <input value="<?= isset($last_name) ? $last_name : null; ?>" type="text" id="form3Example2"
+                            <input value="last_name" type="text" id="form3Example2"
                                    min="3" max="20" class="form-control" placeholder="Nom" name="last_name" required/>
 
                         </div>
@@ -54,29 +71,14 @@
                               rows="10" placeholder="Votre message" required></textarea>
                 </div>
 
-                <?php if ($_POST): ?>
-                    <p class="succes_answer">Merci
-                        <strong><?php echo $_POST['first_name'] . ' ' . $_POST['last_name'] ?></strong>, votre message à
-                        bien été envoyé !
-                    </p>
+                <div class="button-wrapper">
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </div>
 
-                    <div class="button-wrapper">
-                        <a class="btn btn-outline-secondary">
-                            Retour à l'accueil
-                        </a>
-                    </div>
-                    <div class="redirection">
-                        <span>Vous allez être redirigé vers la page d'accueil dans 5 secondes ➞</span>
-                    </div>
-
-                <?php else: ?>
-                    <div class="button-wrapper">
-                        <button type="submit" class="btn btn-primary">Envoyer</button>
-                    </div>
-                <?php endif; ?>
             </form>
-        </div>
-    </section>
+        <?php endif; ?>
+    </div>
+</section>
 
 
 <?php require_once 'template-parts/footer.php' ?>

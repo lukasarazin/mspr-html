@@ -68,7 +68,7 @@ $total = 0;
                     <td  class="ht"><?php echo $total = $total + $products['arbres'][$prices['arbres']]['price']; ?> € HT</td>
                 </tr>
             <?php endif; ?>
-           
+
             </tbody>
         </table>
     </div>

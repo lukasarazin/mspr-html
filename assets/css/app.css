@@ -11184,8 +11184,8 @@ textarea.form-control-lg {
 }
 #contact .succes_answer {
   color: #3bc36e;
-  margin-top: 15px;
-  font-size: 95%;
+  font-size: 30px;
+  text-align: center;
 }
 #contact .redirection span {
   font-size: 12px;
@@ -11262,13 +11262,6 @@ textarea.form-control-lg {
   height: 100%;
 }
 
-#shop .bill_title h1, #shop .bill_title .h1 {
-  text-align: center;
-}
-#shop .bill_title .ticket {
-  font-weight: bold;
-  font-size: 20px;
-}
 .btn:not([class*=outline]) {
   color: #fff;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
