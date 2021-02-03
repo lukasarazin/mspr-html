@@ -12,7 +12,7 @@
                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                 <lottie-player class="lottie" src="https://assets6.lottiefiles.com/private_files/lf30_czbttpus.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;"    autoplay></lottie-player>
             </div>
-            <span>Nous contacter</span>
+            <h1>Nous contacter <div class="line"></div></h1>
 
 
             <form method="POST" action="">
@@ -23,16 +23,12 @@
 
                             <input value="<?= isset($first_name) ? $first_name : null; ?>" type="text" id="form3Example1" min="2" max="20" class="form-control" placeholder="Prénom"  name="first_name" required/>
 
-                            <input type="text" id="form3Example1" class="form-control" placeholder="Prénom" name="first_name"/>
-
                         </div>
                     </div>
                     <div class="col name">
                         <div class="form">
 
                             <input value="<?= isset($last_name) ? $last_name : null; ?>" type="text" id="form3Example2" min="3" max="20" class="form-control" placeholder="Nom"  name="last_name" required/>
-
-                            <input type="text" id="form3Example2" class="form-control" placeholder="Nom" name="last_name"/>
 
                         </div>
                     </div>
