@@ -1,7 +1,7 @@
 <?php require_once 'head.php' ?>
 
 <header id="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
 
             <a class="navbar-brand" href="#">

@@ -43,13 +43,12 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="home_card">
-                            <data value="4">4</data>
+                            <data value="4"><div class="number-one"><span>4</span></div></data>
                             <span>Biomes</span>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="home_card">
-
                             <data value="100%"><div class="number"><span>100</span>%</div></data>
                             <span>Écologie</span>
                         </div>

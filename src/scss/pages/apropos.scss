@@ -1,10 +1,17 @@
-#hero-banner {
+#globe .container {
+  display: flex;
+  justify-content: center;
+  max-height: 100vmin;
+  max-width: 100vmin;
+  margin: 0 auto;
+}
 
-  .title-description {
-    background: url("http://4.bp.blogspot.com/-cE6OFqCtW50/T1lQJfsJURI/AAAAAAAAAAM/kyjwSC1bWYA/s1600/Africa-travel-computer-wallpaper-background-baobab-tree-HiLoqui.jpg");
-    background-size: cover;
-    min-height: calc(100vh - 70px); // 70px -- hauteur HEADER
-    height: 100%;
-  }
+.globe {
+  height: 100vmin;
+  width: auto;
+  cursor: grab;
+}
 
+.globe--dragging {
+  cursor: grabbing;
 }

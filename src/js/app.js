@@ -12,4 +12,7 @@ import 'bootstrap/js/dist/collapse';
 // import 'bootstrap/js/dist/toast';
 // import 'bootstrap/js/dist/tooltip';
 
-import './pourcent'
+
+import './cursor'
+import './apropos'
+import './number'
