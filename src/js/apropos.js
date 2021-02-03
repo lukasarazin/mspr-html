@@ -42,7 +42,7 @@ const $ = {
     colors: {
         pushPinBase: '#969799',
         pushPin: '#ed5c50',
-        land: '#fac648', //'#ffc975',
+        land: '#3bc36e', //'#ffc975',
         landShade: '#2c606e',
         ocean: '#2A7B96'
     },
