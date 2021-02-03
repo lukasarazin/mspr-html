@@ -3,9 +3,9 @@
 
     <section id="contact">
 
-        <img class="leave-top-right" src="http://www.myolab.com.au/wp-content/uploads/2016/09/contact-leaves1.png" alt="">
+        <img class="leave-top-right" src="assets/image/leave-right.png" alt="">
 
-        <img class="leave-top-left" src="http://www.myolab.com.au/wp-content/uploads/2016/09/services-leaves5.png" alt="">
+        <img class="leave-top-left" src="assets/image/leave-left.png" alt="">
 
         <div class="container">
             <div class="brand-logo">

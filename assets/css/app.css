@@ -10733,6 +10733,7 @@ textarea.form-control-lg {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
   z-index: 100;
   position: relative;
+  background: #fcfcfc;
 }
 #header .panier {
   margin-bottom: 3px;
@@ -10842,7 +10843,7 @@ textarea.form-control-lg {
 }
 #home-hero .brand-logo {
   max-width: 150px;
-  margin: 1.5rem auto 1rem auto;
+  margin: 0.5rem auto 0 auto;
   -webkit-animation: float 6s ease-in-out infinite;
           animation: float 6s ease-in-out infinite;
 }
@@ -10851,16 +10852,28 @@ textarea.form-control-lg {
   width: 100%;
   height: auto;
 }
+@font-face {
+  #home-hero {
+    font-family: Browser;
+  }
+}
 #home-hero h1, #home-hero .h1 {
+  font-size: 3rem;
+  text-align: center;
+  display: block;
+  color: #3bc36e;
+  margin: auto auto 1.5rem;
+}
+#home-hero h2, #home-hero .h2 {
   font-size: 1.5rem;
   text-align: center;
   display: block;
   max-width: 500px;
   color: #fff;
   padding-bottom: 1rem;
-  margin: auto auto 4.5rem;
+  margin: auto auto 3.5rem;
 }
-#home-hero h1 span, #home-hero .h1 span {
+#home-hero h2 span, #home-hero .h2 span {
   font-weight: 700;
 }
 
@@ -10904,7 +10917,7 @@ textarea.form-control-lg {
 
 .bird-container {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: -10%;
   transform: scale(0) translateX(-10vw);
   -webkit-animation-name: fly-right-one;
@@ -11081,6 +11094,7 @@ textarea.form-control-lg {
 #home_process img {
   width: 500px;
   height: auto;
+  border-radius: 15px;
 }
 #home_process h3, #home_process .h3 {
   font-size: 22px;
@@ -11089,9 +11103,17 @@ textarea.form-control-lg {
 #home_process p, #home_process h3, #home_process .h3 {
   margin-bottom: 25px;
 }
+#home_process .line {
+  border-bottom: 2px solid #3bc36e;
+  width: 150px;
+  position: relative;
+  margin: auto 4.9rem auto;
+  padding-top: 6px;
+}
 
 #contact {
   position: relative;
+  background: #fcfcfc;
 }
 #contact .container {
   max-width: 800px;
