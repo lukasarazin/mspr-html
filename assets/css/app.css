@@ -10759,6 +10759,9 @@ textarea.form-control-lg {
   text-decoration: none;
   text-align: center;
 }
+#footer .twitter {
+  margin-left: 20px;
+}
 #footer footer p {
   font-size: 15px;
   max-width: 450px;
@@ -11194,12 +11197,13 @@ textarea.form-control-lg {
 }
 
 .trees {
-  margin: 1rem;
+  padding: 1rem;
   position: relative;
   width: 100%;
   max-width: 1400px;
   height: 20rem;
   overflow: hidden;
+  margin: 1rem auto auto;
 }
 
 .tree-img {
@@ -11230,7 +11234,7 @@ textarea.form-control-lg {
 .effect {
   display: block;
   width: 100%;
-  max-width: 80rem;
+  max-width: 60rem;
 }
 
 .effect .tree-img {
@@ -11247,6 +11251,13 @@ textarea.form-control-lg {
 
 .effect:hover .tree-title {
   color: #3bc36e;
+}
+
+#hero-banner .title-description {
+  background: url("http://4.bp.blogspot.com/-cE6OFqCtW50/T1lQJfsJURI/AAAAAAAAAAM/kyjwSC1bWYA/s1600/Africa-travel-computer-wallpaper-background-baobab-tree-HiLoqui.jpg");
+  background-size: cover;
+  min-height: calc(100vh - 70px);
+  height: 100%;
 }
 
 .btn:not([class*=outline]) {

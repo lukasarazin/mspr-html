@@ -28,7 +28,8 @@
                         <a href="#">
                             <img src="assets/svg/Icon%20awesome-twitter.svg"
                                  alt="icon_twitter"
-                                 width="35px">
+                                 width="35px"
+                            class="twitter">
                         </a>
 
                     </div>
