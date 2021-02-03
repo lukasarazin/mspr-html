@@ -10776,7 +10776,7 @@ textarea.form-control-lg {
 }
 
 #home-hero {
-  padding: 55px 0 150px 0;
+  padding: 35px 0 150px 0;
   min-height: calc(100vh - 70px);
   position: relative;
   overflow: hidden;
@@ -10853,7 +10853,7 @@ textarea.form-control-lg {
 }
 #home-hero .brand-logo {
   max-width: 150px;
-  margin: 0.5rem auto 0 auto;
+  margin: 0 auto 0 auto;
   -webkit-animation: float 6s ease-in-out infinite;
           animation: float 6s ease-in-out infinite;
 }
@@ -10868,11 +10868,12 @@ textarea.form-control-lg {
   }
 }
 #home-hero h1, #home-hero .h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   display: block;
   color: #3bc36e;
-  margin: auto auto 1.5rem;
+  margin: auto auto 1rem;
+  font-family: "Hanalei", cursive;
 }
 #home-hero h2, #home-hero .h2 {
   font-size: 1.5rem;
@@ -11274,6 +11275,9 @@ textarea.form-control-lg {
   color: #3bc36e;
   margin: auto auto 1.5rem;
 }
+#globe p {
+  max-width: 400px;
+}
 #globe .container-fluid, #globe .container-sm, #globe .container-md, #globe .container-lg, #globe .container-xl, #globe .container-xxl {
   display: flex;
   justify-content: center;
@@ -11290,6 +11294,14 @@ textarea.form-control-lg {
 #globe .globe--dragging {
   cursor: -webkit-grabbing;
   cursor: grabbing;
+}
+
+.flex-wrapper {
+  display: flex;
+}
+.flex-wrapper p {
+  align-items: center;
+  margin: auto;
 }
 
 .btn:not([class*=outline]) {

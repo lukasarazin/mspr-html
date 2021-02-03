@@ -609,7 +609,7 @@
         $.drag.force *= 0.8;
 
         if($.timing.speed) {
-            $.scroll.long += Math.round = ($.timing.speed / 100) * delta;
+            $.scroll.long += Math.round = ($.timing.speed / 1500) * delta;
 
             if($.scroll.long > 360) {
                 $.scroll.long = $.scroll.long % 360;
@@ -759,6 +759,7 @@
 
     init(markers);
 </script>
+
 </body>
 </html>
 

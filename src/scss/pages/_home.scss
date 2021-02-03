@@ -1,5 +1,5 @@
 #home-hero {
-  padding: 55px 0 150px 0;
+  padding: 35px 0 150px 0;
   min-height: calc(100vh - 70px); // 70px -- hauteur HEADER
   position: relative;
   overflow: hidden;
@@ -63,7 +63,7 @@
 
   .brand-logo {
     max-width: 150px;
-    margin: 0.5rem auto 0 auto;
+    margin: 0 auto 0 auto;
     animation: float 6s ease-in-out infinite;
 
     img {
@@ -79,11 +79,15 @@
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     display: block;
     color: $primary;
-    margin: auto auto 1.5rem;
+    margin: auto auto 1rem;
+    // font-family: 'Black Ops One', cursive;
+    // font-family: 'Saira Stencil One', cursive;
+    // font-family: 'Monoton', cursive;
+    font-family: 'Hanalei', cursive;
   }
 
   h2 {
