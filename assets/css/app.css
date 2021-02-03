@@ -10735,15 +10735,15 @@ textarea.form-control-lg {
   position: relative;
   background: #fcfcfc;
 }
-#header .panier {
-  margin-bottom: 3px;
-}
 #header .icon_shop {
   margin-bottom: 20px;
   fill: #333333;
 }
 #header .icon_shop:hover {
   fill: #fff;
+}
+#header .panier {
+  margin-bottom: 3px;
 }
 
 #footer svg {

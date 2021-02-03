@@ -18,4 +18,4 @@ if ($_POST):
     header("Refresh: 5;URL=index.php");
 endif;
 
-?> a
+?> b
