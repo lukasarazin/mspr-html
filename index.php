@@ -54,6 +54,7 @@
                         </div>
                     </div>
 
+
                     <div class=" content col-lg-6">
                         <div class="row">
                             <div class="card-conf">
@@ -65,6 +66,75 @@
                 </div>
             </div>
         </div>
+
+                    <!--CARD 1-->
+                    <div class="content col-lg-6">
+                        <div class="cards_wrapper shadow-lg p-3 mb-5 bg-white rounded">
+                            <a class="card_conf" href="#">
+                                <div class="row g-0">
+                                    <div class=" lottie_content col-sm-12 col-lg-3">
+                                        <i id="lottie">
+                                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                                            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_yKGuIT.json"
+                                                           background="transparent"
+                                                           speed="1"
+                                                           style="width: width: 80px; height:  height: 80px;" loop  autoplay></lottie-player>
+                                        </i>
+                                    </div>
+
+                                    <div class="card_container col-sm-12 col-lg-9">
+                                        <div class="card_content">
+                                            <h3>Titre</h3>
+                                            <ul>
+                                                <li>Sous-titre</li>
+                                                <li>Sous-titre</li>
+                                            </ul>
+                                            <span>
+                                                Voir le programme
+                                                <img src="assets/svg/icon_plus.svg" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--CARD 2-->
+                        <div class="card2">
+                            <div class="cards2_wrapper shadow-lg p-3 mb-5 bg-white rounded">
+                                <a class="card_conf" href="#">
+                                    <div class="row g-0">
+                                        <div class=" lottie_content col-sm-12 col-lg-3">
+                                            <i id="lottie">
+                                                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                                                <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_nee43fld.json"
+                                                               background="transparent"
+                                                               speed="1"
+                                                               style="width: 80px; height: 80px;"
+                                                               loop autoplay></lottie-player>
+                                            </i>
+                                        </div>
+
+                                        <div class="card_container col-sm-12 col-lg-9">
+                                            <div class="card_content">
+                                                <h3>Titre</h3>
+                                                <ul>
+                                                    <li>Sous-titre</li>
+                                                    <li>Sous-titre</li>
+                                                </ul>
+                                                <span>
+                                                Voir le programme
+                                                <img src="assets/svg/icon_plus.svg" alt="">
+                                            </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
     </section>
 
     <section id="home_process">

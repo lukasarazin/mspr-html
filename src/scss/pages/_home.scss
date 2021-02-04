@@ -75,7 +75,8 @@
   }
 
   img {
-    width: 500px;
+
+    width: 100%;
     height: auto;
     border-radius: $border-radius;
   }
@@ -90,114 +91,3 @@
     margin-bottom: 25px;
   }
 }
-
-#conference {
-  //GAUCHE
-
-  .content{
-    padding: 5rem;
-    color: #fff;
-
-    .pre-title{
-      color: $primary;
-      font-size: 18px;
-    }
-
-    h3{
-      font-size: 36px;
-      font-weight: bold;
-    }
-
-    p{
-      margin-top: 35px;
-      font-size: 20px;
-    }
-
-    button{
-      border-radius: 3px;
-
-      &:hover{
-        color: #fff;
-      }
-    }
-
-    //DROITE
-
-    .cards_wrapper{
-      padding: 15px 25px;
-      background: #fff;
-      border-radius: 10px;
-      transform-origin: center center;
-      transform: rotate(0deg);
-      transition: 0.2s;
-
-      &:hover{
-        transform: rotate(-10deg);
-        transition: 0.2s;
-      }
-    }
-
-    .card_container{
-      padding-left: 30px;
-    }
-
-    .card_content{
-
-      h3{
-        color: $secondary;
-      }
-    }
-
-    ul {
-      color: $secondary;
-      text-underline: none;
-      list-style: none;
-      padding-inline-start: 0;
-
-    }
-
-    li::before{
-      content: "";
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      display: inline-block;
-      vertical-align: middle;
-      background-color: $primary;
-      margin-right: 6px;
-    }
-
-    a {
-      text-decoration: none;
-    }
-
-    .lottie_content{
-    }
-
-    i{
-      width: 100%;
-      height: 100%;
-      margin: auto;
-      max-width: 80px;
-      display: block;
-    }
-
-    span{
-      color: $secondary;
-      font-size: 18px;
-    }
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
