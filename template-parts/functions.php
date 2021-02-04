@@ -14,7 +14,7 @@ if ($_POST):
     }
 
     $first_name = getValueFromField('first_name');
-    header("Refresh: 5;URL=index.php");
+   //header("Refresh: 5;URL=index.php");
 endif;
 
 ?>

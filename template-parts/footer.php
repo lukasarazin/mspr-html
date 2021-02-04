@@ -28,7 +28,7 @@
                             <img src="assets/svg/Icon%20awesome-twitter.svg"
                                  alt="icon_twitter"
                                  width="35px"
-                            class="twitter">
+                                 class="twitter">
                         </a>
 
                     </div>
@@ -72,7 +72,7 @@
     </div>
 </footer>
 
-<script src="assets/js/app.js"></script>
+<script async src="assets/js/app.js"></script>
 <script>
     const markers = [{
         name: 'Argentine',

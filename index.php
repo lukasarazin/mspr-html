@@ -43,13 +43,17 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="home_card">
-                            <data value="4"><div class="number-one"><span>4</span></div></data>
+                            <data value="4">
+                                <span id="number-one">0</span>
+                            </data>
                             <span>Biomes</span>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="home_card">
-                            <data value="100%"><div class="number"><span>100</span>%</div></data>
+                            <data value="100%">
+                               <span id="number-two">0</span>%
+                            </data>
                             <span>Écologie</span>
                         </div>
                     </div>
@@ -61,9 +65,13 @@
     <section id="home_about">
         <div class="container">
             <div class="content">
-                <h3>Qui sommes nous ?<div class="line"></div></h3>
+                <h3>Qui sommes nous ?
+                    <div class="line"></div>
+                </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa ipsum minus nam? Asperiores
-                    minima quas repellat veniam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam asperiores, culpa deserunt ea expedita labore laborum minus nobis repellat sint. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, nemo!</p>
+                    minima quas repellat veniam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                    asperiores, culpa deserunt ea expedita labore laborum minus nobis repellat sint. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Explicabo, nemo!</p>
                 <div class="button-wrapper">
                     <a class="btn btn-primary">
                         En savoir plus
@@ -80,8 +88,12 @@
                     <img src="assets/image/graines.jpg" alt="plantation_graine" title="Nos plantations">
                 </div>
                 <div class="col-lg-6">
-                    <h3>Comment nous proçedons ?<div class="line"></div></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aliquam animi commodi consequatur consequuntur culpa dicta dolorum eos esse expedita facere hic itaque laudantium nobis perspiciatis, provident quaerat quam quas sequi. Assumenda, atque blanditiis consectetur eius minus natus, nulla odio quidem ratione recusandae reiciendis sapiente similique sit! Eligendi, exercitationem?</p>
+                    <h3>Comment nous proçedons ?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aliquam animi
+                        commodi consequatur consequuntur culpa dicta dolorum eos esse expedita facere hic itaque
+                        laudantium nobis perspiciatis, provident quaerat quam quas sequi. Assumenda, atque blanditiis
+                        consectetur eius minus natus, nulla odio quidem ratione recusandae reiciendis sapiente similique
+                        sit! Eligendi, exercitationem?</p>
                     <div class="button-wrapper">
                         <a href="#" class="btn btn-outline-secondary">
                             En savoir plus
@@ -91,6 +103,18 @@
             </div>
         </div>
     </section>
+
+    <section id="home_information">
+        <div class="container">
+            <div class="info_content">
+                <h2 class="title">QUI SOMMES NOUS ?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa ipsum minus nam? Asperiores
+                    minima quas repellat veniam! Ab deleniti earum minus, nam natus ut.</p>
+                <button class="button-primary">En savoir plus</button>
+            </div>
+        </div>
+    </section>
+
 </main>
 
 <?php require_once 'template-parts/footer.php' ?>

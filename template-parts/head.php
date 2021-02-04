@@ -23,14 +23,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Hanalei&display=swap" rel="stylesheet">
 </head>
 
-<div id="mouse">
-    <div class="section-fluid-main">
-
-        <div class='cursor' id="cursor"></div>
-        <div class='cursor2' id="cursor2"></div>
-        <div class='cursor3' id="cursor3"></div>
-    </div>
-</div>
+<div id="cursor"></div>
 
 <body>
 

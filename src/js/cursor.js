@@ -1,14 +1,26 @@
-document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
-    t.style.left = n.clientX + "px",
-        t.style.top = n.clientY + "px",
-        e.style.left = n.clientX + "px",
-        e.style.top = n.clientY + "px",
-        i.style.left = n.clientX + "px",
-        i.style.top = n.clientY + "px"
+let cursor = document.getElementById('cursor');
+let mouseTop = 0;
+let mouseLeft = 0;
+let pageY = 0;
+let pageX = 0;
+
+document.addEventListener('mousemove', (event) => {
+    mouseTop = event.clientY - 15;
+    mouseLeft = event.clientX - 15;
+
+    updateCursor()
 });
-var t = document.getElementById("cursor"),
-    e = document.getElementById("cursor2"),
-    i = document.getElementById("cursor3");
+
+document.addEventListener('scroll', (event) => {
+    pageY = window.pageYOffset;
+    pageX = window.pageXOffset;
+
+    updateCursor()
+})
 
 
+function updateCursor() {
+    cursor.style.left = pageX + mouseLeft + "px";
+    cursor.style.top = pageY + mouseTop + "px";
+}
 

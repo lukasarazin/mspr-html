@@ -1,6 +1,18 @@
+
 .btn:not([class*="outline"]) {
   color: #fff;
   box-shadow: $shadow;
+
+  .button-primary {
+    border-radius: 50px;
+    background-color: $primary;
+    height: 35px;
+    color: white;
+    border: transparent;
+
+    padding: 0 15px 0 15px;
+  }
+
 
   &:hover {
     background-color: transparent;
@@ -15,11 +27,22 @@
       color: $secondary;
       box-shadow: $shadow;
     }
-  }
 
-.button-secondary:hover {
-  background-color: $secondary;
-  color: white;
-  transition: 0.4s;
-}
+
+    .button-secondary {
+      border-radius: 50px;
+      background-color: transparent;
+      height: 35px;
+      color: $secondary;
+      border: 2px solid $secondary;
+      padding: 0 15px 0 15px;
+    }
+
+
+    .button-secondary:hover {
+      background-color: $secondary;
+      color: white;
+      transition: 0.4s;
+    }
+  }
 }

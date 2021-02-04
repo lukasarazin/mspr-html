@@ -1,24 +1,23 @@
-// POURCENT
-
 const counterNumber = {
-    element : document.querySelector(".number span"),
 
-    init: function(){
-        let pourcent = 100;
-        let numberEnd = this.element.innerHTML;
-        let numberStart =  Math.round(numberEnd - (numberEnd/100)*pourcent);
-        this.anim(numberStart,numberEnd, 500);
+    element: document.getElementById("number-two"),
+
+    init: function () {
+        let numberStart = 0;
+        let numberEnd = 100;
+        let speed = 2000 / numberEnd;
+        this.anim(numberStart, numberEnd, speed);
     },
-    anim: function(start,end,speed){
 
-        this.speed = speed/30;
-        setInterval(()=>{
-
-            if(start<end) { this.element.innerHTML= start++}
-            else{this.element.innerHTML = end; }
-        },this.speed)
-
+    anim: function (start, end, speed) {
+        let interval = setInterval(() => {
+            if (start <= end) {
+                this.element.innerHTML = start++;
+            } else {
+                clearInterval(interval);
+            }
+        }, speed)
     }
 }
-counterNumber.init();
 
+counterNumber.init();
