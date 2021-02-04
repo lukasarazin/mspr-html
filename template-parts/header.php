@@ -22,25 +22,24 @@
                         <a class="nav-link active" aria-current="page" href="./index.php">Accueil</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./our-trees.php" id="navbarDropdownMenuLink"
-                           role="button"
-                           data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown"
+                           role="button"  data-bs-toggle="dropdown" aria-expanded="false">
                             Nos arbres
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="">Baobab</a></li>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown">
+                            <li><a class="dropdown-item" href="#">Baobab</a></li>
                             <li><a class="dropdown-item" href="#">Araucaria</a></li>
                             <li><a class="dropdown-item" href="#">Ginkgo</a></li>
                             <li><a class="dropdown-item" href="#">Cocotier</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="./apropos.php" id="navbarDropdownMenuLink"
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown2"
                            role="button"
                            data-bs-toggle="dropdown" aria-expanded="false">
                             À propos
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <ul class="dropdown-menu" aria-labelledby="dropdown2">
                             <li><a class="dropdown-item" href="#">Qui nous sommes ?</a></li>
                             <li><a class="dropdown-item" href="#">Comment nous proçedons ?</a></li>
                         </ul>
@@ -49,7 +48,8 @@
                         <a class="nav-link" href="./contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="icon_shop" href="#">
+                <span>     <?php echo count(unserialize($_COOKIE['trees'])); ?></span>
+                        <a class="icon_shop" href="shop.php">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
                                 <path d="M5,22h14c1.103,0,2-0.897,2-2V9c0-0.553-0.447-1-1-1h-3V7c0-2.757-2.243-5-5-5S7,4.243,7,7v1H4C3.447,8,3,8.447,3,9v11 C3,21.103,3.897,22,5,22z M9,7c0-1.654,1.346-3,3-3s3,1.346,3,3v1H9V7z M5,10h2v2h2v-2h6v2h2v-2h2l0.002,10H5V10z"/>
                             </svg>

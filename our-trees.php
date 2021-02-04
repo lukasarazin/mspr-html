@@ -1,73 +1,48 @@
-<?php require_once 'template-parts/header.php'?>
 <?php
-$products = [
-    'arbres' => [
-        'Baobab' => [
-            'price' => 5,
-            'country'=>'Kenya'],
 
-        'Gingko' => [
-            'price' => 5,
-            'country'=>'Japon'],
+require_once 'data_base.php';
 
-        'Araukariia' => [
-            'price' => 5,
-            'country'=>'Argentine'],
+if ($_POST && isset($_POST['trees'])):
+    setcookie('trees', serialize($_POST['trees']));
+endif;
 
-        'Cocotier' => [
-            'price' => 5,
-            'country'=>'Thaiti'],
-    ]
-];
+require_once 'template-parts/header.php';
 
-$total = 0;
 ?>
 
 <section id="our_trees">
-    <form method="POST">
+    <div class="container">
 
-        <input type="hidden" name="selected-trees" value="[ginko, baobab]">
+        <form method="POST" class="py-5">
 
-        <div class="container">
-            <?php foreach ($products as $key => $product): ?>
-                <?php foreach ($product as $item_key => $item): ?>
-                    <div class="content">
-                        <div class="trees effect">
-                            <div class="tree-img" style='background-image: url("https://storage.journaldemontreal.com/v1/dynamic_resize/sws_path/jdx-prod-images/39f11c85-f901-4b8c-913c-57052f831738_ORIGINAL.jpg?quality=80&size=1200x&version=0");'>
-                            </div>
-                            <div class="tree-name">
-                                <h2 class="tree-title"><?php echo $item_key; ?></h2>
-                                <span class="country"><?php echo $item ['country']; ?></span>
+            <div class="row g-4">
 
-                                <div class="choose">
-                                    <label class="choose" for="<?php echo $item_key; ?>">Ajouter au panier</label>
-                                    <input type="checkbox" name="trees[]" id="<?php echo $item_key; ?>" value="<?php echo $item_key; ?>">
+                <?php foreach ($trees as $index => $tree): ?>
+                    <div class="col-12">
+                        <a href="#" id="tree-<?php echo $index; ?>" class="tree"
+                           style='background-image: url("https://placehold.it/1920x1080/00FF00?text=<?php echo $tree['name']; ?>");'>
+                            <div class="tree-body">
+                                <h2 class="tree-title"><?php echo $tree['name']; ?></h2>
+                                <span class="country"><?php echo $tree['country']; ?></span>
+
+                                <div class="form-group">
+                                    <label class="choose" for="select-tree-<?php echo $index; ?>">Sélectionner</label>
+                                    <input type="checkbox" name="trees[]" id="select-tree-<?php echo $index; ?>"
+                                           value="<?php echo $index; ?>">
                                 </div>
-
                             </div>
-                        </div>
+                        </a>
                     </div>
                 <?php endforeach; ?>
-            <?php endforeach; ?>
-            <div>
-                <button class="btn btn-secondary" type="submit">Envoyer</button>
             </div>
-        </div>
-    </form>
-</section>
 
-<?php if ($_POST):?>
-    <div class="bill">
-        <h1>Ticket N°<?php echo date('YmdHis') . rand(1000, 9999); ?></h1>
-        <table border="1" width="100%">
-            <tbody>
-            <tr>
-                <td><?= isset($_POST['arbres']) && $_POST['arbres'] ? ($_POST['arbres']) : null; ?></td>
-                <td> €<td>
-            </tr>
-            </tbody>
-        </table>
+            <div class="button-wrapper pt-5 text-center">
+                <button class="btn btn-secondary" type="submit">Ajouter au panier</button>
+            </div>
+
+        </form>
+
     </div>
-<?php endif; ?>
+</section>
 
 <?php require_once 'template-parts/footer.php' ?>

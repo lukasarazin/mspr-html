@@ -11091,13 +11091,6 @@ textarea.form-control-lg {
 #home_about p, #home_about h3, #home_about .h3 {
   margin-bottom: 25px;
 }
-#home_about .line {
-  border-bottom: 2px solid #3bc36e;
-  width: 100px;
-  position: relative;
-  margin: auto;
-  padding-top: 5px;
-}
 
 #home_process {
   padding: 50px 0;
@@ -11114,13 +11107,6 @@ textarea.form-control-lg {
 #home_process p, #home_process h3, #home_process .h3 {
   margin-bottom: 25px;
 }
-<<<<<<< HEAD
-=======
-
-.info_content {
-  border: 3px solid blue;
-}
->>>>>>> main
 
 #contact {
   position: relative;
@@ -11197,65 +11183,6 @@ textarea.form-control-lg {
   margin-top: 25px;
   display: block;
   text-align: center;
-}
-
-.trees {
-  padding: 1rem;
-  position: relative;
-  width: 100%;
-  max-width: 1400px;
-  height: 20rem;
-  overflow: hidden;
-  margin: 1rem auto auto;
-  border: 3px solid blue;
-}
-
-.tree-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-size: cover;
-  border: 3px solid green;
-}
-
-.tree-name {
-  color: #e6e6e6;
-  position: absolute;
-  bottom: 40px;
-  left: 30px;
-}
-
-.tree-title {
-  font-size: 4rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  opacity: 0.8;
-  font-weight: 900;
-}
-
-/* effect-4 */
-.effect {
-  display: block;
-  width: 100%;
-  max-width: 60rem;
-}
-
-.effect .tree-img {
-  transition: 0.8s;
-}
-
-.effect:hover .tree-img {
-  filter: saturate(0);
-}
-
-.effect .tree-title {
-  transition: 0.9s;
-}
-
-.effect:hover .tree-title {
-  color: #3bc36e;
 }
 
 #globe {
@@ -11366,4 +11293,21 @@ textarea.form-control-lg {
 
 .card span {
   color: #fff;
+}
+
+.tree {
+  display: block;
+  border: 1px solid red;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  color: inherit;
+  text-decoration: none;
+}
+.tree .tree-body {
+  padding: 2rem;
+}
+.tree .tree-body .tree-title {
+  font-size: 3rem;
 }
