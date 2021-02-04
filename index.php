@@ -84,19 +84,20 @@
 
     <section id="conference">
         <div class="container">
-            <div class="content col-lg-6">
-                <span>LE PROGRAMME</span>
-                <h3>Suivre nos conférences !</h3>
-                <p class="pt-2">Lorem ipsum dolor sit amet. Assumenda corporis culpa deleniti dolores earum et molestias, quo quos, sint sit tempora voluptate. Consequuntur incidunt ipsum magni minus mollitia rem temporibus.</p>
-                <div class="button-wrapper pt-2">
-                    <button type="submit" class="btn btn-secondary">Voir programme</button>
+            <div class="row">
+                <div class="content col-lg-6 ">
+                    <span>LE PROGRAMME</span>
+                    <h3>Suivre nos conférences !</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda dolores eius eveniet excepturi expedita magnam saepe, similique voluptate voluptatem.</p>
+                    <div class="button-wrapper pt-2">
+                        <button type="submit" class="btn btn-primary">Voir programme</button>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-lg-6">
-
-            </div>
-        </div>
+                <div class=" content col-lg-6">
+                    <span>cc</span>
+                </div>
+            </div
         </div>
     </section>
 

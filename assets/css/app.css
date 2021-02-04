@@ -11116,18 +11116,34 @@ textarea.form-control-lg {
 }
 
 #conference {
-  padding: 2rem;
+  padding: 5rem;
   background: #d7d7d7;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+  background: #333333;
+  border: 3px solid red;
+}
+#conference .container {
+  border: 3px solid green;
+  padding: 5rem;
 }
 #conference .content {
-  background: #333333;
-  padding: 5rem;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
   color: #fff;
+  border: 3px solid blue;
+}
+#conference .content span {
+  color: #3bc36e;
+  font-size: 18px;
 }
 #conference .content h3, #conference .content .h3 {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: bold;
+}
+#conference .content p {
+  margin-top: 35px;
+  font-size: 20px;
+}
+#conference .content button {
+  border-radius: 3px;
 }
 
 #contact {

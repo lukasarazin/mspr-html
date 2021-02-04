@@ -295,17 +295,39 @@
 }
 
 #conference{
-  padding: 2rem;
+  padding: 5rem;
   background: #d7d7d7;
-  .content{
-    background: $secondary;
+  box-shadow: $shadow;
+  background:$secondary;
+  border: 3px solid red;
+
+  .container{
+    border: 3px solid green;
     padding: 5rem;
-    box-shadow: $shadow;
+  }
+
+  .content{
+
     color: #fff;
+    border: 3px solid blue;
+
+    span{
+      color: $primary;
+      font-size: 18px;
+    }
 
     h3{
-      font-size: 32px;
+      font-size: 36px;
       font-weight: bold;
+    }
+
+    p{
+      margin-top: 35px;
+      font-size: 20px;
+    }
+
+    button{
+      border-radius: 3px;
     }
   }
 }
