@@ -3056,8 +3056,7 @@ function within(min, value, max) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bootstrap */ "./src/js/bootstrap.js");
-/* harmony import */ var _cursor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cursor */ "./src/js/cursor.js");
-/* harmony import */ var _cursor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_cursor__WEBPACK_IMPORTED_MODULE_1__);
+Object(function webpackMissingModule() { var e = new Error("Cannot find module './cursor'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 /* harmony import */ var _pourcent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pourcent */ "./src/js/pourcent.js");
 /* harmony import */ var _pourcent__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_pourcent__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _number__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./number */ "./src/js/number.js");
@@ -3092,35 +3091,6 @@ __webpack_require__.r(__webpack_exports__);
 // import 'bootstrap/js/dist/tab';
 // import 'bootstrap/js/dist/toast';
 // import 'bootstrap/js/dist/tooltip';
-
-/***/ }),
-
-/***/ "./src/js/cursor.js":
-/*!**************************!*\
-  !*** ./src/js/cursor.js ***!
-  \**************************/
-/***/ (() => {
-
-var cursor = document.getElementById('cursor');
-var mouseTop = 0;
-var mouseLeft = 0;
-var pageY = 0;
-var pageX = 0;
-document.addEventListener('mousemove', function (event) {
-  mouseTop = event.clientY - 15;
-  mouseLeft = event.clientX - 15;
-  updateCursor();
-});
-document.addEventListener('scroll', function (event) {
-  pageY = window.pageYOffset;
-  pageX = window.pageXOffset;
-  updateCursor();
-});
-
-function updateCursor() {
-  cursor.style.left = pageX + mouseLeft + "px";
-  cursor.style.top = pageY + mouseTop + "px";
-}
 
 /***/ }),
 
@@ -5086,12 +5056,9 @@ counterNumber.init();
 /*!***************************!*\
   !*** ./src/scss/app.scss ***!
   \***************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: Can't find stylesheet to import.\n   ╷\n20 │ @import \"components/cursor\";\r\n   │         ^^^^^^^^^^^^^^^^^^^\n   ╵\n  C:\\wamp64\\www\\mspr-html\\src\\scss\\app.scss 20:9  root stylesheet\n    at processResult (C:\\wamp64\\www\\mspr-html\\node_modules\\webpack\\lib\\NormalModule.js:598:19)\n    at C:\\wamp64\\www\\mspr-html\\node_modules\\webpack\\lib\\NormalModule.js:692:5\n    at C:\\wamp64\\www\\mspr-html\\node_modules\\loader-runner\\lib\\LoaderRunner.js:399:11\n    at C:\\wamp64\\www\\mspr-html\\node_modules\\loader-runner\\lib\\LoaderRunner.js:251:18\n    at context.callback (C:\\wamp64\\www\\mspr-html\\node_modules\\loader-runner\\lib\\LoaderRunner.js:124:13)\n    at C:\\wamp64\\www\\mspr-html\\node_modules\\sass-loader\\dist\\index.js:73:7\n    at Function.call$2 (C:\\wamp64\\www\\mspr-html\\node_modules\\sass\\sass.dart.js:91131:16)\n    at _render_closure1.call$2 (C:\\wamp64\\www\\mspr-html\\node_modules\\sass\\sass.dart.js:80007:12)\n    at _RootZone.runBinary$3$3 (C:\\wamp64\\www\\mspr-html\\node_modules\\sass\\sass.dart.js:27193:18)\n    at _FutureListener.handleError$1 (C:\\wamp64\\www\\mspr-html\\node_modules\\sass\\sass.dart.js:25721:19)");
 
 /***/ })
 
@@ -5120,12 +5087,6 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
-/******/ 	
-/******/ 	// the startup function
-/******/ 	// It's empty as some runtime module handles the default behavior
-/******/ 	__webpack_require__.x = x => {};
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -5167,98 +5128,11 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		// no baseURI
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// Promise = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"/js/app": 0
-/******/ 		};
-/******/ 		
-/******/ 		var deferredModules = [
-/******/ 			["./src/js/app.js"],
-/******/ 			["./src/scss/app.scss"]
-/******/ 		];
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		var checkDeferredModules = x => {};
-/******/ 		
-/******/ 		// install a JSONP callback for chunk loading
-/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
-/******/ 			var [chunkIds, moreModules, runtime, executeModules] = data;
-/******/ 			// add "moreModules" to the modules object,
-/******/ 			// then flag all "chunkIds" as loaded and fire callback
-/******/ 			var moduleId, chunkId, i = 0, resolves = [];
-/******/ 			for(;i < chunkIds.length; i++) {
-/******/ 				chunkId = chunkIds[i];
-/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
-/******/ 					resolves.push(installedChunks[chunkId][0]);
-/******/ 				}
-/******/ 				installedChunks[chunkId] = 0;
-/******/ 			}
-/******/ 			for(moduleId in moreModules) {
-/******/ 				if(__webpack_require__.o(moreModules, moduleId)) {
-/******/ 					__webpack_require__.m[moduleId] = moreModules[moduleId];
-/******/ 				}
-/******/ 			}
-/******/ 			if(runtime) runtime(__webpack_require__);
-/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
-/******/ 			while(resolves.length) {
-/******/ 				resolves.shift()();
-/******/ 			}
-/******/ 		
-/******/ 			// add entry modules from loaded chunk to deferred list
-/******/ 			if(executeModules) deferredModules.push.apply(deferredModules, executeModules);
-/******/ 		
-/******/ 			// run deferred modules when all chunks ready
-/******/ 			return checkDeferredModules();
-/******/ 		}
-/******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunk"] = self["webpackChunk"] || [];
-/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
-/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
-/******/ 		
-/******/ 		function checkDeferredModulesImpl() {
-/******/ 			var result;
-/******/ 			for(var i = 0; i < deferredModules.length; i++) {
-/******/ 				var deferredModule = deferredModules[i];
-/******/ 				var fulfilled = true;
-/******/ 				for(var j = 1; j < deferredModule.length; j++) {
-/******/ 					var depId = deferredModule[j];
-/******/ 					if(installedChunks[depId] !== 0) fulfilled = false;
-/******/ 				}
-/******/ 				if(fulfilled) {
-/******/ 					deferredModules.splice(i--, 1);
-/******/ 					result = __webpack_require__(__webpack_require__.s = deferredModule[0]);
-/******/ 				}
-/******/ 			}
-/******/ 			if(deferredModules.length === 0) {
-/******/ 				__webpack_require__.x();
-/******/ 				__webpack_require__.x = x => {};
-/******/ 			}
-/******/ 			return result;
-/******/ 		}
-/******/ 		var startup = __webpack_require__.x;
-/******/ 		__webpack_require__.x = () => {
-/******/ 			// reset startup function so it can be called again when more startup code is added
-/******/ 			__webpack_require__.x = startup || (x => {});
-/******/ 			return (checkDeferredModules = checkDeferredModulesImpl)();
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /************************************************************************/
-/******/ 	// run startup
-/******/ 	__webpack_require__.x();
+/******/ 	// startup
+/******/ 	// Load entry module
+/******/ 	__webpack_require__("./src/js/app.js");
+/******/ 	// This entry module used 'exports' so it can't be inlined
+/******/ 	__webpack_require__("./src/scss/app.scss");
 /******/ })()
 ;

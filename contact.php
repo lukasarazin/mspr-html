@@ -63,7 +63,7 @@
                     <div class="col name">
                         <div class="form">
 
-                            <input value="last_name" type="text" id="form3Example2"
+                            <input value="" type="text" id="form3Example2"
                                    min="3" max="20" class="form-control" placeholder="Nom" name="last_name" required/>
 
                         </div>
