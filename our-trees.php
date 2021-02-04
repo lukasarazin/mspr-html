@@ -10,11 +10,11 @@ $products = [
             'price' => 5,
             'country'=>'Japon'],
 
-        'araukariia' => [
+        'Araukariia' => [
             'price' => 5,
             'country'=>'Argentine'],
 
-        'cocotier' => [
+        'Cocotier' => [
             'price' => 5,
             'country'=>'Thaiti'],
     ]
@@ -23,11 +23,11 @@ $products = [
 $total = 0;
 ?>
 
-
-
-
 <section id="our_trees">
-    <form method="post">
+    <form method="POST">
+
+        <input type="hidden" name="selected-trees" value="[ginko, baobab]">
+
         <div class="container">
             <?php foreach ($products as $key => $product): ?>
                 <?php foreach ($product as $item_key => $item): ?>
@@ -41,7 +41,7 @@ $total = 0;
 
                                 <div class="choose">
                                     <label class="choose" for="<?php echo $item_key; ?>">Ajouter au panier</label>
-                                    <input type="checkbox" name="<?php echo $key?>" id="<?php echo $item_key; ?>" value="<?php echo $item_key; ?>">
+                                    <input type="checkbox" name="trees[]" id="<?php echo $item_key; ?>" value="<?php echo $item_key; ?>">
                                 </div>
 
                             </div>
@@ -50,38 +50,24 @@ $total = 0;
                 <?php endforeach; ?>
             <?php endforeach; ?>
             <div>
-                <button class="secondary-button" type="submit">Envoyer</button>
+                <button class="btn btn-secondary" type="submit">Envoyer</button>
             </div>
         </div>
     </form>
 </section>
 
-<?php if ($_POST): ?>
-    <?php $prices = $_POST ?>
+<?php if ($_POST):?>
     <div class="bill">
         <h1>Ticket N°<?php echo date('YmdHis') . rand(1000, 9999); ?></h1>
         <table border="1" width="100%">
             <tbody>
-            <?php if (isset ($prices ['arbres']) && $prices['arbres']): ?>
-                <tr>
-                    <td>Graine de <?php echo $prices['arbres'];?></td>
-                    <td  class="ht"><?php echo $total = $total + $products['arbres'][$prices['arbres']]['price']; ?> € HT</td>
-                </tr>
-            <?php endif; ?>
-
+            <tr>
+                <td><?= isset($_POST['arbres']) && $_POST['arbres'] ? ($_POST['arbres']) : null; ?></td>
+                <td> €<td>
+            </tr>
             </tbody>
         </table>
     </div>
 <?php endif; ?>
-
-
-
-
-
-
-
-
-
-
 
 <?php require_once 'template-parts/footer.php' ?>

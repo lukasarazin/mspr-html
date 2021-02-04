@@ -1,5 +1,5 @@
 <?php require_once 'template-parts/functions.php' ?>
-<?php require_once 'template-parts/header.php' ?>
+<?php include 'template-parts/header.php' ?>
 
 <section id="contact">
 
@@ -25,7 +25,7 @@
                 <div class="message_send">
                     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                     <lottie-player src="https://assets7.lottiefiles.com/datafiles/Bn3v9MQSL5CxM5a/data.json"
-                                   background="transparent"  speed="1"  style="width: 100px; height: 100px;"
+                                   background="transparent"  speed="1.5"  style="width: 100px; height: 100px;"
                                    autoplay></lottie-player>
                 </div>
                 <p class="succes_answer">
