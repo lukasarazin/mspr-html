@@ -10872,7 +10872,7 @@ textarea.form-control-lg {
   padding: 5rem;
   color: #fff;
 }
-#conference .content span {
+#conference .content .pre-title {
   color: #3bc36e;
   font-size: 18px;
 }
@@ -10894,6 +10894,13 @@ textarea.form-control-lg {
   padding: 15px 25px;
   background: #fff;
   border-radius: 10px;
+  transform-origin: center center;
+  transform: rotate(0deg);
+  transition: 0.2s;
+}
+#conference .content .card_wrapper:hover {
+  transform: rotate(10deg);
+  transition: 0.2s;
 }
 #conference .content .card_container {
   padding-left: 30px;

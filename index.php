@@ -46,7 +46,7 @@
             <div class="container">
                 <div class="row">
                     <div class="content col-lg-6 ">
-                        <span>LE PROGRAMME</span>
+                        <span class="pre-title">LE PROGRAMME</span>
                         <h3>Suivre nos conférences !</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda dolores eius eveniet excepturi expedita magnam saepe, similique voluptate voluptatem.</p>
                         <div class="button-wrapper pt-2">
@@ -56,7 +56,7 @@
 
                     <div class="content col-lg-6">
                         <div class="card_wrapper">
-                            <a href="#">
+                            <a class="carda" href="#">
                                 <div class="row g-0">
                                     <div class=" lottie_content col-sm-12 col-lg-3">
                                         <i id="lottie">

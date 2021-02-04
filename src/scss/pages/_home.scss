@@ -98,15 +98,12 @@
     background: #d7d7d7;
     background:$secondary;
   }
-  .container{
-
-  }
 
   .content{
     padding: 5rem;
     color: #fff;
 
-    span{
+    .pre-title{
       color: $primary;
       font-size: 18px;
     }
@@ -135,6 +132,14 @@
       padding: 15px 25px;
       background: #fff;
       border-radius: 10px;
+      transform-origin: center center;
+      transform: rotate(0deg);
+      transition: 0.2s;
+
+      &:hover{
+        transform: rotate(10deg);
+        transition: 0.2s;
+      }
     }
 
     .card_container{
@@ -166,7 +171,7 @@
       margin-right: 6px;
     }
 
-    a{
+    a {
       text-decoration: none;
     }
 
