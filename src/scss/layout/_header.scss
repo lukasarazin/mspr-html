@@ -2,17 +2,18 @@
   box-shadow: $shadow;
   z-index: 100;
   position: relative;
+  background-color: transparent;
+
+  .active {
+    color: $primary;
+  }
 
   .icon_shop{
     fill: $primary;
-    margin-top: 20px;
 
     &:hover{
       fill: #6b6b6b;
       transition: 0.2s;
-    }
-    svg {
-      margin: 7px 10px auto;
     }
   }
 }

@@ -26,7 +26,9 @@
                          alt="Logo site"
                          class="rounded mx-auto d-block">
                 </div>
+                <div class="logo-title">
                 <h1>TREES</h1>
+            </div>
             </div>
 
             <h2>Laissez votre emprunte dans ce monde, choisissez et voyagez avec
