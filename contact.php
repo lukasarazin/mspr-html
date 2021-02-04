@@ -1,5 +1,5 @@
-<?php require_once 'template-parts/header.php' ?>
 <?php require_once 'template-parts/functions.php' ?>
+<?php require_once 'template-parts/header.php' ?>
 
 <section id="contact">
 
@@ -16,7 +16,6 @@
                            autoplay></lottie-player>
         </div>
         <h1>Nous contacter
-            <div class="line"></div>
         </h1>
         <?php endif; ?>
 
