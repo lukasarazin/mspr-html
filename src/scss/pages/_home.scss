@@ -165,7 +165,6 @@
     padding: 5rem;
     color: #fff;
 
-
     span{
       color: $primary;
       font-size: 18px;
@@ -183,6 +182,14 @@
 
     button{
       border-radius: 3px;
+    }
+
+    .card-conf{
+      border: 3px solid red;
+      background: #fff;
+      border-radius: 3px;
+      color: $secondary;
+      height: 150px;
     }
   }
 }

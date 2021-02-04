@@ -10955,6 +10955,13 @@ textarea.form-control-lg {
 #conference .content button {
   border-radius: 3px;
 }
+#conference .content .card-conf {
+  border: 3px solid red;
+  background: #fff;
+  border-radius: 3px;
+  color: #333333;
+  height: 150px;
+}
 
 #contact {
   position: relative;
