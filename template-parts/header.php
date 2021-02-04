@@ -7,7 +7,7 @@ $page_uri = $_SERVER['REQUEST_URI'];
 ?>
 
 <header id="header">
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #fcfcfc;">
         <div class="container-fluid">
 
             <a class="navbar-brand" href="/mspr-html/">
@@ -50,6 +50,7 @@ $page_uri = $_SERVER['REQUEST_URI'];
                         <ul class="dropdown-menu" aria-labelledby="dropdown2">
                             <li><a class="dropdown-item" href="#">Qui nous sommes ?</a></li>
                             <li><a class="dropdown-item" href="#">Comment nous proçèdons ?</a></li>
+                            <li><a class="dropdown-item" href="#">Nos conférences</a></li>
                             <li><a class="dropdown-item <?php echo '/mspr-html/nos-biomes' === $page_uri ? 'active' : null; ?>" href="./nos-biomes">Nos biomes</a></li>
                             <li><a class="dropdown-item" href="#">Nos concours</a></li>
                         </ul>

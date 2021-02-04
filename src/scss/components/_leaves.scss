@@ -1,0 +1,19 @@
+#contact {
+
+  img {
+    position: absolute;
+    display: block;
+
+    &.leave-top-left {
+      top: calc(-365px + 60px);
+      left: 0;
+      transform: rotate(90deg);
+      transform-origin: 0 100%;
+    }
+
+    &.leave-top-right {
+      top: 0;
+      right: 0;
+    }
+  }
+}

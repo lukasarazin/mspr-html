@@ -8,23 +8,6 @@
     padding: 75px 75px 75px 75px;
   }
 
-  img {
-    position: absolute;
-    display: block;
-
-    &.leave-top-left {
-      top: calc(-365px + 60px);
-      left: 0;
-      transform: rotate(90deg);
-      transform-origin: 0 100%;
-    }
-
-    &.leave-top-right {
-      top: 0;
-      right: 0;
-    }
-  }
-
   input, textarea {
     background-color: $secondary;
     color: #fff;
@@ -39,21 +22,10 @@
     margin-top: 75px;
   }
 
-  .brand-logo {
-    max-width: 150px;
-    margin: auto;
-  }
-
   .message_send{
     max-width: 100px;
     margin: auto;
     padding-bottom: 25px;
-  }
-
-  .lottie {
-    display: block;
-    width: 100%;
-    height: auto;
   }
 
   h1 {

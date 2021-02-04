@@ -3,6 +3,14 @@
   z-index: 100;
   position: relative;
 
+  a {
+    color: #000;
+  }
+
+  .dropdown-menu a:hover {
+    background-color: $primary;
+  }
+
   .navbar-brand img:hover {
     opacity: 70%;
     transition: 0.1s;

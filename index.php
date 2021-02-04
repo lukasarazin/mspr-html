@@ -16,35 +16,6 @@
 
         <h2>Laissez votre emprunte dans ce monde, choisissez et voyagez avec
             <span>votre</span> arbre.</h2>
-
-        <div class="home_cards">
-            <div class="row g-4 ">
-                <div class="col-lg-4">
-                    <div class="home_card">
-                        <?php $number = date('321s') ?>
-                        <data value="<?php echo $number ?>"><?php echo $number ?></data>
-                        <span>Arbres plantés</span>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="home_card">
-                        <data value="4">
-                            <span id="number-one">0</span>
-                        </data>
-                        <span>Biomes</span>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="home_card">
-                        <data value="100%">
-                            <span id="number-two">0</span>%
-                        </data>
-                        <span>Écologie</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
     </section>
 
     <section id="home_about">
@@ -56,6 +27,7 @@
                     minima quas repellat veniam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
                     asperiores, culpa deserunt ea expedita labore laborum minus nobis repellat sint. Lorem ipsum dolor
                     sit amet, consectetur adipisicing elit. Explicabo, nemo!</p>
+
                 <div class="button-wrapper">
                     <a class="btn btn-primary">
                         En savoir plus

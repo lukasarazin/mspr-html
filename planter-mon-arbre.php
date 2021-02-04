@@ -13,6 +13,34 @@ require_once 'template-parts/header.php';
 <section id="our_trees">
     <div class="container">
 
+        <div class="home_cards">
+            <div class="row g-4 ">
+                <div class="col-lg-4">
+                    <div class="home_card">
+                        <?php $number = date('321s') ?>
+                        <data value="<?php echo $number ?>"><?php echo $number ?></data>
+                        <span>Arbres plantés</span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="home_card">
+                        <data value="4">
+                            <span id="number-one">0</span>
+                        </data>
+                        <span>Biomes</span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="home_card">
+                        <data value="100%">
+                            <span id="number-two">0</span>%
+                        </data>
+                        <span>Écologie</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <form method="POST">
 
             <div class="row g-4">

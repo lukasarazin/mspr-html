@@ -10734,6 +10734,12 @@ textarea.form-control-lg {
   z-index: 100;
   position: relative;
 }
+#header a {
+  color: #000;
+}
+#header .dropdown-menu a:hover {
+  background-color: #3bc36e;
+}
 #header .navbar-brand img:hover {
   opacity: 70%;
   transition: 0.1s;
@@ -10792,82 +10798,8 @@ textarea.form-control-lg {
   background-size: cover;
   background-attachment: fixed;
 }
-#home-hero:before, #home-hero:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
-#home-hero:before {
-  top: 0;
-  left: 0;
-  background-image: url("https://github.com/joshuaward/codepen-images/blob/master/clouds-left.png?raw=true");
-  background-position: center 100%;
-  -webkit-animation: clouds1 110s linear infinite;
-          animation: clouds1 110s linear infinite;
-}
-#home-hero:after {
-  bottom: 0;
-  left: 0;
-  background-image: url("https://github.com/joshuaward/codepen-images/blob/master/clouds-right.png?raw=true");
-  background-position: center 0%;
-  -webkit-animation: clouds2 100s linear infinite;
-          animation: clouds2 100s linear infinite;
-}
-@-webkit-keyframes clouds1 {
-  to {
-    background-position: 200%;
-  }
-}
-@keyframes clouds1 {
-  to {
-    background-position: 200%;
-  }
-}
-@-webkit-keyframes clouds2 {
-  to {
-    background-position: -200%;
-  }
-}
-@keyframes clouds2 {
-  to {
-    background-position: -200%;
-  }
-}
-@-webkit-keyframes float {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-20px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
-@keyframes float {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-20px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
-#home-hero .brand-logo {
-  max-width: 150px;
-  margin: 0 auto 0 auto;
-  -webkit-animation: float 6s ease-in-out infinite;
-          animation: float 6s ease-in-out infinite;
-}
-#home-hero .brand-logo img {
-  display: block;
-  width: 100%;
-  height: auto;
+#home-hero .home_cards {
+  z-index: 3;
 }
 #home-hero h1, #home-hero .h1 {
   font-size: 4rem;
@@ -10875,7 +10807,7 @@ textarea.form-control-lg {
   display: block;
   color: #3bc36e;
   margin: auto auto 1rem;
-  font-family: "Hanalei", cursive;
+  font-family: "Poppins", cursive;
 }
 #home-hero h2, #home-hero .h2 {
   font-size: 1.5rem;
@@ -10972,20 +10904,6 @@ textarea.form-control-lg {
   height: auto;
   padding: 75px 75px 75px 75px;
 }
-#contact img {
-  position: absolute;
-  display: block;
-}
-#contact img.leave-top-left {
-  top: calc(-365px + 60px);
-  left: 0;
-  transform: rotate(90deg);
-  transform-origin: 0 100%;
-}
-#contact img.leave-top-right {
-  top: 0;
-  right: 0;
-}
 #contact input, #contact textarea {
   background-color: #333333;
   color: #fff;
@@ -10998,19 +10916,10 @@ textarea.form-control-lg {
   text-align: center;
   margin-top: 75px;
 }
-#contact .brand-logo {
-  max-width: 150px;
-  margin: auto;
-}
 #contact .message_send {
   max-width: 100px;
   margin: auto;
   padding-bottom: 25px;
-}
-#contact .lottie {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 #contact h1, #contact .h1 {
   font-size: 22px;
@@ -11162,13 +11071,16 @@ textarea.form-control-lg {
   padding: 45px;
   border-radius: 15px;
   margin: auto;
-  background-color: #fff;
+  background-color: grey;
   height: 100%;
   text-align: center;
   color: #3bc36e;
   max-width: 300px;
-  mix-blend-mode: soft-light;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+.home_card:hover {
+  background-color: red;
 }
 .home_card > * {
   display: block;
@@ -11187,4 +11099,110 @@ textarea.form-control-lg {
 }
 .home_card .card span {
   color: #fff;
+}
+
+#contact .brand-logo {
+  max-width: 150px;
+  margin: auto;
+}
+#contact .brand-logo .lottie {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#contact img {
+  position: absolute;
+  display: block;
+}
+#contact img.leave-top-left {
+  top: calc(-365px + 60px);
+  left: 0;
+  transform: rotate(90deg);
+  transform-origin: 0 100%;
+}
+#contact img.leave-top-right {
+  top: 0;
+  right: 0;
+}
+
+@-webkit-keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+#home-hero .brand-logo {
+  max-width: 150px;
+  margin: 0 auto 0 auto;
+  -webkit-animation: float 6s ease-in-out infinite;
+          animation: float 6s ease-in-out infinite;
+}
+#home-hero .brand-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@-webkit-keyframes clouds1 {
+  to {
+    background-position: 200%;
+  }
+}
+
+@keyframes clouds1 {
+  to {
+    background-position: 200%;
+  }
+}
+@-webkit-keyframes clouds2 {
+  to {
+    background-position: -200%;
+  }
+}
+@keyframes clouds2 {
+  to {
+    background-position: -200%;
+  }
+}
+#home-hero:before, #home-hero:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+#home-hero:before {
+  top: 0;
+  left: 0;
+  background-image: url("https://github.com/joshuaward/codepen-images/blob/master/clouds-left.png?raw=true");
+  background-position: center 100%;
+  -webkit-animation: clouds1 110s linear infinite;
+          animation: clouds1 110s linear infinite;
+}
+#home-hero:after {
+  bottom: 0;
+  left: 0;
+  background-image: url("https://github.com/joshuaward/codepen-images/blob/master/clouds-right.png?raw=true");
+  background-position: center 0%;
+  -webkit-animation: clouds2 100s linear infinite;
+          animation: clouds2 100s linear infinite;
 }

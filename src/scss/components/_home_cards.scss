@@ -2,13 +2,18 @@
   padding: 45px;
   border-radius: $border-radius;
   margin: auto;
-  background-color: #fff;
+  background-color: grey;
   height: 100%;
   text-align: center;
   color: $primary;
   max-width: 300px;
-  mix-blend-mode: soft-light;
+
   box-shadow: $shadow;
+  z-index: 999;
+
+  &:hover {
+    background-color: red;
+  }
 
   & > * {
     display: block;

@@ -1,0 +1,28 @@
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+#home-hero {
+
+  .brand-logo {
+    max-width: 150px;
+    margin: 0 auto 0 auto;
+    animation: float 6s ease-in-out infinite;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+  }
