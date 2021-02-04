@@ -11169,11 +11169,8 @@ textarea.form-control-lg {
 #conference .test {
   background: #333333;
 }
-#conference .container {
+#conference .test .container {
   background: #333333;
-}
-#conference .pre-title {
-  color: #3bc36e;
 }
 #conference .content {
   padding: 5rem;

@@ -96,7 +96,7 @@
                                                 <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_nee43fld.json"
                                                                background="transparent"
                                                                speed="1"
-                                                               style="width: 80px; height: 80px;"
+                                                               style="width: width: 80px; height:  height: 80px;"
                                                                loop autoplay></lottie-player>
                                             </i>
                                         </div>
