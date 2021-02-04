@@ -38,25 +38,27 @@
     </section>
 
     <section id="conference">
-        <svg  viewBox="0 0 1900 50" xmlns="http://www.w3.org/2000/svg">
+        <svg  viewBox="0 0 1890 50" xmlns="http://www.w3.org/2000/svg">
             <path d="M0.5 13.5V83.5L1921.5 78.5V12L1919 13.5C1901.8 22.3 1758.5 17.1667 1689 13.5C1689 13.5 1518.67 3 1455.5 2.5L1286.5 13.5C1286.5 13.5 909.333 17.8333 761.5 13.5L376 0.5L0.5 13.5Z" fill="#333333"/>
         </svg>
 
-        <div class="test">
+        <div class="bg-secondary">
             <div class="container">
                 <div class="row">
                     <div class="content col-lg-6 ">
-                        <span class="pre-title">LE PROGRAMME</span>
-                        <h3>Suivre nos conférences !</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda dolores eius eveniet excepturi expedita magnam saepe, similique voluptate voluptatem.</p>
-                        <div class="button-wrapper pt-2">
-                            <button type="submit" class="btn btn-primary">Voir programme</button>
+                        <div class="info">
+                            <span class="pre-title">LE PROGRAMME</span>
+                            <h3>Suivre nos conférences !</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda dolores eius eveniet excepturi expedita magnam saepe, similique voluptate voluptatem.</p>
+                            <div class="button-wrapper pt-2">
+                                <button type="submit" class="btn btn-primary">Voir programme</button>
+                            </div>
                         </div>
                     </div>
 
                     <div class="content col-lg-6">
-                        <div class="card_wrapper">
-                            <a class="carda" href="#">
+                        <div class="cards_wrapper">
+                            <a class="card_conf" href="#">
                                 <div class="row g-0">
                                     <div class=" lottie_content col-sm-12 col-lg-3">
                                         <i id="lottie">

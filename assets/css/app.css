@@ -10864,10 +10864,6 @@ textarea.form-control-lg {
   margin-bottom: 25px;
 }
 
-#conference .test {
-  background: #d7d7d7;
-  background: #333333;
-}
 #conference .content {
   padding: 5rem;
   color: #fff;
@@ -10890,7 +10886,7 @@ textarea.form-control-lg {
 #conference .content button:hover {
   color: #fff;
 }
-#conference .content .card_wrapper {
+#conference .content .cards_wrapper {
   padding: 15px 25px;
   background: #fff;
   border-radius: 10px;
@@ -10898,8 +10894,8 @@ textarea.form-control-lg {
   transform: rotate(0deg);
   transition: 0.2s;
 }
-#conference .content .card_wrapper:hover {
-  transform: rotate(10deg);
+#conference .content .cards_wrapper:hover {
+  transform: rotate(-10deg);
   transition: 0.2s;
 }
 #conference .content .card_container {
