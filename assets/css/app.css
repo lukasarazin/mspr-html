@@ -11304,6 +11304,8 @@ textarea.form-control-lg {
   border-radius: 15px;
   color: inherit;
   text-decoration: none;
+  padding: 6rem;
+  margin: auto;
 }
 .tree .tree-body {
   padding: 2rem;

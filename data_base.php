@@ -6,24 +6,24 @@ $trees = [
         'price' => 5,
         'country' => 'Kenya',
         'picture' => 'cover_baboab.php',
-        'url' => 'https://images5.alphacoders.com/335/thumb-1920-335403.jpg'
+        'url' => 'url("https://images5.alphacoders.com/335/thumb-1920-335403.jpg")'
     ],
     'gingko' => [
         'name' => 'Gingko',
         'price' => 5,
         'country' => 'Japon',
-        'picture' => ''
+        'url' => 'url("https://images5.alphacoders.com/335/thumb-1920-335403.jpg")'
     ],
     'araukaria' => [
         'name' => 'Araukaria',
         'price' => 5,
         'country' => 'Argentine',
-        'picture' => ''
+        'url' => 'url("https://images5.alphacoders.com/335/thumb-1920-335403.jpg")'
     ],
     'cocotier' => [
         'name' => 'Cocotier',
         'price' => 5,
         'country' => 'Thaiti',
-        'picture' => ''
+        'url' => 'url("https://images5.alphacoders.com/335/thumb-1920-335403.jpg")'
     ],
 ];

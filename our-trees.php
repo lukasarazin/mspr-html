@@ -13,14 +13,14 @@ require_once 'template-parts/header.php';
 <section id="our_trees">
     <div class="container">
 
-        <form method="POST" class="py-5">
+        <form method="POST">
 
             <div class="row g-4">
 
                 <?php foreach ($trees as $index => $tree): ?>
                     <div class="col-12">
                         <a href="#" id="tree-<?php echo $index; ?>" class="tree"
-                           style='<?php echo $tree['url']; ?>'<?php echo $tree['name']; ?>");'>
+                           style='background-image:<?php echo $tree['url']; ?>'>
                             <div class="tree-body">
                                 <h2 class="tree-title"><?php echo $tree['name']; ?></h2>
                                 <span class="country"><?php echo $tree['country']; ?></span>
