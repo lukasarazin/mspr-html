@@ -294,5 +294,32 @@
   }
 }
 
+#conference{
+  padding: 2rem;
+  background: #d7d7d7;
+  .content{
+    background: $secondary;
+    padding: 5rem;
+    box-shadow: $shadow;
+    color: #fff;
+
+    h3{
+      font-size: 32px;
+      font-weight: bold;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -27,8 +27,8 @@
                          class="rounded mx-auto d-block">
                 </div>
                 <div class="logo-title">
-                <h1>TREES</h1>
-            </div>
+                    <h1>TREES</h1>
+                </div>
             </div>
 
             <h2>Laissez votre emprunte dans ce monde, choisissez et voyagez avec
@@ -79,6 +79,24 @@
                     </a>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="conference">
+        <div class="container">
+            <div class="content col-lg-6">
+                <span>LE PROGRAMME</span>
+                <h3>Suivre nos conférences !</h3>
+                <p class="pt-2">Lorem ipsum dolor sit amet. Assumenda corporis culpa deleniti dolores earum et molestias, quo quos, sint sit tempora voluptate. Consequuntur incidunt ipsum magni minus mollitia rem temporibus.</p>
+                <div class="button-wrapper pt-2">
+                    <button type="submit" class="btn btn-secondary">Voir programme</button>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+
+            </div>
+        </div>
         </div>
     </section>
 
