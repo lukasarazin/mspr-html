@@ -19,8 +19,10 @@ require_once 'template-parts/header.php';
 
                 <?php foreach ($trees as $index => $tree): ?>
                     <div class="col-12">
-                        <a href="#" id="tree-<?php echo $index; ?>" class="tree"
-                           style='background-image:<?php echo $tree['url']; ?>'>
+                        <a href="#" id="tree-<?php echo $index; ?>" class="tree">
+
+                            <img class="tree-thumbnail" src="<?php echo $tree['url']; ?>" alt="">
+
                             <div class="tree-body">
                                 <h2 class="tree-title"><?php echo $tree['name']; ?></h2>
                                 <span class="country"><?php echo $tree['country']; ?></span>
@@ -46,3 +48,4 @@ require_once 'template-parts/header.php';
 </section>
 
 <?php require_once 'template-parts/footer.php' ?>
+
