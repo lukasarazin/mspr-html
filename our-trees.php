@@ -85,4 +85,3 @@ $total = 0;
 
 
 <?php require_once 'template-parts/footer.php' ?>
- 

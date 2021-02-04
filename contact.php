@@ -1,5 +1,5 @@
-<?php require_once 'template-parts/header.php' ?>
 <?php require_once 'template-parts/functions.php' ?>
+<?php require_once 'template-parts/header.php' ?>
 
 <section id="contact">
 
@@ -15,7 +15,12 @@
                            background="transparent" speed="1" style="width: 150px; height: 150px;"
                            autoplay></lottie-player>
         </div>
+<<<<<<< HEAD
         <h1>Nous contacter</h1>
+=======
+        <h1>Nous contacter
+        </h1>
+>>>>>>> main
         <?php endif; ?>
 
         <?php if ($_POST): ?>
@@ -59,7 +64,11 @@
                     <div class="col name">
                         <div class="form">
 
+<<<<<<< HEAD
                             <input type="text" id="form3Example2"
+=======
+                            <input value="" type="text" id="form3Example2"
+>>>>>>> main
                                    min="3" max="20" class="form-control" placeholder="Nom" name="last_name" required/>
 
                         </div>

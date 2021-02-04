@@ -65,7 +65,12 @@
     <section id="home_about">
         <div class="container">
             <div class="content">
+<<<<<<< HEAD
                 <h3>Qui sommes nous ?</h3>
+=======
+                <h3>Qui sommes nous ?
+                </h3>
+>>>>>>> main
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa ipsum minus nam? Asperiores
                     minima quas repellat veniam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
                     asperiores, culpa deserunt ea expedita labore laborum minus nobis repellat sint. Lorem ipsum dolor
