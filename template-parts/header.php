@@ -4,11 +4,7 @@ require_once 'head.php';
 
 $page_uri = $_SERVER['REQUEST_URI'];
 
-
-
 ?>
-
-
 
 <header id="header">
     <nav class="navbar navbar-expand-md navbar-light">
@@ -17,10 +13,9 @@ $page_uri = $_SERVER['REQUEST_URI'];
             <a class="navbar-brand" href="/mspr-html/">
                 <img src="assets/image/TREES.png" alt="" width="50" height="44" loading="lazy"
                      class="d-inline-block align-top">
-
-                <span>Trees</span>
             </a>
 
+            <a class="navbar-brand" href="/mspr-html/"><span class="align-text-top">Trees</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
                     aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,6 +25,9 @@ $page_uri = $_SERVER['REQUEST_URI'];
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link <?php echo '/mspr-html/' === $page_uri ? 'active' : null; ?>" href="./">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo '/mspr-html/planter-mon-arbre' === $page_uri ? 'active' : null; ?>" href="./planter-mon-arbre">Planter mon arbre</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown"
@@ -51,7 +49,9 @@ $page_uri = $_SERVER['REQUEST_URI'];
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown2">
                             <li><a class="dropdown-item" href="#">Qui nous sommes ?</a></li>
-                            <li><a class="dropdown-item" href="#">Comment nous proçedons ?</a></li>
+                            <li><a class="dropdown-item" href="#">Comment nous proçèdons ?</a></li>
+                            <li><a class="dropdown-item <?php echo '/mspr-html/nos-biomes' === $page_uri ? 'active' : null; ?>" href="./nos-biomes">Nos biomes</a></li>
+                            <li><a class="dropdown-item" href="#">Nos concours</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -67,7 +67,6 @@ $page_uri = $_SERVER['REQUEST_URI'];
                     </li>
                 </ul>
             </div>
-
         </div>
     </nav>
 </header>

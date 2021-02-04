@@ -2,7 +2,20 @@
   box-shadow: $shadow;
   z-index: 100;
   position: relative;
-  background-color: transparent;
+
+  .navbar-brand img:hover {
+    opacity: 70%;
+    transition: 0.1s;
+  }
+
+  span {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
 
   .active {
     color: $primary;
@@ -11,11 +24,7 @@
   .icon_shop{
     fill: $primary;
 
-    &:hover{
-      fill: #6b6b6b;
-      transition: 0.2s;
     }
-  }
 }
 
 

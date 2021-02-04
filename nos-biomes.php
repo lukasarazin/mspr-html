@@ -9,6 +9,7 @@
                 <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
                 <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></li>
             </ol>
+            <div class="container">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/image/cover_baobab.webp" class="d-block w-100" alt="...">
@@ -20,22 +21,22 @@
                 <div class="carousel-item">
                     <img src="assets/image/cover_gingko.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h2>Gingko</h2>
-                        <p>Des villes denses, des palais impériaux, des parcs nationaux montagneux ainsi que des milliers d'innovations technologiques.s</p>
+                        <h2>Japon</h2>
+                        <p>Des villes denses, des palais impériaux, des parcs nationaux montagneux ainsi que des milliers de temples et de sanctueaires.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="assets/image/cover_araucaria.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h2>Araucaria</h2>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h2>Argentine</h2>
+                        <p>Relief très varié où se côtoient les montagnes des Andes, les lacs glaciaires et la pampa, de grandes plaines de pâturage.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="assets/image/cover_cocotier.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h2>Cocotier</h2>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h2>Tahiti</h2>
+                        <p>Avec ses plages de sable noir, ses lagons, ses chutes d'eau et ses 2 volcans éteints, l'île est une destination populaire pour les vacances.</p>
                     </div>
                 </div>
             </div>
@@ -47,6 +48,7 @@
                 <span aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </a>
+        </div>
         </div>
 
         <section id="globe">
