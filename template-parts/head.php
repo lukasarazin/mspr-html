@@ -10,18 +10,12 @@
     <link rel="shortcut icon" href="assets/image/TREES.png" type="image/x-icon">
     <link rel="icon" href="assets/image/TREES.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2? family = Poppins: wght @ 300; 400; 700 & display = swap "
           rel=" styleheet ">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Hanalei&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 
