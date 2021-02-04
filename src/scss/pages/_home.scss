@@ -136,11 +136,12 @@
       background: #fff;
       border-radius: 10px;
     }
+
     .card_container{
-      border: 3px solid blue;
+      padding-left: 30px;
     }
+
     .card_content{
-      border: 3px solid red;
 
       h3{
         color: $secondary;
@@ -149,13 +150,20 @@
     ul {
       color: $secondary;
       text-underline: none;
-      list-style: none
+      list-style: none;
+      padding-inline-start: 0;
+
     }
 
     li::before{
-      color: $primary;
-      content: '•';
-      padding-right: 10px;
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      display: inline-block;
+      vertical-align: middle;
+      background-color: $primary;
+      margin-right: 6px;
     }
 
     a{
@@ -171,6 +179,11 @@
       margin: auto;
       max-width: 80px;
       display: block;
+    }
+
+    span{
+      color: $secondary;
+      font-size: 18px;
     }
   }
 }

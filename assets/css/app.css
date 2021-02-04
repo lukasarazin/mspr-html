@@ -10896,10 +10896,7 @@ textarea.form-control-lg {
   border-radius: 10px;
 }
 #conference .content .card_container {
-  border: 3px solid blue;
-}
-#conference .content .card_content {
-  border: 3px solid red;
+  padding-left: 30px;
 }
 #conference .content .card_content h3, #conference .content .card_content .h3 {
   color: #333333;
@@ -10908,11 +10905,18 @@ textarea.form-control-lg {
   color: #333333;
   text-underline: none;
   list-style: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
 }
 #conference .content li::before {
-  color: #3bc36e;
-  content: "•";
-  padding-right: 10px;
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #3bc36e;
+  margin-right: 6px;
 }
 #conference .content a {
   text-decoration: none;
@@ -10923,6 +10927,10 @@ textarea.form-control-lg {
   margin: auto;
   max-width: 80px;
   display: block;
+}
+#conference .content span {
+  color: #333333;
+  font-size: 18px;
 }
 
 #contact {
