@@ -144,8 +144,22 @@
 
       h3{
         color: $secondary;
-        text-underline: none !important;
       }
+    }
+    ul {
+      color: $secondary;
+      text-underline: none;
+      list-style: none
+    }
+
+    li::before{
+      color: $primary;
+      content: '•';
+      padding-right: 10px;
+    }
+
+    a{
+      text-decoration: none;
     }
 
     .lottie_content{

@@ -72,10 +72,13 @@
                                         <div class="card_content">
                                             <h3>Titre</h3>
                                             <ul>
-                                                <li>test</li>
-                                                <li>test</li>
+                                                <li>Sous-titre</li>
+                                                <li>Sous-titre</li>
                                             </ul>
-                                            <span>Voir le programme</span>
+                                            <span>
+                                                Voir le programme
+                                                <img src="assets/svg/incon_plus.svg" alt="">
+                                            </span>
                                         </div>
                                     </div>
                                 </div>

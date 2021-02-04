@@ -10903,7 +10903,19 @@ textarea.form-control-lg {
 }
 #conference .content .card_content h3, #conference .content .card_content .h3 {
   color: #333333;
-  text-underline: none !important;
+}
+#conference .content ul {
+  color: #333333;
+  text-underline: none;
+  list-style: none;
+}
+#conference .content li::before {
+  color: #3bc36e;
+  content: "•";
+  padding-right: 10px;
+}
+#conference .content a {
+  text-decoration: none;
 }
 #conference .content i {
   width: 100%;
@@ -10967,35 +10979,25 @@ textarea.form-control-lg {
   text-align: center;
 }
 
-#globe {
+#main-contact {
   background-color: #fcfcfc;
 }
-#globe h1, #globe .h1 {
+#main-contact h1, #main-contact .h1 {
   font-size: 3rem;
   text-align: center;
   display: block;
   color: #3bc36e;
   margin: auto auto 1.5rem;
 }
-#globe p {
+#main-contact p {
   max-width: 400px;
 }
-#globe .container-fluid, #globe .container-sm, #globe .container-md, #globe .container-lg, #globe .container-xl, #globe .container-xxl {
+#main-contact .container-fluid, #main-contact .container-sm, #main-contact .container-md, #main-contact .container-lg, #main-contact .container-xl, #main-contact .container-xxl {
   display: flex;
   justify-content: center;
   max-height: 100vmin;
   max-width: 100vmin;
   margin: auto auto;
-}
-#globe .globe {
-  height: 100vmin;
-  width: auto;
-  cursor: -webkit-grab;
-  cursor: grab;
-}
-#globe .globe--dragging {
-  cursor: -webkit-grabbing;
-  cursor: grabbing;
 }
 
 .flex-wrapper {
