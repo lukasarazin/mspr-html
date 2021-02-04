@@ -11114,17 +11114,6 @@ textarea.form-control-lg {
 #home_process p, #home_process h3, #home_process .h3 {
   margin-bottom: 25px;
 }
-#home_process .line {
-  border-bottom: 2px solid #3bc36e;
-  width: 150px;
-  position: relative;
-  margin: auto 4.9rem auto;
-  padding-top: 6px;
-}
-
-.info_content {
-  border: 3px solid blue;
-}
 
 #contact {
   position: relative;
@@ -11184,13 +11173,6 @@ textarea.form-control-lg {
   color: #333333;
   margin: auto auto 4.5rem;
   padding-bottom: 50px;
-}
-#contact .line {
-  border-bottom: 2px solid #3bc36e;
-  width: 100px;
-  position: relative;
-  margin: auto;
-  padding-top: 5px;
 }
 #contact .succes_answer {
   color: #3bc36e;
@@ -11377,21 +11359,4 @@ textarea.form-control-lg {
 
 .card span {
   color: #fff;
-}
-
-body {
-  position: relative;
-}
-
-#cursor {
-  width: 30px;
-  height: 30px;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 900000;
-  border-radius: 50em;
-  border: 1px solid white;
-  box-shadow: 0 0 1px 1px white;
 }

@@ -15,9 +15,7 @@
                            background="transparent" speed="1" style="width: 150px; height: 150px;"
                            autoplay></lottie-player>
         </div>
-        <h1>Nous contacter
-            <div class="line"></div>
-        </h1>
+        <h1>Nous contacter</h1>
         <?php endif; ?>
 
         <?php if ($_POST): ?>
@@ -30,9 +28,7 @@
                 </div>
                 <p class="succes_answer">
                     Merci
-                    <strong><?php echo $_POST['first_name']?></strong>
-                    , votre message à
-                    bien été envoyé !
+                    <?php echo $_POST['first_name']?>, votre message à bien été envoyé !
                 </p>
 
                 <div class="redirection">
@@ -63,7 +59,7 @@
                     <div class="col name">
                         <div class="form">
 
-                            <input value="last_name" type="text" id="form3Example2"
+                            <input type="text" id="form3Example2"
                                    min="3" max="20" class="form-control" placeholder="Nom" name="last_name" required/>
 
                         </div>

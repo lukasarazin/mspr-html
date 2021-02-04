@@ -3056,12 +3056,12 @@ function within(min, value, max) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bootstrap */ "./src/js/bootstrap.js");
-/* harmony import */ var _cursor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cursor */ "./src/js/cursor.js");
-/* harmony import */ var _cursor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_cursor__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _pourcent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pourcent */ "./src/js/pourcent.js");
-/* harmony import */ var _pourcent__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_pourcent__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _number__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./number */ "./src/js/number.js");
-/* harmony import */ var _number__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_number__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _pourcent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pourcent */ "./src/js/pourcent.js");
+/* harmony import */ var _pourcent__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pourcent__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _number__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./number */ "./src/js/number.js");
+/* harmony import */ var _number__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_number__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _earth__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./earth */ "./src/js/earth.js");
+/* harmony import */ var _earth__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_earth__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
@@ -3095,32 +3095,980 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/js/cursor.js":
-/*!**************************!*\
-  !*** ./src/js/cursor.js ***!
-  \**************************/
+/***/ "./src/js/earth.js":
+/*!*************************!*\
+  !*** ./src/js/earth.js ***!
+  \*************************/
 /***/ (() => {
 
-var cursor = document.getElementById('cursor');
-var mouseTop = 0;
-var mouseLeft = 0;
-var pageY = 0;
-var pageX = 0;
-document.addEventListener('mousemove', function (event) {
-  mouseTop = event.clientY - 15;
-  mouseLeft = event.clientX - 15;
-  updateCursor();
-});
-document.addEventListener('scroll', function (event) {
-  pageY = window.pageYOffset;
-  pageX = window.pageXOffset;
-  updateCursor();
-});
+function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
-function updateCursor() {
-  cursor.style.left = pageX + mouseLeft + "px";
-  cursor.style.top = pageY + mouseTop + "px";
-}
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+var markers = [{
+  name: 'Argentine',
+  lat: -23,
+  "long": -68
+}, {
+  name: 'Japon',
+  lat: 36,
+  "long": 138
+}, {
+  name: 'Kenya',
+  lat: -1,
+  "long": 36
+}, {
+  name: 'Thaiti',
+  lat: -17,
+  "long": -149
+}];
+var $ = {
+  canvas: null,
+  ctx: null,
+  vCenter: 820,
+  scroll: {
+    lat: 0,
+    "long": 20
+  },
+  markers: [],
+  timing: {
+    speed: 16,
+    delta: 0,
+    last: 0
+  },
+  drag: {
+    start: {
+      x: 0,
+      y: 0
+    },
+    force: 0,
+    prevX: 0,
+    isDragging: false
+  },
+  colors: {
+    pushPinBase: '#969799',
+    pushPin: '#ff1200',
+    land: '#3bc36e',
+    //'#ffc975',
+    landShade: '#2c606e',
+    ocean: '#2698bc'
+  },
+  complexShapes: {// put complex shapes here
+  }
+};
+
+var lerp = function lerp(norm, min, max) {
+  return (max - min) * norm + min;
+};
+
+var norm = function norm(value, min, max) {
+  return (value - min) / (max - min);
+};
+
+var map = function map(value, sourceMin, sourceMax, destMin, destMax) {
+  return lerp(norm(value, sourceMin, sourceMax), destMin, destMax);
+};
+
+var dragMove = function dragMove(e) {
+  if ($.drag.isDragging) {
+    var _long = $.drag.start["long"],
+        clientX = e.targetTouches ? e.targetTouches[0].clientX : e.clientX,
+        change = clientX - $.drag.start.x,
+        prevChange = clientX - $.drag.prevX,
+        canvasWidth = $.canvas.getBoundingClientRect().width;
+    _long += map(change, 0, canvasWidth, 0, 200);
+
+    while (_long < 0) {
+      _long += 360;
+    }
+
+    if (prevChange > 0 && $.drag.force < 0) {
+      $.drag.force = 0;
+    } else if (prevChange < 0 && $.drag.force > 0) {
+      $.drag.force = 0;
+    }
+
+    $.drag.force += prevChange * (600 / canvasWidth);
+    $.drag.prevX = clientX;
+    $.scroll["long"] = Math.abs(_long) % 360;
+  }
+};
+
+var dragStart = function dragStart(e) {
+  if (e.targetTouches) {
+    e.preventDefault();
+    $.drag.start = {
+      x: e.targetTouches[0].clientX,
+      y: e.targetTouches[0].clientY,
+      "long": $.scroll["long"]
+    };
+  } else {
+    $.drag.start = {
+      x: e.clientX,
+      y: e.clientY,
+      "long": $.scroll["long"]
+    };
+  }
+
+  $.timing.speed = 0;
+  $.drag.isDragging = true;
+  $.canvas.classList.add('globe--dragging');
+};
+
+var dragEnd = function dragEnd(e) {
+  if ($.drag.isDragging) {
+    $.timing.speed = map($.drag.force, 0, 220, 0, 40);
+    $.drag.isDragging = false;
+    $.canvas.classList.remove('globe--dragging');
+  }
+};
+
+var getRadius = function getRadius(latitude) {
+  var yPart = Math.PI * 2,
+      radius = 600,
+      frame = map(latitude, 90, -90, 0, 1.65);
+  return Math.max(Math.sin(yPart + frame) * radius, 0);
+};
+
+var latLongSphere = function latLongSphere(lat, lon, radius) {
+  var x = 900,
+      y = $.vCenter,
+      z = 0;
+  lon = -lon;
+  var phi = (90 - lat) * (Math.PI / 180),
+      teta = (lon + 180) * (Math.PI / 180);
+  x -= -(radius * Math.sin(phi) * Math.cos(teta));
+  y -= radius * Math.cos(phi);
+  z = radius * Math.sin(phi) * Math.sin(teta);
+  return {
+    x: x,
+    y: y,
+    z: z
+  };
+};
+
+var drawGlobe = function drawGlobe(ctx, color) {
+  ctx.beginPath();
+  ctx.arc(900, $.vCenter, 600, 0, 2 * Math.PI);
+  ctx.closePath();
+  ctx.fillStyle = color;
+  ctx.fill();
+};
+
+var getLandMassPaths = function getLandMassPaths(name, radius, thickness) {
+  var landmassBasic = continents[name],
+      landmass = null,
+      first = true,
+      rotated = false,
+      paths = {
+    ground: new Path2D(),
+    top: new Path2D(),
+    sections: [],
+    isVisible: false
+  },
+      section = {
+    ground: [],
+    top: []
+  }; // Complexify
+
+  if ($.complexShapes[name]) {
+    landmass = $.complexShapes[name];
+  } else {
+    landmass = complexify(landmassBasic, 1);
+    $.complexShapes[name] = landmass;
+  }
+
+  for (var i = 0; i < landmass.length; i++) {
+    var point = landmass[0],
+        _p = latLongSphere(point.lat + $.scroll.lat, point["long"] + $.scroll["long"], radius);
+
+    if (_p.z < 0) {
+      landmass.splice(0, 0, landmass.pop());
+      rotated = true;
+    } else {
+      break;
+    }
+  }
+
+  var drawCurve = false,
+      curveStart = null,
+      sectionIsVisible = false;
+  landmass.forEach(function (point) {
+    var p = latLongSphere(point.lat + $.scroll.lat, point["long"] + $.scroll["long"], radius),
+        p2 = latLongSphere(point.lat + $.scroll.lat, point["long"] + $.scroll["long"], radius + thickness);
+
+    if (!sectionIsVisible && p.z > -200) {
+      sectionIsVisible = true;
+    }
+
+    section.ground.push({
+      x: p.x,
+      y: p.y,
+      z: p.z
+    });
+    section.top.push({
+      x: p2.x,
+      y: p2.y,
+      z: p2.z
+    });
+
+    if (point.edge && !first) {
+      if (sectionIsVisible) {
+        paths.sections.push(Object.assign({}, section));
+      }
+
+      section = {
+        ground: [{
+          x: p.x,
+          y: p.y,
+          z: p.z
+        }],
+        top: [{
+          x: p2.x,
+          y: p2.y,
+          z: p2.z
+        }]
+      };
+      sectionIsVisible = false;
+    }
+
+    first = false;
+
+    if (p.z > 0) {
+      if (drawCurve) {
+        drawCurve = false;
+        closeCurve(paths.ground, curveStart, p, radius);
+        closeCurve(paths.top, curveStart, p2, radius + thickness);
+      } else {
+        paths.ground.lineTo(p.x, p.y);
+        paths.top.lineTo(p2.x, p2.y);
+        paths.isVisible = true;
+      }
+    } else {
+      // draw curve
+      if (!drawCurve) {
+        drawCurve = true;
+        curveStart = {
+          x: p.x,
+          y: p.y,
+          z: p.z
+        };
+      }
+    }
+  }); // if the last point is in a curve
+
+  if (drawCurve) {
+    drawCurve = false;
+
+    var _point = landmass.slice(-1)[0],
+        _p2 = latLongSphere(_point.lat + $.scroll.lat, _point["long"] + $.scroll["long"], radius),
+        _p3 = latLongSphere(_point.lat + $.scroll.lat, _point["long"] + $.scroll["long"], radius + thickness);
+
+    closeCurve(paths.ground, curveStart, _p2, radius);
+    closeCurve(paths.top, curveStart, _p3, radius + thickness);
+  }
+
+  var p = latLongSphere(landmass[0].lat + $.scroll.lat, landmass[0]["long"] + $.scroll["long"], radius),
+      p2 = latLongSphere(landmass[0].lat + $.scroll.lat, landmass[0]["long"] + $.scroll["long"], radius + thickness);
+  section.ground.push({
+    x: p.x,
+    y: p.y,
+    z: p.z
+  });
+  section.top.push({
+    x: p2.x,
+    y: p2.y,
+    z: p2.z
+  });
+
+  if (section) {
+    paths.sections.push(Object.assign({}, section));
+  }
+
+  return paths;
+};
+
+var closeCurve = function closeCurve(path, curveStart, p, radius) {
+  // draw curve from curveStart på p
+  var a1 = getAngle({
+    x: 900,
+    y: $.vCenter
+  }, curveStart),
+      a2 = getAngle({
+    x: 900,
+    y: $.vCenter
+  }, p),
+      compare = a1 - a2,
+      startAngle = a1 * (Math.PI / 180),
+      endAngle = a2 * (Math.PI / 180);
+  path.arc(900, $.vCenter, radius, startAngle, endAngle, compare > 0 && compare < 180);
+};
+
+var getCirclePoint = function getCirclePoint(angle, radius) {
+  var radian = angle / 180 * Math.PI;
+  return {
+    x: radius * Math.cos(radian) + 900,
+    y: radius * Math.sin(radian) + 800
+  };
+};
+
+var getAngle = function getAngle(p1, p2) {
+  var dy = p2.y - p1.y,
+      dx = p2.x - p1.x,
+      theta = Math.atan2(dy, dx);
+  theta *= 180 / Math.PI;
+  return theta;
+};
+
+var complexify = function complexify(landmass, level) {
+  var complex = [];
+
+  for (var i = 0; i < landmass.length - 1; i++) {
+    var p1 = landmass[i],
+        p2 = landmass[i + 1],
+        steps = Math.floor(distanceBetween(p1, p2) / level);
+    p1.edge = true;
+    complex.push(p1);
+
+    if (steps > 0) {
+      var s = Math.floor(100 / steps);
+
+      for (var _i = 1; _i <= steps; _i++) {
+        var percentage = _i * s;
+
+        if (percentage <= 100) {
+          var p = {
+            lat: map(percentage, 0, 100, p1.lat, p2.lat),
+            "long": map(percentage, 0, 100, p1["long"], p2["long"])
+          };
+          complex.push(p);
+        }
+      }
+    }
+  }
+
+  var last = landmass.pop();
+  last.edge = true;
+  complex.push(last);
+  return complex;
+};
+
+var distanceBetween = function distanceBetween(p1, p2) {
+  var a = p1["long"] - p2["long"],
+      b = p1.lat - p2.lat;
+  return Math.hypot(a, b);
+};
+
+var continents = {
+  africa: [{
+    lat: 35.7,
+    "long": -5.8
+  }, {
+    lat: 37.1,
+    "long": 10.9
+  }, {
+    lat: 30,
+    "long": 32.2
+  }, {
+    lat: 10.6,
+    "long": 44
+  }, {
+    lat: 11.8,
+    "long": 51
+  }, {
+    lat: -27.6,
+    "long": 30.5
+  }, {
+    lat: -33.8,
+    "long": 18.6
+  }, {
+    lat: 4.7,
+    "long": 9.2
+  }, {
+    lat: 4.9,
+    "long": -7.7
+  }, {
+    lat: 14.6,
+    "long": -16.8
+  }, {
+    lat: 35.7,
+    "long": -5.8
+  }],
+  australia: [{
+    lat: -22,
+    "long": 114
+  }, {
+    lat: -19,
+    "long": 121
+  }, {
+    lat: -12,
+    "long": 130
+  }, {
+    lat: -12,
+    "long": 136
+  }, {
+    lat: -24,
+    "long": 153
+  }, {
+    lat: -37,
+    "long": 150
+  }, {
+    lat: -37,
+    "long": 140
+  }, {
+    lat: -30,
+    "long": 131
+  }, {
+    lat: -34,
+    "long": 115
+  }, {
+    lat: -22,
+    "long": 114
+  }],
+  southamerica: [{
+    lat: 12,
+    "long": -73
+  }, {
+    lat: 10,
+    "long": -61
+  }, {
+    lat: -6,
+    "long": -34
+  }, {
+    lat: -43,
+    "long": -62
+  }, {
+    lat: -54,
+    "long": -67
+  }, {
+    lat: -51,
+    "long": -74
+  }, {
+    lat: -18,
+    "long": -70
+  }, {
+    lat: -8,
+    "long": -77
+  }, {
+    lat: -5,
+    "long": -81
+  }, {
+    lat: 12,
+    "long": -73
+  }],
+  northamerica: [{
+    lat: 10,
+    "long": -72
+  }, {
+    lat: 7,
+    "long": -75
+  }, {
+    lat: 19,
+    "long": -104
+  }, {
+    lat: 36,
+    "long": -121
+  }, {
+    lat: 59,
+    "long": -140
+  }, {
+    lat: 54,
+    "long": -167
+  }, {
+    lat: 70,
+    "long": -163
+  }, {
+    lat: 68,
+    "long": -137
+  }, {
+    lat: 65,
+    "long": -88
+  }, {
+    lat: 57,
+    "long": -92
+  }, {
+    lat: 54,
+    "long": -80
+  }, {
+    lat: 62,
+    "long": -75
+  }, {
+    lat: 50,
+    "long": -54
+  }, {
+    lat: 31,
+    "long": -80
+  }, {
+    lat: 25,
+    "long": -79
+  }, {
+    lat: 26,
+    "long": -81
+  }, {
+    lat: 29,
+    "long": -84
+  }, {
+    lat: 28,
+    "long": -96
+  }, {
+    lat: 19,
+    "long": -95
+  }, {
+    lat: 20,
+    "long": -87
+  }, {
+    lat: 14,
+    "long": -83
+  }, {
+    lat: 10,
+    "long": -72
+  }],
+  greenland: [{
+    lat: 78,
+    "long": -68
+  }, {
+    lat: 81,
+    "long": -18
+  }, {
+    lat: 69,
+    "long": -25
+  }, {
+    lat: 60,
+    "long": -42
+  }, {
+    lat: 67,
+    "long": -52
+  }, {
+    lat: 78,
+    "long": -68
+  }],
+  japan: [{
+    lat: 45,
+    "long": 141
+  }, {
+    lat: 43,
+    "long": 146
+  }, {
+    lat: 35,
+    "long": 140
+  }, {
+    lat: 31,
+    "long": 131
+  }, {
+    lat: 34,
+    "long": 129
+  }, {
+    lat: 36,
+    "long": 136
+  }, {
+    lat: 39,
+    "long": 140
+  }, {
+    lat: 45,
+    "long": 141
+  }],
+  indonesia: [{
+    lat: 7,
+    "long": 117
+  }, {
+    lat: 5,
+    "long": 119
+  }, {
+    lat: 0,
+    "long": 118
+  }, {
+    lat: -4,
+    "long": 115
+  }, {
+    lat: -3,
+    "long": 111
+  }, {
+    lat: 2,
+    "long": 108
+  }, {
+    lat: 7,
+    "long": 117
+  }],
+  papua: [{
+    lat: -1,
+    "long": 132
+  }, {
+    lat: -3,
+    "long": 142
+  }, {
+    lat: -10,
+    "long": 146
+  }, {
+    lat: -7,
+    "long": 140
+  }, {
+    lat: -6,
+    "long": 134
+  }, {
+    lat: -1,
+    "long": 132
+  }],
+  nz: [{
+    lat: -35,
+    "long": 174
+  }, {
+    lat: -38,
+    "long": 178
+  }, {
+    lat: -46,
+    "long": 169
+  }, {
+    lat: -45,
+    "long": 165
+  }, {
+    lat: -38,
+    "long": 175
+  }, {
+    lat: -35,
+    "long": 174
+  }],
+  asia: [{
+    lat: 64,
+    "long": 37
+  }, {
+    lat: 73,
+    "long": 80
+  }, {
+    lat: 66,
+    "long": 98
+  }, {
+    lat: 69,
+    "long": 175
+  }, {
+    lat: 60,
+    "long": 163
+  }, {
+    lat: 38,
+    "long": 118
+  }, {
+    lat: 28,
+    "long": 119
+  }, {
+    lat: 23,
+    "long": 108
+  }, {
+    lat: 12,
+    "long": 109
+  }, {
+    lat: 9,
+    "long": 102
+  }, {
+    lat: 23,
+    "long": 88
+  }, {
+    lat: 16,
+    "long": 82
+  }, {
+    lat: 7,
+    "long": 79
+  }, {
+    lat: 25,
+    "long": 68
+  }, {
+    lat: 27,
+    "long": 62
+  }, {
+    lat: 21,
+    "long": 58
+  }, {
+    lat: 13,
+    "long": 44
+  }, {
+    lat: 30,
+    "long": 33.5
+  }, {
+    lat: 64,
+    "long": 37
+  }],
+  europe: [{
+    lat: 37,
+    "long": -9
+  }, {
+    lat: 43,
+    "long": -9
+  }, {
+    lat: 44,
+    "long": 0
+  }, {
+    lat: 48,
+    "long": -4
+  }, {
+    lat: 53,
+    "long": 5
+  }, {
+    lat: 56,
+    "long": 8
+  }, {
+    lat: 54,
+    "long": 11
+  }, {
+    lat: 55,
+    "long": 21
+  }, {
+    lat: 59,
+    "long": 30
+  }, {
+    lat: 60,
+    "long": 23
+  }, {
+    lat: 61,
+    "long": 22
+  }, {
+    lat: 65,
+    "long": 26
+  }, {
+    lat: 65,
+    "long": 22
+  }, {
+    lat: 60,
+    "long": 17
+  }, {
+    lat: 59,
+    "long": 19
+  }, {
+    lat: 56,
+    "long": 16
+  }, {
+    lat: 56,
+    "long": 13
+  }, {
+    lat: 60,
+    "long": 11
+  }, {
+    lat: 60,
+    "long": 5
+  }, {
+    lat: 69,
+    "long": 15
+  }, {
+    lat: 70,
+    "long": 28
+  }, {
+    lat: 68,
+    "long": 48
+  }, {
+    lat: 36,
+    "long": 38
+  }, {
+    lat: 45,
+    "long": 16
+  }, {
+    lat: 45,
+    "long": 12
+  }, {
+    lat: 40,
+    "long": 18
+  }, {
+    lat: 37,
+    "long": 15
+  }, {
+    lat: 40,
+    "long": 14
+  }, {
+    lat: 44,
+    "long": 8
+  }, {
+    lat: 41,
+    "long": 1
+  }, {
+    lat: 37,
+    "long": -2
+  }, {
+    lat: 37,
+    "long": -8
+  }, {
+    lat: 37,
+    "long": -9
+  }],
+  britain: [{
+    lat: 50,
+    "long": -5
+  }, {
+    lat: 54,
+    "long": -3
+  }, {
+    lat: 57,
+    "long": -6
+  }, {
+    lat: 57,
+    "long": -2
+  }, {
+    lat: 51,
+    "long": 1
+  }, {
+    lat: 50,
+    "long": -5
+  }],
+  madagaskar: [{
+    lat: -13,
+    "long": 49
+  }, {
+    lat: -17,
+    "long": 43
+  }, {
+    lat: -24,
+    "long": 44
+  }, {
+    lat: -25,
+    "long": 47
+  }, {
+    lat: -13,
+    "long": 49
+  }]
+};
+
+var updateState = function updateState(delta) {
+  $.drag.force *= 0.8;
+
+  if ($.timing.speed) {
+    $.scroll["long"] += Math.round = $.timing.speed / 1500 * delta;
+
+    if ($.scroll["long"] > 360) {
+      $.scroll["long"] = $.scroll["long"] % 360;
+    } else if ($.scroll["long"] < 0) {
+      $.scroll["long"] += 360;
+    }
+  }
+};
+
+var animateLoop = function animateLoop(time) {
+  $.timing.delta = Math.abs($.timing.last - time);
+  $.timing.last = time;
+  updateState($.timing.delta); // clear
+
+  $.ctx.fillStyle = '#fcfcfc';
+  $.ctx.fillRect(0, 0, 1800, 1600);
+  drawMarkers($.ctx, $.markers, false);
+  var continentNames = ['southamerica', 'northamerica', 'greenland', 'japan', 'africa', 'australia', 'asia', 'indonesia', 'europe', 'britain', 'madagaskar', 'papua', 'nz'];
+  var landPaths = [],
+      se = [];
+  continentNames.forEach(function (name) {
+    var paths = getLandMassPaths(name, 600, 30);
+
+    if (paths) {
+      $.ctx.fillStyle = $.colors.landShade;
+      paths.sections.forEach(function (section) {
+        se.push(section);
+        drawSection($.ctx, section, true);
+      });
+
+      if (paths.isVisible) {
+        landPaths.push(paths.top);
+      }
+    }
+  });
+  drawGlobe($.ctx, $.colors.ocean);
+  $.ctx.fillStyle = $.colors.landShade;
+  se.forEach(function (section) {
+    drawSection($.ctx, section, false);
+  });
+  landPaths.forEach(function (path) {
+    $.ctx.fillStyle = $.colors.land;
+    $.ctx.fill(path);
+  });
+  drawMarkers($.ctx, $.markers, true);
+  requestAnimationFrame(animateLoop);
+};
+
+var drawSection = function drawSection(ctx, section, drawBackside) {
+  var hasStarted = false,
+      limit = -25;
+  section.ground.forEach(function (p) {
+    if (drawBackside && p.z < 0 || !drawBackside && p.z >= limit) {
+      if (!hasStarted) {
+        ctx.beginPath();
+        hasStarted = true;
+      }
+
+      ctx.lineTo(p.x, p.y);
+    }
+  });
+  section.top = drawBackside ? section.top.reverse() : section.top;
+  section.top.forEach(function (p) {
+    if (drawBackside && p.z < 0 || !drawBackside && p.z >= limit) {
+      ctx.lineTo(p.x, p.y);
+    }
+  });
+
+  if (hasStarted) {
+    ctx.closePath();
+    ctx.fill();
+  }
+};
+
+var drawMarkers = function drawMarkers(ctx, markers, drawFront) {
+  var _iterator = _createForOfIteratorHelper(markers),
+      _step;
+
+  try {
+    for (_iterator.s(); !(_step = _iterator.n()).done;) {
+      var marker = _step.value;
+      var ground = latLongSphere(marker.lat + $.scroll.lat, marker["long"] + $.scroll["long"], 630),
+          needleTop = latLongSphere(marker.lat + $.scroll.lat, marker["long"] + $.scroll["long"], 730),
+          pinTop = latLongSphere(marker.lat + $.scroll.lat, marker["long"] + $.scroll["long"], 750);
+
+      if (ground.z >= 0 && drawFront) {
+        drawMapPushPinBase(ctx, ground, needleTop, $.colors.pushPinBase);
+        drawMapPushPin(ctx, pinTop, $.colors.pushPin);
+        drawMarkerText(ctx, marker.name, pinTop);
+      } else if (!drawFront) {
+        drawMapPushPin(ctx, pinTop, $.colors.pushPin);
+        drawMapPushPinBase(ctx, ground, needleTop, $.colors.pushPinBase);
+        drawMarkerText(ctx, marker.name, pinTop);
+      }
+    }
+  } catch (err) {
+    _iterator.e(err);
+  } finally {
+    _iterator.f();
+  }
+};
+
+var drawMarkerText = function drawMarkerText(ctx, text, pos) {
+  ctx.font = "45px 'Poppins', sans-serif";
+  ctx.fillStyle = '#333333';
+  var metrics = ctx.measureText(text);
+  ctx.fillText(text, pos.x - metrics.width / 2, pos.y - 40);
+};
+
+var drawMapPushPinBase = function drawMapPushPinBase(ctx, basePos, topPos, color) {
+  ctx.strokeStyle = color;
+  ctx.lineWidth = 7;
+  ctx.beginPath();
+  ctx.moveTo(basePos.x, basePos.y);
+  ctx.lineTo(topPos.x, topPos.y);
+  ctx.stroke();
+};
+
+var drawMapPushPin = function drawMapPushPin(ctx, pos, color) {
+  ctx.fillStyle = color;
+  ctx.beginPath();
+  ctx.arc(pos.x, pos.y, 20, 0, 2 * Math.PI);
+  ctx.fill();
+};
+
+var init = function init(markers) {
+  $.markers = markers;
+  $.canvas = document.querySelector('.globe');
+  $.ctx = $.canvas.getContext('2d');
+  $.canvas.addEventListener("touchstart", dragStart, false);
+  $.canvas.addEventListener("mousedown", dragStart, false);
+  $.canvas.addEventListener("touchend", dragEnd, false);
+  $.canvas.addEventListener("mouseup", dragEnd, false);
+  $.canvas.addEventListener("touchmove", dragMove, false);
+  $.canvas.addEventListener("mousemove", dragMove, false);
+  $.canvas.addEventListener("mouseleave", dragEnd, false);
+  requestAnimationFrame(animateLoop);
+};
+
+init(markers);
 
 /***/ }),
 
