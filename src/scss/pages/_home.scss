@@ -276,7 +276,10 @@
 //HOME PROCESS
 
 #home_process {
-  padding: 50px 0;
+  .reverse{
+    transform: rotate(-180deg);
+    padding-top: 5rem;
+  }
 
   img {
     width: 500px;
@@ -295,21 +298,18 @@
 }
 
 #conference{
-  padding: 5rem;
-  background: #d7d7d7;
-  box-shadow: $shadow;
-  background:$secondary;
-  border: 3px solid red;
-
+  .test{
+    background: #d7d7d7;
+    background:$secondary;
+  }
   .container{
-    border: 3px solid green;
-    padding: 5rem;
+
   }
 
   .content{
-
+    padding: 5rem;
     color: #fff;
-    border: 3px solid blue;
+
 
     span{
       color: $primary;
@@ -331,7 +331,6 @@
     }
   }
 }
-
 
 
 

@@ -83,25 +83,37 @@
     </section>
 
     <section id="conference">
-        <div class="container">
-            <div class="row">
-                <div class="content col-lg-6 ">
-                    <span>LE PROGRAMME</span>
-                    <h3>Suivre nos conférences !</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda dolores eius eveniet excepturi expedita magnam saepe, similique voluptate voluptatem.</p>
-                    <div class="button-wrapper pt-2">
-                        <button type="submit" class="btn btn-primary">Voir programme</button>
-                    </div>
-                </div>
+        <svg  viewBox="0 0 1900 50" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.5 13.5V83.5L1921.5 78.5V12L1919 13.5C1901.8 22.3 1758.5 17.1667 1689 13.5C1689 13.5 1518.67 3 1455.5 2.5L1286.5 13.5C1286.5 13.5 909.333 17.8333 761.5 13.5L376 0.5L0.5 13.5Z" fill="#333333"/>
+        </svg>
 
-                <div class=" content col-lg-6">
-                    <span>cc</span>
+        <div class="test">
+            <div class="container">
+                <div class="row">
+                    <div class="content col-lg-6 ">
+                        <span>LE PROGRAMME</span>
+                        <h3>Suivre nos conférences !</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda dolores eius eveniet excepturi expedita magnam saepe, similique voluptate voluptatem.</p>
+                        <div class="button-wrapper pt-2">
+                            <button type="submit" class="btn btn-primary">Voir programme</button>
+                        </div>
+                    </div>
+
+                    <div class=" content col-lg-6">
+                        <span>cc</span>
+                    </div
+
                 </div>
-            </div
+            </div>
         </div>
     </section>
 
     <section id="home_process">
+
+        <svg class="reverse" viewBox="0 0 1900 50" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.5 13.5V83.5L1921.5 78.5V12L1919 13.5C1901.8 22.3 1758.5 17.1667 1689 13.5C1689 13.5 1518.67 3 1455.5 2.5L1286.5 13.5C1286.5 13.5 909.333 17.8333 761.5 13.5L376 0.5L0.5 13.5Z" fill="#333333"/>
+        </svg>
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
