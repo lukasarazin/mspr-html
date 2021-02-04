@@ -1,0 +1,11 @@
+#globe {
+  .globe {
+    height: 100vmin;
+    width: auto;
+    cursor: grab;
+  }
+
+  .globe--dragging {
+    cursor: grabbing;
+  }
+}

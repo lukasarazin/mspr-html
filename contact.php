@@ -22,8 +22,7 @@
 
                         <input value="<?= isset($first_name) ? $first_name : null; ?>" type="text"
                                id="form3Example1" min="2" max="20" class="form-control" placeholder="Prénom"
-                               name="first_name" required>
-
+                               name="first_name" required aria-invalid="false">
                     </div>
                 </div>
                 <div class="col name">
@@ -33,23 +32,23 @@
                         <input type="text" id="form3Example2"
 
                         <input value="" type="text" id="form3Example2"
-                               min="3" max="20" class="form-control" placeholder="Nom" name="last_name" required>
+                               min="3" max="20" class="form-control" placeholder="Nom" name="last_name" required aria-invalid="false">
 
                     </div>
                 </div>
             </div>
 
             <div class="form mb-5">
-                <input type="text" id="form3Example3" class="form-control" placeholder="Objet">
+                <input type="text" id="form3Example3" class="form-control" placeholder="Objet" aria-invalid="false">
             </div>
 
             <div class="form mb-5">
-                <input type="email" id="form3Example3" class="form-control" placeholder="Adresse email" required>
+                <input type="email" id="form3Example3" class="form-control" placeholder="Adresse email" required aria-invalid="false">
             </div>
 
             <div class="form">
                     <textarea class="form-control" min="15" max="200" name="message" id="form3Example3" cols="30"
-                              rows="10" placeholder="Votre message" required></textarea>
+                              rows="10" placeholder="Votre message" required aria-invalid="false"></textarea>
             </div>
 
             <div class="button-wrapper">
