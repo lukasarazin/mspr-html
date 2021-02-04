@@ -17,8 +17,6 @@ if ($_POST):
     // header("Refresh: 5;URL=index.php");
 
 
-    sleep(5);
-    header('Location: index.php');
 endif;
 ?>
 

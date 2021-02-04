@@ -91,7 +91,9 @@
   }
 }
 
-#conference{
+#conference {
+  //GAUCHE
+
   .test{
     background: #d7d7d7;
     background:$secondary;
@@ -121,14 +123,40 @@
 
     button{
       border-radius: 3px;
+
+      &:hover{
+        color: #fff;
+      }
     }
 
-    .card-conf{
-      border: 3px solid red;
+    //DROITE
+
+    .card_wrapper{
+      padding: 15px 25px;
       background: #fff;
-      border-radius: 3px;
-      color: $secondary;
-      height: 150px;
+      border-radius: 10px;
+    }
+    .card_container{
+      border: 3px solid blue;
+    }
+    .card_content{
+      border: 3px solid red;
+
+      h3{
+        color: $secondary;
+        text-underline: none !important;
+      }
+    }
+
+    .lottie_content{
+    }
+
+    i{
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      max-width: 80px;
+      display: block;
     }
   }
 }

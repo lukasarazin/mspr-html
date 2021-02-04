@@ -54,15 +54,35 @@
                         </div>
                     </div>
 
-                    <div class=" content col-lg-6">
-                        <div class="row">
-                            <div class="card-conf">
-                                cc
-                            </div>
-                        </div>
-                    </div
+                    <div class="content col-lg-6">
+                        <div class="card_wrapper">
+                            <a href="#">
+                                <div class="row g-0">
+                                    <div class=" lottie_content col-sm-12 col-lg-3">
+                                        <i id="lottie">
+                                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                                            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_yKGuIT.json"
+                                                           background="transparent"
+                                                           speed="1"
+                                                           style="width: width: 80px; height:  height: 80px;" loop  autoplay></lottie-player>
+                                        </i>
+                                    </div>
 
-                </div>
+                                    <div class="card_container col-sm-12 col-lg-9">
+                                        <div class="card_content">
+                                            <h3>Titre</h3>
+                                            <ul>
+                                                <li>test</li>
+                                                <li>test</li>
+                                            </ul>
+                                            <span>Voir le programme</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div
             </div>
         </div>
     </section>
@@ -84,7 +104,8 @@
                         commodi consequatur consequuntur culpa dicta dolorum eos esse expedita facere hic itaque
                         laudantium nobis perspiciatis, provident quaerat quam quas sequi. Assumenda, atque blanditiis
                         consectetur eius minus natus, nulla odio quidem ratione recusandae reiciendis sapiente similique
-                        sit! Eligendi, exercitationem?</p>
+                        sit! Eligendi, exercitationem?
+                    </p>
                     <div class="button-wrapper">
                         <a href="#" class="btn btn-outline-secondary">
                             En savoir plus
