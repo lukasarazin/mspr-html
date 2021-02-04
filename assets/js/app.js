@@ -3047,6 +3047,16 @@ function within(min, value, max) {
 
 /***/ }),
 
+/***/ "./src/js/404.js":
+/*!***********************!*\
+  !*** ./src/js/404.js ***!
+  \***********************/
+/***/ (() => {
+
+
+
+/***/ }),
+
 /***/ "./src/js/app.js":
 /*!***********************!*\
   !*** ./src/js/app.js ***!
@@ -3062,6 +3072,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _number__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_number__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _earth__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./earth */ "./src/js/earth.js");
 /* harmony import */ var _earth__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_earth__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _404__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./404 */ "./src/js/404.js");
+/* harmony import */ var _404__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_404__WEBPACK_IMPORTED_MODULE_4__);
+
 
 
 

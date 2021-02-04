@@ -6,3 +6,5 @@ import './number';
 
 import './earth';
 
+import './404';
+

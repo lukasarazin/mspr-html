@@ -35,7 +35,7 @@ $page_uri = $_SERVER['REQUEST_URI'];
                             Nos arbres
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown">
-                            <li><a class="dropdown-item" href="#">Baobab</a></li>
+                            <li><a class="dropdown-item" <?php echo '/mspr-html/baobab' === $page_uri ? 'active' : null; ?> href="./baobab">Baobab</a></li>
                             <li><a class="dropdown-item" href="#">Araucaria</a></li>
                             <li><a class="dropdown-item" href="#">Ginkgo</a></li>
                             <li><a class="dropdown-item" href="#">Cocotier</a></li>
