@@ -15,12 +15,9 @@
                            background="transparent" speed="1" style="width: 150px; height: 150px;"
                            autoplay></lottie-player>
         </div>
-<<<<<<< HEAD
+
         <h1>Nous contacter</h1>
-=======
-        <h1>Nous contacter
-        </h1>
->>>>>>> main
+
         <?php endif; ?>
 
         <?php if ($_POST): ?>
@@ -64,11 +61,10 @@
                     <div class="col name">
                         <div class="form">
 
-<<<<<<< HEAD
+
                             <input type="text" id="form3Example2"
-=======
+
                             <input value="" type="text" id="form3Example2"
->>>>>>> main
                                    min="3" max="20" class="form-control" placeholder="Nom" name="last_name" required/>
 
                         </div>
@@ -80,7 +76,7 @@
                 </div>
 
                 <div class="form mb-5">
-                    <input type="email" id="form3Example3" class="form-control" placeholder="Adresse email"/>
+                    <input type="email" id="form3Example3" class="form-control" placeholder="Adresse email" required/>
                 </div>
 
                 <div class="form">
