@@ -20,7 +20,7 @@ require_once 'template-parts/header.php';
                 <?php foreach ($trees as $index => $tree): ?>
                     <div class="col-12">
                         <a href="#" id="tree-<?php echo $index; ?>" class="tree"
-                           style='background-image: url("https://placehold.it/1920x1080/00FF00?text=<?php echo $tree['name']; ?>");'>
+                           style='<?php echo $tree['url']; ?>'<?php echo $tree['name']; ?>");'>
                             <div class="tree-body">
                                 <h2 class="tree-title"><?php echo $tree['name']; ?></h2>
                                 <span class="country"><?php echo $tree['country']; ?></span>
