@@ -10947,13 +10947,6 @@ textarea.form-control-lg {
   margin: auto;
 }
 
-#shop .bill_title h1, #shop .bill_title .h1 {
-  text-align: center;
-}
-#shop .bill_title .ticket {
-  font-weight: bold;
-  font-size: 20px;
-}
 .tree {
   position: relative;
   display: block;
@@ -11070,17 +11063,17 @@ textarea.form-control-lg {
   height: auto;
 }
 
-#contact img {
+#contact img, #shop img {
   position: absolute;
   display: block;
 }
-#contact img.leave-top-left {
+#contact img.leave-top-left, #shop img.leave-top-left {
   top: calc(-365px + 60px);
   left: 0;
   transform: rotate(90deg);
   transform-origin: 0 100%;
 }
-#contact img.leave-top-right {
+#contact img.leave-top-right, #shop img.leave-top-right {
   top: 0;
   right: 0;
 }
@@ -11166,11 +11159,15 @@ textarea.form-control-lg {
           animation: clouds2 100s linear infinite;
 }
 
+#conference {
+  margin-top: 5rem;
+}
 #conference .test {
   background: #333333;
 }
 #conference .test .container {
   background: #333333;
+  border-radius: 10px;
 }
 #conference .content {
   padding: 5rem;
