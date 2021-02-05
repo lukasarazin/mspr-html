@@ -10789,7 +10789,7 @@ textarea.form-control-lg {
 }
 
 #home-hero {
-  padding: 35px 0 150px 0;
+  padding: 150px 0 150px 0;
   min-height: calc(100vh - 70px);
   position: relative;
   overflow: hidden;
@@ -10797,6 +10797,16 @@ textarea.form-control-lg {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+}
+#home-hero .container {
+  border: 2px solid red;
+}
+#home-hero .container .socials-networks {
+  border: 3px solid red;
+}
+#home-hero .container .socials-networks svg {
+  width: 75px;
+  height: auto;
 }
 #home-hero .home_cards {
   z-index: 3;

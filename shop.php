@@ -33,7 +33,7 @@ require_once 'template-parts/header.php';
             </table>
 
             <div class="button-wrapper">
-                <a class="btn btn-primary" href="#">
+                <a class="btn btn-primary" href="./bill_succes.php">
                     Acheter
                 </a>
             </div>

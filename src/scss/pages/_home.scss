@@ -1,5 +1,6 @@
 #home-hero {
-  padding: 35px 0 150px 0;
+
+  padding: 150px 0 150px 0;
   min-height: calc(100vh - 70px); // 70px -- hauteur HEADER
   position: relative;
   overflow: hidden;
@@ -7,6 +8,19 @@
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+
+  .container {
+    border: 2px solid red;
+
+    .socials-networks{
+     border: 3px solid red;
+
+      svg{
+        width: 75px;
+        height: auto;
+      }
+    }
+  }
 
   .home_cards {
     z-index: 3;
