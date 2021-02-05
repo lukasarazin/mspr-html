@@ -10798,15 +10798,29 @@ textarea.form-control-lg {
   background-size: cover;
   background-attachment: fixed;
 }
-#home-hero .container {
-  border: 2px solid red;
+#home-hero .container .social-links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
-#home-hero .container .socials-networks {
-  border: 3px solid red;
-}
-#home-hero .container .socials-networks svg {
-  width: 75px;
+#home-hero .container .social-links li {
+  margin: 20px;
+  list-style: none;
+  width: 60px;
   height: auto;
+}
+#home-hero .container .social-links li a {
+  color: #fff;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+#home-hero .container .social-links li a svg {
+  width: 100%;
+  height: 100%;
 }
 #home-hero .home_cards {
   z-index: 3;

@@ -10,14 +10,32 @@
   background-attachment: fixed;
 
   .container {
-    border: 2px solid red;
 
-    .socials-networks{
-     border: 3px solid red;
+    .social-links{
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex-wrap: wrap;
 
-      svg{
-        width: 75px;
+      li{
+        margin:20px;
+        list-style: none;
+        width: 60px;
         height: auto;
+
+        a{
+          color: #fff;
+          transition: all .2s ease;
+          cursor: pointer;
+
+          svg{
+            width: 100%;
+            height: 100%;
+          }
+        }
       }
     }
   }
