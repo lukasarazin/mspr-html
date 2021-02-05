@@ -11068,7 +11068,7 @@ textarea.form-control-lg {
   left: 5%;
 }
 #history .column#grayscale img {
-  filter: grayscale(40%);
+  filter: grayscale(50%);
   transition: 0.3s ease-in-out;
 }
 #history .column#grayscale:hover img {
@@ -11089,7 +11089,7 @@ textarea.form-control-lg {
   right: 5%;
 }
 #history .column2#grayscale img {
-  filter: grayscale(40%);
+  filter: grayscale(50%);
   transition: 0.3s ease-in-out;
 }
 #history .column2#grayscale:hover img {
@@ -11110,7 +11110,7 @@ textarea.form-control-lg {
   left: 5%;
 }
 #history .column3#grayscale img {
-  filter: grayscale(40%);
+  filter: grayscale(50%);
   transition: 0.3s ease-in-out;
 }
 #history .column3#grayscale:hover img {
@@ -11131,7 +11131,7 @@ textarea.form-control-lg {
   right: 5%;
 }
 #history .column4#grayscale img {
-  filter: grayscale(40%);
+  filter: grayscale(50%);
   transition: 0.3s ease-in-out;
 }
 #history .column4#grayscale:hover img {
