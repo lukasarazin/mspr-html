@@ -11009,7 +11009,7 @@ textarea.form-control-lg {
 
 #history {
   padding: 45px;
-  background-color: #5f7575;
+  background: url("http://bgfons.com/upload/wood%20_texture1053.jpg");
   /*GrayScale*/
   /*GrayScale*/
   /*GrayScale*/
@@ -11025,6 +11025,7 @@ textarea.form-control-lg {
   text-align: center;
   font-weight: bold;
   position: relative;
+  margin-bottom: 1rem;
 }
 #history p {
   max-width: 600px;
