@@ -10798,6 +10798,11 @@ textarea.form-control-lg {
   background-size: cover;
   background-attachment: fixed;
 }
+#home-hero .container p {
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
 #home-hero .container .social-links {
   margin: 0;
   padding: 0;
@@ -10808,9 +10813,9 @@ textarea.form-control-lg {
   flex-wrap: wrap;
 }
 #home-hero .container .social-links li {
-  margin: 20px;
+  margin: 10px;
   list-style: none;
-  width: 60px;
+  width: 30px;
   height: auto;
 }
 #home-hero .container .social-links li a {
@@ -10839,8 +10844,7 @@ textarea.form-control-lg {
   display: block;
   max-width: 500px;
   color: #fff;
-  padding-bottom: 1rem;
-  margin: auto auto 3.5rem;
+  margin: auto auto 1rem;
 }
 #home-hero h2 span, #home-hero .h2 span {
   font-weight: 700;
@@ -11426,4 +11430,59 @@ textarea.form-control-lg {
 #conference .card2 .cards2_wrapper:hover {
   transform: rotate(10deg);
   transition: 0.2s;
+}
+
+body {
+  background: #ffff;
+}
+
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+}
+
+.icon-scroll {
+  width: 30px;
+  height: 60px;
+  margin-left: -20px;
+  top: 90%;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 1px #fff;
+  border-radius: 25px;
+}
+
+.icon-scroll:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  margin-left: -3px;
+  top: 6px;
+  border-radius: 4px;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+  animation-name: scroll;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(46px);
+  }
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(46px);
+  }
 }
