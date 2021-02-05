@@ -21,7 +21,7 @@ if ($_POST):
 
 // SIMULATION ENVOI EMAIL
 
-    header('Location: ../success.php?first_name=' . $first_name);
+    header('Location: ../mail_succes.php?first_name=' . $first_name);
 
 endif;
 

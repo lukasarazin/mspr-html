@@ -10864,16 +10864,16 @@ textarea.form-control-lg {
   margin-bottom: 25px;
 }
 
-#contact {
+#contact, #bill {
   position: relative;
   background: #fcfcfc;
 }
-#contact .container {
+#contact .container, #bill .container {
   max-width: 800px;
   height: auto;
   padding: 75px 75px 75px 75px;
 }
-#contact input, #contact textarea {
+#contact input, #contact textarea, #bill input, #bill textarea {
   background-color: #333333;
   color: #fff;
   font-size: 90%;
@@ -10881,16 +10881,25 @@ textarea.form-control-lg {
   border: none;
   padding: 18px;
 }
-#contact .button-wrapper {
+#contact .button-wrapper, #bill .button-wrapper {
   text-align: center;
   margin-top: 75px;
 }
-#contact .message_send {
+#contact .message_send, #bill .message_send {
   max-width: 100px;
   margin: auto;
   padding-bottom: 25px;
 }
-#contact h1, #contact .h1 {
+#contact .buying_succes, #bill .buying_succes {
+  max-width: 150px;
+  margin: auto;
+  padding-bottom: 25px;
+}
+#contact .buying_succes lottie-player, #bill .buying_succes lottie-player {
+  max-width: 100px;
+  margin: auto;
+}
+#contact h1, #contact .h1, #bill h1, #bill .h1 {
   font-size: 22px;
   font-weight: bold;
   text-align: center;
@@ -10900,16 +10909,16 @@ textarea.form-control-lg {
   margin: auto auto 4.5rem;
   padding-bottom: 50px;
 }
-#contact .succes_answer {
+#contact .succes_answer, #bill .succes_answer {
   color: #3bc36e;
   font-size: 30px;
   text-align: center;
 }
-#contact .succes_answer .thanks {
+#contact .succes_answer .thanks, #bill .succes_answer .thanks {
   text-align: center;
   border: 3px solid blue;
 }
-#contact .redirection span {
+#contact .redirection span, #bill .redirection span {
   font-size: 12px;
   color: #333333;
   text-decoration: underline;
@@ -11063,17 +11072,17 @@ textarea.form-control-lg {
   height: auto;
 }
 
-#contact img, #shop img {
+#contact img, #shop img, #bill img {
   position: absolute;
   display: block;
 }
-#contact img.leave-top-left, #shop img.leave-top-left {
+#contact img.leave-top-left, #shop img.leave-top-left, #bill img.leave-top-left {
   top: calc(-365px + 60px);
   left: 0;
   transform: rotate(90deg);
   transform-origin: 0 100%;
 }
-#contact img.leave-top-right, #shop img.leave-top-right {
+#contact img.leave-top-right, #shop img.leave-top-right, #bill img.leave-top-right {
   top: 0;
   right: 0;
 }
