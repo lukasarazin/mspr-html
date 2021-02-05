@@ -3074,6 +3074,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _earth__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_earth__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _404__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./404 */ "./src/js/404.js");
 /* harmony import */ var _404__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_404__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _nos_biomes__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./nos-biomes */ "./src/js/nos-biomes.js");
+/* harmony import */ var _nos_biomes__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_nos_biomes__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _notre_histoire__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./notre-histoire */ "./src/js/notre-histoire.js");
+/* harmony import */ var _notre_histoire__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_notre_histoire__WEBPACK_IMPORTED_MODULE_6__);
+
+
 
 
 
@@ -4085,6 +4091,39 @@ var init = function init(markers) {
 };
 
 init(markers);
+
+/***/ }),
+
+/***/ "./src/js/nos-biomes.js":
+/*!******************************!*\
+  !*** ./src/js/nos-biomes.js ***!
+  \******************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "./src/js/notre-histoire.js":
+/*!**********************************!*\
+  !*** ./src/js/notre-histoire.js ***!
+  \**********************************/
+/***/ (() => {
+
+/* Demo purposes only */
+var snippet = [].slice.call(document.querySelectorAll('.hover'));
+
+if (snippet.length) {
+  snippet.forEach(function (snippet) {
+    snippet.addEventListener('mouseout', function (event) {
+      if (event.target.parentNode.tagName === 'figure') {
+        event.target.parentNode.classList.remove('hover');
+      } else {
+        event.target.parentNode.classList.remove('hover');
+      }
+    });
+  });
+}
 
 /***/ }),
 
