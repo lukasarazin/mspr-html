@@ -1,6 +1,8 @@
 <?php require_once 'template-parts/header.php' ?>
 
-<main id="main-contact">
+<main id="baobab">
+
+<h1>LE BAOBAB</h1>
 
 </main>
 

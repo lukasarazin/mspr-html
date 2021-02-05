@@ -1,40 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
 :root {
   --blue: #0e0620;
   --white: #fff;
   --green: #2ccf6d;
 }
 
+.text-404 {
+  margin-top: 20rem;
+}
+
 .lottie {
   border: 2px solid red;
-  font-family:"Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 
-button {
-  font-family:"Poppins", sans-serif;
-}
-ul {
-  list-style-type: none;
-
-}
-svg {
-  width: 100%;
-  visibility: hidden;
-}
-h1 {
-  font-size: 9.5em;
-  margin: 15px 0px;
-  font-weight:bold;
-  color: red;
-}
-h2 {
-  font-weight:bold;
-}
-
-@media screen and (max-width:768px) {
-  body {
-    display:block;
+  button {
+    font-family: "Poppins", sans-serif;
   }
-}
+
+  ul {
+    list-style-type: none;
+
+  }
+
+  svg {
+    width: 100%;
+    visibility: hidden;
+  }
+
+  h1 {
+    font-size: 9.5em;
+    margin: 15px 0px;
+    font-weight: bold;
+    color: red;
+  }
+
+  h2 {
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      display: block;
+    }
+  }
 }
 
 
