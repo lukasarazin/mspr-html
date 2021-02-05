@@ -1,10 +1,13 @@
 #conference {
+  margin-top: 5rem;
+
   .test{
     background: $secondary;
 
 
     .container{
       background: $secondary;
+      border-radius: 10px;
     }
   }
 

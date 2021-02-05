@@ -1,4 +1,4 @@
-#contact {
+#contact, #bill {
   position: relative;
   background: #fcfcfc;
 
@@ -26,6 +26,18 @@
     max-width: 100px;
     margin: auto;
     padding-bottom: 25px;
+  }
+
+  .buying_succes{
+    max-width: 150px;
+    margin: auto;
+    padding-bottom: 25px;
+
+
+    lottie-player{
+      max-width: 100px;
+      margin: auto;
+    }
   }
 
   h1 {
