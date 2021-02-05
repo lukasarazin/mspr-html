@@ -3,12 +3,14 @@
 @keyframes clouds1 {
   to {
     background-position: 200%;
+    z-index: 1;
   }
 }
 
 @keyframes clouds2 {
   to {
     background-position: -200%;
+    z-index: 1;
   }
 }
 
@@ -22,6 +24,7 @@
   width: 100%;
   height: 100%;
   background-size: cover;
+  z-index: 1;
 }
 
 &:before {
@@ -30,6 +33,7 @@
   background-image: url('https://github.com/joshuaward/codepen-images/blob/master/clouds-left.png?raw=true');
   background-position: center 100%;
   animation: clouds1 110s linear infinite;
+  z-index: 1;
 }
 
 &:after {
@@ -38,6 +42,7 @@
   background-image: url('https://github.com/joshuaward/codepen-images/blob/master/clouds-right.png?raw=true');
   background-position: center 0%;
   animation: clouds2 100s linear infinite;
+  z-index: 1;
 }
 }
 

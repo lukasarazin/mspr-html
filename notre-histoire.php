@@ -47,10 +47,9 @@
             </a>
         </div>
 
-        <div class="team">
+        <section id="team">
             <h4>NOTRE ÉQUIPE</h4>
-            <div class="row">
-                <div class="col-lg-6">
+
                     <figure class="snip1581"><img
                                 src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample4.jpg"
                                 alt="profile-sample2"/>
@@ -61,8 +60,7 @@
                         </figcaption>
                         <a href="#"></a>
                     </figure>
-                </div>
-                    <div class="col-lg-6">
+
                     <figure class="snip1581"><img
                                 src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample9.jpg"
                                 alt="profile-sample6"/>
@@ -73,13 +71,8 @@
                         </figcaption>
                         <a href="#"></a>
                     </figure>
-                </div>
-            </div>
-        </div>
-
+        </section>
     </div>
-
-
 </main>
 
 <?php require_once 'template-parts/footer.php' ?>
