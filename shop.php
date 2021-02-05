@@ -34,3 +34,5 @@ require_once 'template-parts/header.php';
 </section>
 
 <?php require_once 'template-parts/footer.php' ?>
+
+
