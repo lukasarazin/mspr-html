@@ -145,7 +145,7 @@ const latLongSphere  = (lat, lon, radius) => {
 
 const drawGlobe = (ctx, color) => {
     ctx.beginPath();
-    ctx.arc(900, $.vCenter, 600, 0, 2 * Math.PI);
+    ctx.arc(900, $.vCenter, 500, 0, 2 * Math.PI);
     ctx.closePath();
     ctx.fillStyle = color;
     ctx.fill();
@@ -551,7 +551,7 @@ const animateLoop = (time) => {
 
     // clear
     $.ctx.fillStyle = '#fcfcfc';
-    $.ctx.fillRect(0, 0, 1800, 1600);
+    $.ctx.fillRect(0, 0, 1800, 1400);
 
     drawMarkers($.ctx, $.markers, false);
 
@@ -560,7 +560,7 @@ const animateLoop = (time) => {
         se = [];
 
     continentNames.forEach((name) => {
-        let paths = getLandMassPaths(name, 600, 30);
+        let paths = getLandMassPaths(name, 500, 30);
 
         if(paths) {
             $.ctx.fillStyle = $.colors.landShade;
@@ -624,9 +624,9 @@ const drawSection = (ctx, section, drawBackside) => {
 
 const drawMarkers = (ctx, markers, drawFront) => {
     for (const marker of markers) {
-        let ground = latLongSphere(marker.lat + $.scroll.lat, marker.long + $.scroll.long, 630),
-            needleTop = latLongSphere(marker.lat + $.scroll.lat, marker.long + $.scroll.long, 730),
-            pinTop = latLongSphere(marker.lat + $.scroll.lat, marker.long + $.scroll.long, 750);
+        let ground = latLongSphere(marker.lat + $.scroll.lat, marker.long + $.scroll.long, 530),
+            needleTop = latLongSphere(marker.lat + $.scroll.lat, marker.long + $.scroll.long, 630),
+            pinTop = latLongSphere(marker.lat + $.scroll.lat, marker.long + $.scroll.long, 650);
 
         if(ground.z >= 0 && drawFront) {
             drawMapPushPinBase(ctx, ground, needleTop, $.colors.pushPinBase);

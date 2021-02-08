@@ -1,0 +1,23 @@
+#biomes-content {
+  margin: 0;
+  background-color: $body-bg;
+  overflow: hidden;
+
+.contain {
+  display: flex;
+  justify-content: center;
+  max-height: 100vmin;
+  max-width: 100vmin;
+  margin: 0 auto;
+}
+
+.globe {
+  height: 100vmin;
+  width: auto;
+  cursor: grab;
+}
+
+.globe--dragging {
+  cursor: grabbing;
+}
+}

@@ -3273,7 +3273,7 @@ var latLongSphere = function latLongSphere(lat, lon, radius) {
 
 var drawGlobe = function drawGlobe(ctx, color) {
   ctx.beginPath();
-  ctx.arc(900, $.vCenter, 600, 0, 2 * Math.PI);
+  ctx.arc(900, $.vCenter, 500, 0, 2 * Math.PI);
   ctx.closePath();
   ctx.fillStyle = color;
   ctx.fill();
@@ -3966,13 +3966,13 @@ var animateLoop = function animateLoop(time) {
   updateState($.timing.delta); // clear
 
   $.ctx.fillStyle = '#fcfcfc';
-  $.ctx.fillRect(0, 0, 1800, 1600);
+  $.ctx.fillRect(0, 0, 1800, 1400);
   drawMarkers($.ctx, $.markers, false);
   var continentNames = ['southamerica', 'northamerica', 'greenland', 'japan', 'africa', 'australia', 'asia', 'indonesia', 'europe', 'britain', 'madagaskar', 'papua', 'nz'];
   var landPaths = [],
       se = [];
   continentNames.forEach(function (name) {
-    var paths = getLandMassPaths(name, 600, 30);
+    var paths = getLandMassPaths(name, 500, 30);
 
     if (paths) {
       $.ctx.fillStyle = $.colors.landShade;
@@ -4032,9 +4032,9 @@ var drawMarkers = function drawMarkers(ctx, markers, drawFront) {
   try {
     for (_iterator.s(); !(_step = _iterator.n()).done;) {
       var marker = _step.value;
-      var ground = latLongSphere(marker.lat + $.scroll.lat, marker["long"] + $.scroll["long"], 630),
-          needleTop = latLongSphere(marker.lat + $.scroll.lat, marker["long"] + $.scroll["long"], 730),
-          pinTop = latLongSphere(marker.lat + $.scroll.lat, marker["long"] + $.scroll["long"], 750);
+      var ground = latLongSphere(marker.lat + $.scroll.lat, marker["long"] + $.scroll["long"], 530),
+          needleTop = latLongSphere(marker.lat + $.scroll.lat, marker["long"] + $.scroll["long"], 630),
+          pinTop = latLongSphere(marker.lat + $.scroll.lat, marker["long"] + $.scroll["long"], 650);
 
       if (ground.z >= 0 && drawFront) {
         drawMapPushPinBase(ctx, ground, needleTop, $.colors.pushPinBase);

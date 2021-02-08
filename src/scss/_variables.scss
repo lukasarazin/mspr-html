@@ -24,3 +24,28 @@ $btn-border-width: 2px;
 $headerHeight: 70px;
 
 
+// Nos biomes
+
+$slidingAT: 1s;
+$slidingDelay: $slidingAT / 3 * 2;
+$maskAT: $slidingAT*0.7;
+$headingAT: $slidingAT * 1.5;
+$controlAT: $slidingAT/2;
+$easing: ease-in-out;
+$blendMode: luminosity;
+$contentLeft: 40%;
+$contentTop: 40%;
+$headingPadding: 30px;
+$headingFontSize: 100px;
+$maskTop: 15%;
+$maskRight: 100% - $contentLeft;
+$maskHeight: 67vh;
+$maskWidth: $maskHeight * 0.75;
+$black: $primary;
+
+$bgColors: (
+        dark: lighten(#242424, 20%),
+        green: #42605E,
+        red: goldenrod,
+        blue: #2D7791
+);
