@@ -1,6 +1,17 @@
-#history {
+#team {
 
-  @import url(https://fonts.googleapis.com/css?family=Poppins:300,700);
+  .figures {
+    margin: auto;
+  }
+
+  h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 70px;
+    color: #fff;
+    font-family: 'Hanalei', sans-serif;
+
+  }
 
   .snip1581 {
     font-family: 'Poppins:400,700', Arial, sans-serif;
@@ -11,7 +22,7 @@
     width: 100%;
     max-width: 310px;
     background-color: transparent;
-    color: #ffffff;
+    color: #fff;
     text-align: left;
     font-size: 16px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -38,8 +49,8 @@
     left: 0;
     right: 0;
     padding: 20px;
-    background-image: -webkit-linear-gradient(white);
-    background-image: linear-gradient(white);
+    background-image: -webkit-linear-gradient(#fff);
+    background-image: linear-gradient(#fff);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

@@ -47,30 +47,33 @@
             </a>
         </div>
 
-        <section id="team">
-            <h4>NOTRE ÉQUIPE</h4>
+        <section id="team" class="container">
+            <h4><u>NOTRE ÉQUIPE</u></h4>
 
-                    <figure class="snip1581"><img
-                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample4.jpg"
-                                alt="profile-sample2"/>
-                        <figcaption>
-                            <h5 class="title1">Oscar</h5>
-                            <h5 class="title2">Davase</h5>
-                            <h5 class="title3">Co-fondateur</h5>
-                        </figcaption>
-                        <a href="#"></a>
-                    </figure>
+            <div class="figures row">
+                <figure class="snip1581 col-lg-5"><img
+                            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample4.jpg"
+                            alt="profile-sample2"/>
+                    <figcaption>
+                        <h5 class="title1">Oscar</h5>
+                        <h5 class="title2">Davase</h5>
+                        <h5 class="title3">Co-fondateur</h5>
+                    </figcaption>
+                    <a href="#"></a>
+                </figure>
+                <h2 class="col-lg-2">&</h2>
+                <figure class="snip1581 col-lg-5"><img
+                            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample9.jpg"
+                            alt="profile-sample6"/>
+                    <figcaption>
+                        <h5 class="title1">Luka</h5>
+                        <h5 class="title2">Sarazin</h5>
+                        <h5 class="title3">Co-fondateur</h5>
+                    </figcaption>
+                    <a href="#"></a>
+                </figure>
+            </div>
 
-                    <figure class="snip1581"><img
-                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample9.jpg"
-                                alt="profile-sample6"/>
-                        <figcaption>
-                            <h5 class="title1">Luka</h5>
-                            <h5 class="title2">Sarazin</h5>
-                            <h5 class="title3">Co-fondateur</h5>
-                        </figcaption>
-                        <a href="#"></a>
-                    </figure>
         </section>
     </div>
 </main>
