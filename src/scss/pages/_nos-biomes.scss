@@ -10,6 +10,7 @@
     display: block;
     text-align: center;
     position: relative;
+    text-transform: uppercase;
   }
 
   h3 {
@@ -32,12 +33,27 @@
 
   img {
     border-radius: 25px;
+
+    // reste à voir pour ce hover
+
+    &:hover {
+      transform: scale(1.05, 1.05);
+      transition: 0.5s;
     }
+  }
+
+  p {
+    max-width: 550px;
+  }
+
+  h4 {
+    font-weight: bold;
+  }
 
   .ecart {
     margin-top: 7rem;
   }
-  }
+}
 
 
 /*

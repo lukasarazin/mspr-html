@@ -154,7 +154,6 @@
                 saura les préserver et redonner pleine vie à leur espèce.
             </p>
         </div>
-        <hr>
     </div>
 </section>
 
@@ -167,18 +166,30 @@
             atque aut corporis culpa error excepturi exercitationem expedita explicabo
             fuga, id incidunt inventore ipsam ipsum laborum modi natus nemo, nesciunt
             perferendis praesentium quae qui quibusdam quis rerum totam voluptas voluptatum.</p>
+        <br><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
+            ducimus id incidunt nesciunt recusandae unde veritatis voluptatibus. At
+            atque aut corporis culpa error excepturi exercitationem expedita explicabo
+            fuga, id incidunt inventore ipsam ipsum laborum modi natus nemo, nesciunt
+            perferendis praesentium quae qui quibusdam quis rerum totam voluptas voluptatum.</p>
     </div>
 
     <div class="col-lg-6">
-        <img src="assets/image/argentine.jpg" width="550" height="auto">
+        <img src="assets/image/savane2.jpg" alt="biome-kenya" title="Notre biome au Kenya" width="550" height="auto">
     </div>
 
     <div class="col-lg-6 ecart">
-        <img src="assets/image/argentine.jpg" width="550" height="auto">
+        <img src="assets/image/argentine18.jpg" alt="biome-argentine" title="Notre biome en Argentine"width="550" height="auto">
     </div>
 
     <div class="col-lg-6 ecart">
-        <h4>Savane</h4>
+        <h4>Montagnes</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
+            ducimus id incidunt nesciunt recusandae unde veritatis voluptatibus. At
+            atque aut corporis culpa error excepturi exercitationem expedita explicabo
+            fuga, id incidunt inventore ipsam ipsum laborum modi natus nemo, nesciunt
+            perferendis praesentium quae qui quibusdam quis rerum totam voluptas voluptatum.</p>
+        <br><br>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
             ducimus id incidunt nesciunt recusandae unde veritatis voluptatibus. At
             atque aut corporis culpa error excepturi exercitationem expedita explicabo
@@ -187,7 +198,13 @@
     </div>
 
     <div class="col-lg-6 ecart">
-        <h4>Savane</h4>
+        <h4>Forêts</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
+            ducimus id incidunt nesciunt recusandae unde veritatis voluptatibus. At
+            atque aut corporis culpa error excepturi exercitationem expedita explicabo
+            fuga, id incidunt inventore ipsam ipsum laborum modi natus nemo, nesciunt
+            perferendis praesentium quae qui quibusdam quis rerum totam voluptas voluptatum.</p>
+        <br><br>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
             ducimus id incidunt nesciunt recusandae unde veritatis voluptatibus. At
             atque aut corporis culpa error excepturi exercitationem expedita explicabo
@@ -196,15 +213,21 @@
     </div>
 
     <div class="col-lg-6 ecart">
-        <img src="assets/image/argentine.jpg" width="550" height="auto">
+        <img src="assets/image/japon3.jpg" alt="biome-japon" title="Notre biome au Japon"width="550" height="auto">
     </div>
 
     <div class="col-lg-6 ecart">
-        <img src="assets/image/argentine.jpg" width="550" height="auto">
+        <img src="assets/image/tahiti2.jpg" alt="biome-tahiti" title="Notre biome à Tahiti" width="550" height="auto">
     </div>
 
     <div class="col-lg-6 ecart">
-        <h4>Savane</h4>
+        <h4>Îles</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
+            ducimus id incidunt nesciunt recusandae unde veritatis voluptatibus. At
+            atque aut corporis culpa error excepturi exercitationem expedita explicabo
+            fuga, id incidunt inventore ipsam ipsum laborum modi natus nemo, nesciunt
+            perferendis praesentium quae qui quibusdam quis rerum totam voluptas voluptatum.</p>
+        <br><br>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
             ducimus id incidunt nesciunt recusandae unde veritatis voluptatibus. At
             atque aut corporis culpa error excepturi exercitationem expedita explicabo

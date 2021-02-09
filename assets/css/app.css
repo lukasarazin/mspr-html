@@ -11045,6 +11045,7 @@ textarea.form-control-lg {
   display: block;
   text-align: center;
   position: relative;
+  text-transform: uppercase;
 }
 #biomes-content h3, #biomes-content .h3 {
   font-weight: bold;
@@ -11063,6 +11064,16 @@ textarea.form-control-lg {
 }
 #beta img {
   border-radius: 25px;
+}
+#beta img:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.5s;
+}
+#beta p {
+  max-width: 550px;
+}
+#beta h4, #beta .h4 {
+  font-weight: bold;
 }
 #beta .ecart {
   margin-top: 7rem;
@@ -11423,7 +11434,7 @@ h1 {
   color: #3bc36e;
   text-align: center;
   position: relative;
-  margin-top: 6rem;
+  margin-top: 0.5rem;
 }
 #history h1, #history .h1 {
   color: #fff;
@@ -11433,9 +11444,9 @@ h1 {
   margin-bottom: 1rem;
 }
 #history p {
-  max-width: 600px;
+  max-width: 550px;
   text-align: center;
-  margin: auto;
+  margin: 2rem auto;
   position: relative;
   color: #fff;
 }
@@ -11883,6 +11894,9 @@ body {
 }
 #team .figures {
   margin: auto;
+}
+#team .title-team {
+  margin-top: 6rem;
 }
 #team h2, #team .h2 {
   text-align: center;

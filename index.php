@@ -14,7 +14,7 @@
             </div>
             <h2>Laissez votre emprunte dans ce monde, choisissez et voyagez avec
                 <span>votre</span> arbre.</h2>
-            <p>Startup Innovante à Nantes<br>WIS - Île de Nantes</p>
+            <p>Start-up Innovante à Nantes<br>WIS - Île de Nantes</p>
             <ul class="social-links">
                 <li>
                     <a href="#">

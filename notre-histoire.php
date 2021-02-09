@@ -48,7 +48,7 @@
         </div>
 
         <section id="team" class="container">
-            <h4><u>NOTRE ÉQUIPE</u></h4>
+            <h4 class="title-team">NOTRE ÉQUIPE</h4>
 
             <div class="figures row">
                 <figure class="snip1581 col-lg-5"><img
