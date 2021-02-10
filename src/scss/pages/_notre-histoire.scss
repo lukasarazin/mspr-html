@@ -14,13 +14,21 @@
     text-align: center;
     font-weight: bold;
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  details {
+    color: #fff;
+    text-align: center;
+    margin: 3rem auto;
+    border: none;
+    max-width: 550px;
   }
 
   p {
     max-width: 550px;
     text-align: center;
-    margin: 2rem auto;
+    margin: auto;
     position: relative;
     color: #fff;
   }

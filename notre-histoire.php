@@ -10,25 +10,38 @@
             Mais, celles-ci peuvent avoir des répercussions qu’on ignore, ou plutôt qu’on fait semblant d’ignorer.
             Malheureusement, aujourd’hui nous avons besoin de prendre du recul sur ces avancées technologiques car
             la planète est mourante. Notre oxygène commence à manquer, nos proches commencent à partir plus tôt et
-            notre Terre pourrait bientôt devenir inhabitable. Pourquoi ? Car plus de 40 000 espèces d’arbres vont
-            disparaître si aucun engagement n’est pris dans les dix prochaines années. </p>
+            notre Terre pourrait bientôt devenir inhabitable. Pourquoi ? Car plus de <strong>40 000 espèces d’arbres vont
+            disparaître</strong> si aucun engagement n’est pris dans les dix prochaines années. </p>
 
         <br><br>
         <p class="col-lg-12">Notre jeune entreprise propose une solution innovante pour sauver la
             planète des problèmes environnementaux qu’elle subit. Nous vous donnons la possibilité
             de posséder votre arbre, de le personnaliser et de choisir parmi plusieurs espèces,
-            toutes en voie de disparition. Vous n'achetez pas un arbre chez Trees, vous lui donnez
-            la vie. Ce seul geste dans le but de voir un jour ce paysage dont on rêve parfois la nuit.</p>
+            toutes en voie de disparition. <strong>Vous n'achetez pas un arbre chez Trees, vous lui donnez
+            la vie.</strong> Ce seul geste dans le but de voir un jour ce paysage dont on rêve parfois la nuit.</p>
 
         <br><br>
 
         <p class="col-lg-12">
             Aux quatre coins de la planète, nos équipes sont prêtes et travaillent
             chaque jour pour planter des arbres majestueux. Dans plusieurs décennies
-            ces arbres domineront notre regard. Notre objectif est donc de planter un
-            maximum d’arbres, afin de voir vos enfants ou vos petits-enfants être éblouis
+            ces arbres domineront notre regard. Notre objectif est donc de <strong>planter un
+            maximum d’arbres</strong>, afin de voir vos enfants ou vos petits-enfants être éblouis
             lorsqu’ils verront des terres, urbanisées ou non, remplies d’arbres et de végétation.
         </p>
+
+        <details>
+            <summary>En savoir plus</summary>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquid amet animi architecto atque eaque eligendi est eveniet
+            facilis fuga fugit iste minima modi necessitatibus obcaecati odio
+            officiis optio, placeat provident quaerat qui quibusdam reiciendis
+            repellat repudiandae sed vel? Alias assumenda autem blanditiis cum
+            deleniti dolorem eius harum hic incidunt libero minus mollitia, necessitatibus
+            perferendis provident quaerat ratione repellendus ut! Accusantium autem beatae
+            consequuntur deserunt dolore enim excepturi id incidunt ipsa nam, numquam officiis quae qui,
+            quis rem sint soluta ullam?
+        </details>
 
         <div>
             <a href="#" class="column col-xs-6" id="grayscale"><img class="column col-xs-6"

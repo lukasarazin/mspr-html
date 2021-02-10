@@ -1,5 +1,7 @@
 <?php require_once 'template-parts/header.php' ?>
 
+<main id="global">
+
 <section id="biomes">
     <div class="demo-cont">
         <div class="fnc-slider example-slider">
@@ -19,7 +21,7 @@
                                 </div>
                             </h2>
                             <div class="head-btn">
-                                <button class="btn">Voir plus</button>
+                                <a href="#ancre1"><button class="btn">Voir plus</button></a>
                             </div>
                         </div>
                     </div>
@@ -40,7 +42,7 @@
                                 </div>
                             </h2>
                             <div class="head-btn">
-                                <button class="btn">Voir plus</button>
+                                <a href="#ancre2"><button class="btn">Voir plus</button></a>
                             </div>
                         </div>
                     </div>
@@ -61,7 +63,7 @@
                                 </div>
                             </h2>
                             <div class="head-btn">
-                                <button class="btn">Voir plus</button>
+                                <a href="#ancre3"><button class="btn">Voir plus</button></a>
                             </div>
                         </div>
                     </div>
@@ -82,7 +84,7 @@
                                 </div>
                             </h2>
                             <div class="head-btn">
-                                <button class="btn">Voir plus</button>
+                                <a href="#ancre4"><button class="btn">Voir plus</button></a>
                             </div>
                         </div>
                     </div>
@@ -135,23 +137,23 @@
             <h3>Un ecosystem favorable</h3>
             <br>
             <p>Situés dans les quatre coins du monde, nos biomes sont sécurisés, entretenus par des experts
-                et 100% naturels. Ces lieux uniques n'ont pas été choisis au hasard. En effet, planter de nouveau
+                et 100% naturels. Ces <strong>lieux uniques</strong> n'ont pas été choisis au hasard. En effet, planter de nouveau
                 arbres,
-                actuellement en voie de disparition, s'avère compliqué en ville. Afin d'éviter au maximum la pollution
+                actuellement <strong>en voie de disparition</strong>, s'avère compliqué en ville. Afin d'éviter au maximum la pollution
                 et les dégradations, nos espèces sont isolées dans des montagnes, des forêts, des îles ou encore dans la
                 savane.
-                Chacun de nos arbres est planté dans son lieu d'habitat naturel : nos biomes leur offre donc le climat
-                adapté pour vivre.
+                Chacun de nos arbres est planté dans son lieu d'habitat naturel : nos biomes leur offre donc le <strong>climat
+                adapté pour vivre.</strong>
 
                 <br><br>
 
-                Ces habitats naturels sont évidemment ouverts à tous pour contempler leur beauté et les voir grandir.
-                Quatre biomes, quatre espèces en voie de disparition, quatre lieux majestueux.
+                Ces <strong>habitats naturels</strong> sont évidemment ouverts à tous pour contempler leur beauté et les voir grandir.
+                <strong>Quatre biomes, quatre espèces en voie de disparition, quatre lieux majestueux.</strong>
 
                 <br><br>
 
                 Vous avez donc la possibilité de choisir votre arbre en fonction de votre biome préféré. Le climat
-                saura les préserver et redonner pleine vie à leur espèce.
+                saura les préserver et <strong>redonner pleine vie à leur espèce.</strong>
             </p>
         </div>
     </div>
@@ -159,6 +161,7 @@
 
 <section id="beta" class="row container">
 
+<div id="ancre1"></div>
     <div class="col-lg-6">
         <h4>Savane</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
@@ -178,6 +181,7 @@
         <img src="assets/image/savane2.jpg" alt="biome-kenya" title="Notre biome au Kenya" width="550" height="auto">
     </div>
 
+    <div id="ancre2"></div>
     <div class="col-lg-6 ecart">
         <img src="assets/image/argentine18.jpg" alt="biome-argentine" title="Notre biome en Argentine"width="550" height="auto">
     </div>
@@ -197,6 +201,7 @@
             perferendis praesentium quae qui quibusdam quis rerum totam voluptas voluptatum.</p>
     </div>
 
+    <div id="ancre3"></div>
     <div class="col-lg-6 ecart">
         <h4>Forêts</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
@@ -216,6 +221,7 @@
         <img src="assets/image/japon3.jpg" alt="biome-japon" title="Notre biome au Japon"width="550" height="auto">
     </div>
 
+    <div id="ancre4"></div>
     <div class="col-lg-6 ecart">
         <img src="assets/image/tahiti2.jpg" alt="biome-tahiti" title="Notre biome à Tahiti" width="550" height="auto">
     </div>
@@ -329,6 +335,7 @@
     </div>
 </div> -->
 
+</main>
 <?php require_once 'template-parts/footer.php' ?>
 
 

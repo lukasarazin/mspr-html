@@ -1,5 +1,9 @@
+#global {
+  background-color: #a9c4a9;
+}
+
 #biomes-content {
-  background-color: $body-bg;
+  background-color: #a9c4a9;
 
   h2 {
     font-weight: bold;
@@ -21,6 +25,10 @@
     margin: auto;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   p {
     max-width: 500px;
     width: 100%;
@@ -29,10 +37,11 @@
 
 #beta {
   margin: auto;
-  background-color: $body-bg;
+  background-color: #a9c4a9;
 
   img {
     border-radius: 25px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
 
     // reste à voir pour ce hover
 
