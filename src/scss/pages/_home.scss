@@ -88,10 +88,32 @@
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 25px;
+    display: block;
+    position: relative;
+    padding-bottom: 5px;
+  }
+
+  h3:after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 10%;
+
+    height: 1px;
+
+    bottom: 0;
+
+    left: 45%;
+
+    border-bottom: 2px solid $primary;
+
   }
 
   p {
     margin-bottom: 25px;
+    text-align: justify;
   }
 
   .line {
@@ -126,6 +148,7 @@
 
   p {
     margin-bottom: 25px;
+    text-align: justify;
   }
 }
 

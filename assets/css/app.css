@@ -10866,9 +10866,22 @@ textarea.form-control-lg {
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 25px;
+  display: block;
+  position: relative;
+  padding-bottom: 5px;
+}
+#home_about h3:after, #home_about .h3:after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  bottom: 0;
+  left: 45%;
+  border-bottom: 2px solid #3BC36E;
 }
 #home_about p {
   margin-bottom: 25px;
+  text-align: justify;
 }
 #home_about .line {
   border-bottom: 2px solid #3BC36E;
@@ -10894,6 +10907,7 @@ textarea.form-control-lg {
 }
 #home_process p {
   margin-bottom: 25px;
+  text-align: justify;
 }
 
 #alpha {
@@ -11044,6 +11058,18 @@ textarea.form-control-lg {
   font-weight: bold;
   margin: 2rem auto;
   text-align: center;
+  display: block;
+  position: relative;
+  padding-bottom: 5px;
+}
+#baobab h1:after, #baobab .h1:after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  bottom: 0;
+  left: 45%;
+  border-bottom: 3px solid #3BC36E;
 }
 #baobab h2, #baobab .h2 {
   font-size: 2.125rem;
@@ -11054,8 +11080,18 @@ textarea.form-control-lg {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
-  border-bottom: 2px solid #3BC36E;
   display: block;
+  position: relative;
+  padding-bottom: 5px;
+}
+#baobab h3:after, #baobab .h3:after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  bottom: 0;
+  left: 45%;
+  border-bottom: 2px solid #3BC36E;
 }
 #baobab a {
   text-decoration: none;
@@ -11066,6 +11102,7 @@ textarea.form-control-lg {
 }
 #baobab p {
   text-align: center;
+  margin-bottom: 5rem;
 }
 #baobab h4, #baobab .h4 {
   font-size: 1.5rem;
@@ -11213,11 +11250,11 @@ textarea.form-control-lg {
 }
 
 #global {
-  background-color: #a9c4a9;
+  background-color: #e5eee5;
 }
 
 #biomes-content {
-  background-color: #a9c4a9;
+  background-color: #e5eee5;
 }
 #biomes-content h2, #biomes-content .h2 {
   font-weight: bold;
@@ -11229,6 +11266,16 @@ textarea.form-control-lg {
   text-align: center;
   position: relative;
   text-transform: uppercase;
+  padding-bottom: 5px;
+}
+#biomes-content h2:after, #biomes-content .h2:after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  bottom: 0;
+  left: 45%;
+  border-bottom: 3px solid #3BC36E;
 }
 #biomes-content h3, #biomes-content .h3 {
   font-weight: bold;
@@ -11242,25 +11289,29 @@ textarea.form-control-lg {
 #biomes-content p {
   max-width: 500px;
   width: 100%;
+  text-align: justify;
 }
 
 #beta {
   margin: auto;
-  background-color: #a9c4a9;
+  background-color: #e5eee5;
 }
 #beta img {
   border-radius: 25px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
 }
 #beta img:hover {
-  transform: scale(1.05, 1.05);
+  transform: scale(1.1, 1.1);
   transition: 0.5s;
 }
 #beta p {
   max-width: 550px;
+  text-align: justify;
 }
 #beta h4, #beta .h4 {
   font-weight: bold;
+  color: #000;
 }
 #beta .ecart {
   margin-top: 7rem;
@@ -12181,6 +12232,7 @@ body {
   background-position: center center;
   background-size: cover;
   min-height: calc(100vh - 70px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
 }
 
 .fnc-slider {
@@ -12809,7 +12861,7 @@ body {
 
 #biomes-content {
   margin: 0;
-  background-color: #a9c4a9;
+  background-color: #e5eee5;
   overflow: hidden;
 }
 #biomes-content .contain {

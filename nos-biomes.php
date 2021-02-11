@@ -21,7 +21,7 @@
                                 </div>
                             </h2>
                             <div class="head-btn">
-                                <a href="#ancre1"><button class="btn">Voir plus</button></a>
+                                <a href="#Kenya"><button class="btn">Voir plus</button></a>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                                 </div>
                             </h2>
                             <div class="head-btn">
-                                <a href="#ancre2"><button class="btn">Voir plus</button></a>
+                                <a href="#Argentine"><button class="btn">Voir plus</button></a>
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                                 </div>
                             </h2>
                             <div class="head-btn">
-                                <a href="#ancre3"><button class="btn">Voir plus</button></a>
+                                <a href="#Japon"><button class="btn">Voir plus</button></a>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                                 </div>
                             </h2>
                             <div class="head-btn">
-                                <a href="#ancre4"><button class="btn">Voir plus</button></a>
+                                <a href="#Tahiti"><button class="btn">Voir plus</button></a>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
 
 <section id="biomes-content" class="container-fluid">
 
-    <h2><u>Nos biomes</u></h2>
+    <h2>Nos biomes</h2>
 
     <div class="content-wrapper row">
 
@@ -134,7 +134,7 @@
         </div>
 
         <div class="text-wrapper col-lg-5">
-            <h3>Un ecosystem favorable</h3>
+            <h3>Un écosystem favorable</h3>
             <br>
             <p>Situés dans les quatre coins du monde, nos biomes sont sécurisés, entretenus par des experts
                 et 100% naturels. Ces <strong>lieux uniques</strong> n'ont pas été choisis au hasard. En effet, planter de nouveau
@@ -161,27 +161,29 @@
 
 <section id="beta" class="row container">
 
-<div id="ancre1"></div>
+<div id="Kenya"></div>
     <div class="col-lg-6">
         <h4>Savane</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
-            ducimus id incidunt nesciunt recusandae unde veritatis voluptatibus. At
-            atque aut corporis culpa error excepturi exercitationem expedita explicabo
-            fuga, id incidunt inventore ipsam ipsum laborum modi natus nemo, nesciunt
-            perferendis praesentium quae qui quibusdam quis rerum totam voluptas voluptatum.</p>
-        <br><br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
-            ducimus id incidunt nesciunt recusandae unde veritatis voluptatibus. At
-            atque aut corporis culpa error excepturi exercitationem expedita explicabo
-            fuga, id incidunt inventore ipsam ipsum laborum modi natus nemo, nesciunt
-            perferendis praesentium quae qui quibusdam quis rerum totam voluptas voluptatum.</p>
+        <p>La savane est une formation végétale propre aux <strong>régions chaudes à
+            longue saison sèche</strong> et dominée par les plantes herbacées de la famille des
+            Poacées. Elle est plus ou moins parsemée d'arbres ou d'arbustes. Le but pour nous
+        est donc d'augmenter le nombre d'arbres en <strong>profitant du climat chaud</strong> pour planter des baobabs,
+        qui nous le rappellons sont <strong>en voie de disparition.</strong></p>
+            <p>Planter un baobab peut sauver son espèce mais aussi attirer de nouveau les animaux
+            qui vivent dans ce milieu. <strong>Une immense savane à perte de vue, des safaris autour
+            des animaux, accompagné d'un ciel rempli de lumière : voilà où poussent nos baobab.</strong></p>
+
+        <p>Garder les animaux prêt de nos arbres donne envie d'acheter et de voyager prêt de son arbre
+        personnalisé. <!-- rappel de la notion personnalisé pour le SEO -->
+        De plus, planter des arbres en masse <strong>permet d'améliorer la biodiversité</strong> et donc de garder
+        ce côté écologique qui nous tient à coeur.</p>
     </div>
 
     <div class="col-lg-6">
         <img src="assets/image/savane2.jpg" alt="biome-kenya" title="Notre biome au Kenya" width="550" height="auto">
     </div>
 
-    <div id="ancre2"></div>
+    <div id="Argentine"></div>
     <div class="col-lg-6 ecart">
         <img src="assets/image/argentine18.jpg" alt="biome-argentine" title="Notre biome en Argentine"width="550" height="auto">
     </div>
@@ -193,52 +195,41 @@
             atque aut corporis culpa error excepturi exercitationem expedita explicabo
             fuga, id incidunt inventore ipsam ipsum laborum modi natus nemo, nesciunt
             perferendis praesentium quae qui quibusdam quis rerum totam voluptas voluptatum.</p>
-        <br><br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
-            ducimus id incidunt nesciunt recusandae unde veritatis voluptatibus. At
-            atque aut corporis culpa error excepturi exercitationem expedita explicabo
-            fuga, id incidunt inventore ipsam ipsum laborum modi natus nemo, nesciunt
-            perferendis praesentium quae qui quibusdam quis rerum totam voluptas voluptatum.</p>
+        <br><!-- partenariat avec station de ski --><br>
+        <p>Notre biome en montagne sera convoité davantage en hiver car nos arbres seront mis en valeur,
+        ils sont très grands et une fois enneigés encore plus beaux.</p>
     </div>
 
-    <div id="ancre3"></div>
+    <div id="Japon"></div>
     <div class="col-lg-6 ecart">
-        <h4>Forêts</h4>
+        <h4>Forêts <!-- urbaine--> </h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
             ducimus id incidunt nesciunt recusandae unde veritatis voluptatibus. At
             atque aut corporis culpa error excepturi exercitationem expedita explicabo
             fuga, id incidunt inventore ipsam ipsum laborum modi natus nemo, nesciunt
             perferendis praesentium quae qui quibusdam quis rerum totam voluptas voluptatum.</p>
         <br><br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
-            ducimus id incidunt nesciunt recusandae unde veritatis voluptatibus. At
-            atque aut corporis culpa error excepturi exercitationem expedita explicabo
-            fuga, id incidunt inventore ipsam ipsum laborum modi natus nemo, nesciunt
-            perferendis praesentium quae qui quibusdam quis rerum totam voluptas voluptatum.</p>
+        <p>L'avantage du biome au Japon est qu'une fois éclairé, dans la nuit, nos arbres plantés se voient encore mieux
+        et sont mis en avant de façon à les voir même depuis notre logement.
+        C'est un spectacle à voir au moins une fois dans sa vie.</p>
     </div>
 
     <div class="col-lg-6 ecart">
         <img src="assets/image/japon3.jpg" alt="biome-japon" title="Notre biome au Japon"width="550" height="auto">
     </div>
 
-    <div id="ancre4"></div>
+    <div id="Tahiti"></div>
     <div class="col-lg-6 ecart">
         <img src="assets/image/tahiti2.jpg" alt="biome-tahiti" title="Notre biome à Tahiti" width="550" height="auto">
     </div>
 
     <div class="col-lg-6 ecart">
         <h4>Îles</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
-            ducimus id incidunt nesciunt recusandae unde veritatis voluptatibus. At
-            atque aut corporis culpa error excepturi exercitationem expedita explicabo
-            fuga, id incidunt inventore ipsam ipsum laborum modi natus nemo, nesciunt
-            perferendis praesentium quae qui quibusdam quis rerum totam voluptas voluptatum.</p>
+        <p>Un Trésor en Polynésie française se trouve sur cette photo.</p>
         <br><br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque dicta
-            ducimus id incidunt nesciunt recusandae unde veritatis voluptatibus. At
-            atque aut corporis culpa error excepturi exercitationem expedita explicabo
-            fuga, id incidunt inventore ipsam ipsum laborum modi natus nemo, nesciunt
-            perferendis praesentium quae qui quibusdam quis rerum totam voluptas voluptatum.</p>
+        <p>Un cadre idilique pour oublier vos problèmes et vous recentrer sur vous-même, auprès de votre arbre.
+        Le biome de cette île est unique et permet aux cocotier de pousser dans la chaleur et l'humidité.
+        Ce côté tropical saura vous impressionner et vous éblouir. </p>
     </div>
 </section>
 

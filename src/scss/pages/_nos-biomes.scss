@@ -1,9 +1,9 @@
 #global {
-  background-color: #a9c4a9;
+  background-color: #e5eee5;
 }
 
 #biomes-content {
-  background-color: #a9c4a9;
+  background-color: #e5eee5;
 
   h2 {
     font-weight: bold;
@@ -15,6 +15,25 @@
     text-align: center;
     position: relative;
     text-transform: uppercase;
+    padding-bottom: 5px;
+  }
+
+  h2:after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 10%;
+
+    height: 1px;
+
+    bottom: 0;
+
+    left: 45%;
+
+    border-bottom: 3px solid $primary;
+
   }
 
   h3 {
@@ -32,31 +51,35 @@
   p {
     max-width: 500px;
     width: 100%;
+    text-align: justify;
   }
 }
 
 #beta {
   margin: auto;
-  background-color: #a9c4a9;
+  background-color: #e5eee5;
 
   img {
     border-radius: 25px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
 
     // reste à voir pour ce hover
 
     &:hover {
-      transform: scale(1.05, 1.05);
+      transform: scale(1.1, 1.1);
       transition: 0.5s;
     }
   }
 
   p {
     max-width: 550px;
+    text-align: justify;
   }
 
   h4 {
     font-weight: bold;
+    color: #000;
   }
 
   .ecart {

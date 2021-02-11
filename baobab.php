@@ -11,13 +11,13 @@
                 <div class="product-gallery">
                     <div class="product-image">
                         <img class="active"
-                             src="https://www.themeparkinsider.com/art/reviews/disneys-animal-kingdom.jpg">
+                             src="https://mk0darwinnutrit3vtub.kinstacdn.com/wp-content/uploads/2020/03/baobab.jpeg">
                     </div>
                     <ul class="image-list">
                         <li class="image-item"><img
-                                    src="https://www.themeparkinsider.com/art/reviews/disneys-animal-kingdom.jpg">
+                                    src="https://mk0darwinnutrit3vtub.kinstacdn.com/wp-content/uploads/2020/03/baobab.jpeg">
                         </li>
-                        <li class="image-item"><img src="https://source.unsplash.com/VgbUxvW3gS4"></li>
+                        <li class="image-item"><img src="https://media-cdn.tripadvisor.com/media/photo-s/18/ab/b1/af/suite.jpgs"></li>
                         <li class="image-item"><img src="https://source.unsplash.com/5WbYFH0kf_8"></li>
                     </ul>
                 </div>

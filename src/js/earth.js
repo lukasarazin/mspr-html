@@ -550,7 +550,7 @@ const animateLoop = (time) => {
     updateState($.timing.delta);
 
     // clear
-    $.ctx.fillStyle = '#a9c4a9';
+    $.ctx.fillStyle = '#e5eee5';
     $.ctx.fillRect(0, 0, 1800, 1400);
 
     drawMarkers($.ctx, $.markers, false);

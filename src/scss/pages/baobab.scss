@@ -46,6 +46,27 @@
     font-weight: bold;
     margin: 2rem auto;
     text-align: center;
+    display: block;
+    position: relative;
+    padding-bottom: 5px;
+  }
+
+  h1:after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 10%;
+
+    height: 1px;
+
+    bottom: 0;
+
+    left: 45%;
+
+    border-bottom: 3px solid $primary;
+
   }
 
   h2 {
@@ -58,8 +79,27 @@
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
-    border-bottom: 2px solid $primary;
     display: block;
+    position: relative;
+    padding-bottom: 5px;
+  }
+
+  h3:after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 10%;
+
+    height: 1px;
+
+    bottom: 0;
+
+    left: 45%;
+
+    border-bottom: 2px solid $primary;
+
   }
 
   a {
@@ -73,6 +113,7 @@
 
   p {
     text-align: center;
+    margin-bottom: 5rem;
   }
 
   h4 {

@@ -3965,7 +3965,7 @@ var animateLoop = function animateLoop(time) {
   $.timing.last = time;
   updateState($.timing.delta); // clear
 
-  $.ctx.fillStyle = '#a9c4a9';
+  $.ctx.fillStyle = '#e5eee5';
   $.ctx.fillRect(0, 0, 1800, 1400);
   drawMarkers($.ctx, $.markers, false);
   var continentNames = ['southamerica', 'northamerica', 'greenland', 'japan', 'africa', 'australia', 'asia', 'indonesia', 'europe', 'britain', 'madagaskar', 'papua', 'nz'];
