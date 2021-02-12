@@ -78,7 +78,7 @@
 
 // HOME ABOUT
 
-#home_about {
+#home_about{
   padding: 75px 0;
   text-align: center;
   background-color: #fcfcfc;
@@ -99,19 +99,12 @@
   h3:after{
 
     content: "";
-
     position: absolute;
-
     width: 10%;
-
     height: 1px;
-
     bottom: 0;
-
     left: 45%;
-
     border-bottom: 2px solid $primary;
-
   }
 
   p {
@@ -119,43 +112,35 @@
     text-align: center;
   }
 
-  .line {
-    border-bottom: 2px solid $primary;
-    width: 100px;
-    position: relative;
-    margin: auto;
-    padding-top: 5px;
-  }
 }
 
 //HOME PROCESS
 
 #home_process {
+  text-align: center;
+  background-color: #fcfcfc;
 
   .reverse{
     transform: rotate(-180deg);
     padding-top: 5rem;
   }
 
-  img {
-
-    width: 100%;
-    height: auto;
-    border-radius: $border-radius;
-  }
-
   h3 {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 25px;
+    display: block;
+    position: relative;
+    padding-bottom: 5px;
+  }
+  h3:after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    bottom: 0;
+    left: 45%;
+    border-bottom: 2px solid $primary;
   }
 
-  p {
-    margin-bottom: 25px;
-    text-align: justify;
-  }
-}
-
-#alpha {
-  padding: 400px 0;
 }

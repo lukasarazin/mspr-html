@@ -10887,35 +10887,31 @@ textarea.form-control-lg {
   margin-bottom: 25px;
   text-align: center;
 }
-#home_about .line {
-  border-bottom: 2px solid #3BC36E;
-  width: 100px;
-  position: relative;
-  margin: auto;
-  padding-top: 5px;
-}
 
+#home_process {
+  text-align: center;
+  background-color: #fcfcfc;
+}
 #home_process .reverse {
   transform: rotate(-180deg);
   padding-top: 5rem;
-}
-#home_process img {
-  width: 100%;
-  height: auto;
-  border-radius: 15px;
 }
 #home_process h3, #home_process .h3 {
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 25px;
+  display: block;
+  position: relative;
+  padding-bottom: 5px;
 }
-#home_process p {
-  margin-bottom: 25px;
-  text-align: justify;
-}
-
-#alpha {
-  padding: 400px 0;
+#home_process h3:after, #home_process .h3:after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  bottom: 0;
+  left: 45%;
+  border-bottom: 2px solid #3BC36E;
 }
 
 #contact, #bill {
