@@ -142,5 +142,44 @@
     left: 45%;
     border-bottom: 2px solid $primary;
   }
+  .icons-process{
+    margin: auto;
+    column-gap: 75px;
+    padding: 5rem;
+    border: 3px solid blue;
 
+    .step-1,.step-2,.step-3{
+      border: 3px solid red;
+      max-width: 300px;
+      height: auto;
+      box-shadow: $shadow;
+      border-radius: $border-radius ;
+      padding: 3rem;
+
+      &:hover{
+        max-width: 250px;
+        height: auto;
+      }
+
+      .step{
+        font-weight: bold;
+        border: 3px solid yellow;
+      }
+
+      p{
+        border: 3px solid yellow;
+      }
+
+      .icons-step{
+        max-width: 150px;
+        height: auto;
+        margin: 1rem auto;
+
+        svg{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
 }

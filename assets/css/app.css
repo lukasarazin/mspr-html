@@ -10913,6 +10913,41 @@ textarea.form-control-lg {
   left: 45%;
   border-bottom: 2px solid #3BC36E;
 }
+#home_process .icons-process {
+  margin: auto;
+  -moz-column-gap: 75px;
+       column-gap: 75px;
+  padding: 5rem;
+  border: 3px solid blue;
+}
+#home_process .icons-process .step-1, #home_process .icons-process .step-2, #home_process .icons-process .step-3 {
+  border: 3px solid red;
+  max-width: 300px;
+  height: auto;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  padding: 3rem;
+}
+#home_process .icons-process .step-1:hover, #home_process .icons-process .step-2:hover, #home_process .icons-process .step-3:hover {
+  max-width: 250px;
+  height: auto;
+}
+#home_process .icons-process .step-1 .step, #home_process .icons-process .step-2 .step, #home_process .icons-process .step-3 .step {
+  font-weight: bold;
+  border: 3px solid yellow;
+}
+#home_process .icons-process .step-1 p, #home_process .icons-process .step-2 p, #home_process .icons-process .step-3 p {
+  border: 3px solid yellow;
+}
+#home_process .icons-process .step-1 .icons-step, #home_process .icons-process .step-2 .icons-step, #home_process .icons-process .step-3 .icons-step {
+  max-width: 150px;
+  height: auto;
+  margin: 1rem auto;
+}
+#home_process .icons-process .step-1 .icons-step svg, #home_process .icons-process .step-2 .icons-step svg, #home_process .icons-process .step-3 .icons-step svg {
+  width: 100%;
+  height: auto;
+}
 
 #contact, #bill {
   position: relative;
