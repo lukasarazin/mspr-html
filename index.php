@@ -168,7 +168,7 @@
                 <h3>Comment nous proçedons ?</h3>
 
                 <div class="icons-process row">
-                    <div class="step-1">
+                    <div class="step-1 shadow-lg">
                         <div class="icons-step">
                             <svg class="icon-1" xmlns="http://www.w3.org/2000/svg" width="190" height="190" viewBox="0 0 190 190">
                                 <g id="Groupe_7" data-name="Groupe 7" transform="translate(-4651 357)">
@@ -188,7 +188,7 @@
                         <span class="step">étape 1:</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, earum!</p>
                     </div>
-                    <div class="step-2">
+                    <div class="step-2 shadow-lg">
                         <div class="icons-step">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="190" height="190" viewBox="0 0 190 190">
                                 <defs>
@@ -227,7 +227,7 @@
                         <span class="step">étape 2:</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, earum!</p>
                     </div>
-                    <div class="step-3">
+                    <div class="step-3 shadow-lg">
                         <div class="icons-step">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="190" height="190" viewBox="0 0 190 190">
                                 <defs>
@@ -264,6 +264,11 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, earum!</p>
                     </div>
                 </div>
+            </div>
+            <div class="button-wrapper">
+                <a href="./notre-procede.php" class="btn btn-primary">
+                   Comment fonctionnent on ?
+                </a>
             </div>
         </div>
     </section>
