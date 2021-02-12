@@ -56,11 +56,11 @@
                 <h3>Qui sommes nous ?</h3>
 
                 <p>Notre projet est d'améliorer la qualité de notre air. Situés aux quatres coins du monde,
-                des arbres nécessaires pour nous sont en voie de disparition. Il faut donc les sauver
-                : et nous avons trouver la solution. Vous avez aujourd'hui la possibilité
-                de posséder votre arbre et même de le personnaliser. Choisissez parmis quatre espèces
-                et planter un arbre majestueux dans l'un de nos biomes. Un simple geste qui profitera à tous dans
-                quelques années.</p>
+                    des arbres nécessaires pour nous sont en voie de disparition. Il faut donc les sauver
+                    : et nous avons trouver la solution. Vous avez aujourd'hui la possibilité
+                    de posséder votre arbre et même de le personnaliser. Choisissez parmis quatre espèces
+                    et planter un arbre majestueux dans l'un de nos biomes. Un simple geste qui profitera à tous dans
+                    quelques années.</p>
 
                 <div class="button-wrapper">
                     <a href="./notre-histoire.php" class="btn btn-primary">
@@ -159,27 +159,109 @@
     </section>
 
     <section id="home_process">
-
-        <svg class="reverse" viewBox="0 0 1900 50" xmlns="http://www.w3.org/2000/svg">
+        <svg class="reverse" viewBox="0 0 1920 50" xmlns="http://www.w3.org/2000/svg">
             <path d="M0.5 13.5V83.5L1921.5 78.5V12L1919 13.5C1901.8 22.3 1758.5 17.1667 1689 13.5C1689 13.5 1518.67 3 1455.5 2.5L1286.5 13.5C1286.5 13.5 909.333 17.8333 761.5 13.5L376 0.5L0.5 13.5Z" fill="#333333"/>
         </svg>
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <img src="assets/image/process.jpg" alt="plantation_graine" title="Nos plantations">
-                </div>
-                <div class="col-lg-6">
-                    <h3>Comment nous proçedons ?</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aliquam animi
-                        commodi consequatur consequuntur culpa dicta dolorum eos esse expedita facere hic itaque
-                        laudantium nobis perspiciatis, provident quaerat quam quas sequi. Assumenda, atque blanditiis
-                        consectetur eius minus natus, nulla odio quidem ratione recusandae reiciendis sapiente similique
-                        sit! Eligendi, exercitationem?</p>
-                    <div class="button-wrapper">
-                        <a href="#" class="btn btn-outline-secondary">
-                            En savoir plus
-                        </a>
+                <h3>Comment nous proçedons ?</h3>
+
+                <div class="icons-process row">
+                    <div class="step-1">
+                        <div class="icons-step">
+                            <svg class="icon-1" xmlns="http://www.w3.org/2000/svg" width="190" height="190" viewBox="0 0 190 190">
+                                <g id="Groupe_7" data-name="Groupe 7" transform="translate(-4651 357)">
+                                    <circle id="Ellipse_1" data-name="Ellipse 1" cx="95" cy="95" r="95" transform="translate(4651 -357)" fill="#f9efa0"/>
+                                    <g id="Groupe_2" data-name="Groupe 2" transform="translate(1.347 3.032)">
+                                        <path id="Tracé_4" data-name="Tracé 4" d="M1056.584,550.872c0,28.878-33.51,56.14-75.381,56.14s-76.246-27.262-76.246-56.14" transform="translate(3764.043 -789.808)" fill="#714406"/>
+                                        <path id="Tracé_4-2" data-name="Tracé 4" d="M980.77,468.872c41.871,0,75.813,6.282,75.813,14.03s-33.942,14.03-75.813,14.03-75.813-6.281-75.813-14.03S938.9,468.872,980.77,468.872Z" transform="translate(3764.043 -721.933)" fill="#845217"/>
+                                    </g>
+                                    <g id="Groupe_3" data-name="Groupe 3" transform="translate(3817.447 -842.924)">
+                                        <path id="Tracé_4-3" data-name="Tracé 4" d="M926.862,607.84h4.149s-1.087-4.893-.978-14.363a3.432,3.432,0,0,1,.329-1.429,8.64,8.64,0,0,1,1.42-2.181,2.073,2.073,0,0,1,2.459-.409,18.427,18.427,0,0,0,16.6-.068,14.247,14.247,0,0,0,2.689-1.713,26.162,26.162,0,0,0,9.07-14.922,10.456,10.456,0,0,1-7.362,3.4c-2.937.027-8.2.019-11.556.01a14.333,14.333,0,0,0-9.007,3.01,8.9,8.9,0,0,0-3.692,6.724s-.6,3.915-1.319,5.107h-.639s-1.655-1.912-2.533-3.234a3.222,3.222,0,0,1-.531-1.785v-4.471s.128-7.489-9.7-12.425c0,0-4.468-3.7-25.7-3.107,0,0,5.176,5.859,8.364,9.794a28.32,28.32,0,0,0,7.677,6.667,40.155,40.155,0,0,0,17.266,5.461,2.849,2.849,0,0,1,2.274,1.474l1.164,2.1a5.034,5.034,0,0,1,.609,1.943C928.178,596.13,928.677,603.358,926.862,607.84Z" fill="#8cc914"/>
+                                        <path id="Tracé_5" data-name="Tracé 5" d="M910.994,573.584a10.867,10.867,0,0,0-1.558.6l1.208.341c10.349,3.859,12.992,11.815,13.018,11.9l.953-.3C924.506,585.771,921.821,577.624,910.994,573.584Z" fill="#7db412"/>
+                                        <path id="Tracé_6" data-name="Tracé 6" d="M942.382,582.576c-6.892-.441-11.038,5.455-11.21,5.706l.825.564c.04-.056,3.943-5.667,10.323-5.272a1.984,1.984,0,0,0,1.393-1A3.458,3.458,0,0,1,942.382,582.576Z" fill="#7db412"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <span class="step">étape 1:</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, earum!</p>
+                    </div>
+                    <div class="step-2">
+                        <div class="icons-step">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="190" height="190" viewBox="0 0 190 190">
+                                <defs>
+                                    <linearGradient id="linear-gradient" x1="0.87" y1="0.181" x2="0.436" y2="0.871" gradientUnits="objectBoundingBox">
+                                        <stop offset="0" stop-color="#1f5c00"/>
+                                        <stop offset="0.986" stop-color="#70a91c"/>
+                                    </linearGradient>
+                                    <linearGradient id="linear-gradient-2" x1="0.399" y1="0.13" x2="0.483" y2="0.808" gradientUnits="objectBoundingBox">
+                                        <stop offset="0" stop-color="#49a91c"/>
+                                        <stop offset="0.986" stop-color="#70a91c"/>
+                                    </linearGradient>
+                                    <linearGradient id="linear-gradient-3" x1="0.918" y1="0.209" x2="0.447" y2="0.866" xlink:href="#linear-gradient"/>
+                                    <linearGradient id="linear-gradient-4" x1="0.374" y1="0.115" x2="0.472" y2="0.75" xlink:href="#linear-gradient-2"/>
+                                    <linearGradient id="linear-gradient-5" x1="0.262" y1="-0.035" x2="0.415" y2="0.624" xlink:href="#linear-gradient"/>
+                                    <linearGradient id="linear-gradient-6" x1="1.029" y1="0.183" x2="0.414" y2="0.881" xlink:href="#linear-gradient"/>
+                                </defs>
+                                <g id="Groupe_8" data-name="Groupe 8" transform="translate(-4999 357)">
+                                    <circle id="Ellipse_2" data-name="Ellipse 2" cx="95" cy="95" r="95" transform="translate(4999 -357)" fill="#f9efa0"/>
+                                    <g id="Groupe_4" data-name="Groupe 4" transform="translate(349.347 3.032)">
+                                        <path id="Tracé_4" data-name="Tracé 4" d="M1056.584,550.872c0,28.878-33.51,56.14-75.381,56.14s-76.246-27.262-76.246-56.14" transform="translate(3764.043 -789.808)" fill="#714406"/>
+                                        <path id="Tracé_4-2" data-name="Tracé 4" d="M980.77,468.872c41.871,0,75.813,6.282,75.813,14.03s-33.942,14.03-75.813,14.03-75.813-6.281-75.813-14.03S938.9,468.872,980.77,468.872Z" transform="translate(3764.043 -721.933)" fill="#845217"/>
+                                    </g>
+                                    <g id="Groupe_5" data-name="Groupe 5" transform="translate(4343.248 -745.277)">
+                                        <path id="Tracé_7" data-name="Tracé 7" d="M749.255,513.534c.274.093,5.831-1.859,5.831-1.859v-22.59h-5.831Z" transform="translate(-0.384 -2.066)" fill="#816100" style="isolation: isolate"/>
+                                        <path id="Tracé_8" data-name="Tracé 8" d="M749.255,511.47l-4.681-1.532V489.087h4.681Z" fill="#684f00" style="isolation: isolate"/>
+                                        <path id="Tracé_9" data-name="Tracé 9" d="M720.752,484.693l20.418,4.818,3.489-18.457-9.447-2.564Z" fill="url(#linear-gradient)"/>
+                                        <path id="Tracé_10" data-name="Tracé 10" d="M741.17,489.511l39.638-2.085-15.745-17.957-20.48,1.585Z" fill="url(#linear-gradient-2)" style="isolation: isolate"/>
+                                        <path id="Tracé_11" data-name="Tracé 11" d="M726.48,467.348l16.9,4.184,2.939-17.7-7.468-2.216Z" fill="url(#linear-gradient-3)"/>
+                                        <path id="Tracé_12" data-name="Tracé 12" d="M743.38,471.532l28.982-2.523-12-15.766-14.047.592Z" fill="url(#linear-gradient-4)" style="isolation: isolate"/>
+                                        <path id="Tracé_13" data-name="Tracé 13" d="M743.83,454.01l23.362-.551L749,432.277Z" fill="url(#linear-gradient-5)"/>
+                                        <path id="Tracé_14" data-name="Tracé 14" d="M743.894,454.01l-12.319-2.193L749,432.277" fill="url(#linear-gradient-6)"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <span class="step">étape 2:</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, earum!</p>
+                    </div>
+                    <div class="step-3">
+                        <div class="icons-step">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="190" height="190" viewBox="0 0 190 190">
+                                <defs>
+                                    <linearGradient id="linear-gradient" x1="0.789" y1="0.922" x2="0.489" y2="0.364" gradientUnits="objectBoundingBox">
+                                        <stop offset="0" stop-color="#1f5c00"/>
+                                        <stop offset="0.986" stop-color="#70a91c"/>
+                                    </linearGradient>
+                                    <linearGradient id="linear-gradient-2" x1="0.496" y1="1.005" x2="0.544" y2="0.234" gradientUnits="objectBoundingBox">
+                                        <stop offset="0" stop-color="#49a91c"/>
+                                        <stop offset="0.986" stop-color="#70a91c"/>
+                                    </linearGradient>
+                                </defs>
+                                <g id="Groupe_9" data-name="Groupe 9" transform="translate(-5346 353)">
+                                    <g id="Groupe_6" data-name="Groupe 6" transform="translate(4898.02 -702.22)">
+                                        <path id="Tracé_15" data-name="Tracé 15" d="M637.98,444.22a94.993,94.993,0,1,1-112.26-93.43c.07-.01.15-.03.22-.04a95.111,95.111,0,0,1,100.01,47.17A94.525,94.525,0,0,1,637.98,444.22Z" fill="#f9efa0"/>
+                                        <g id="Groupe_6-2" data-name="Groupe 6">
+                                            <path id="Tracé_4" data-name="Tracé 4" d="M618.956,470.318c0,28.878-33.51,56.14-75.381,56.14s-76.246-27.262-76.246-56.14" fill="#714406"/>
+                                            <path id="Tracé_4-2" data-name="Tracé 4-2" d="M543.142,456.193c41.871,0,75.813,6.282,75.813,14.03s-33.942,14.03-75.813,14.03-75.813-6.281-75.813-14.03S501.272,456.193,543.142,456.193Z" fill="#845217"/>
+                                        </g>
+                                        <path id="Tracé_15-2" data-name="Tracé 15" d="M539.674,471.406c.845.286,17.979-5.731,17.979-5.731V396.029H539.674Z" fill="#816100"/>
+                                        <path id="Tracé_16" data-name="Tracé 16" d="M540.86,471.411l-14.431-4.723V402.4H540.86Z" fill="#684f00"/>
+                                        <path id="Tracé_16-2" data-name="Tracé 16" d="M525.94,350.75l-10.01,52.96-51.95-12.25a95,95,0,0,1,61.74-40.67C525.79,350.78,525.87,350.76,525.94,350.75Z" fill="url(#linear-gradient)"/>
+                                        <path id="Tracé_17" data-name="Tracé 17" d="M625.95,397.92l-110.02,5.79,9.79-52.92c.07-.01.15-.03.22-.04a95.111,95.111,0,0,1,100.01,47.17Z" fill="url(#linear-gradient-2)"/>
+                                        <path id="Tracé_18" data-name="Tracé 18" d="M542.371,467.777l13.79-4.438" transform="translate(0 -31)" fill="none" stroke="#fff" stroke-width="0.5"/>
+                                        <path id="Tracé_22" data-name="Tracé 22" d="M542.371,467.777l13.79-4.438" transform="translate(0 -33)" fill="none" stroke="#fff" stroke-width="0.5"/>
+                                        <path id="Tracé_19" data-name="Tracé 19" d="M542.371,467.777l13.79-4.438" transform="translate(0 -29)" fill="none" stroke="#fff" stroke-width="0.5"/>
+                                        <path id="Tracé_20" data-name="Tracé 20" d="M542.371,467.777l13.79-4.438" transform="translate(0 -27)" fill="none" stroke="#fff" stroke-width="0.5"/>
+                                        <path id="Tracé_21" data-name="Tracé 21" d="M542.371,467.777l13.79-4.438" transform="translate(0 -25)" fill="none" stroke="#fff" stroke-width="0.5"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <span class="step">étape 3:</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, earum!</p>
                     </div>
                 </div>
             </div>

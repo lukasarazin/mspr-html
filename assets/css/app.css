@@ -10887,35 +10887,66 @@ textarea.form-control-lg {
   margin-bottom: 25px;
   text-align: center;
 }
-#home_about .line {
-  border-bottom: 2px solid #3BC36E;
-  width: 100px;
-  position: relative;
-  margin: auto;
-  padding-top: 5px;
-}
 
+#home_process {
+  text-align: center;
+  background-color: #fcfcfc;
+}
 #home_process .reverse {
   transform: rotate(-180deg);
   padding-top: 5rem;
-}
-#home_process img {
-  width: 100%;
-  height: auto;
-  border-radius: 15px;
 }
 #home_process h3, #home_process .h3 {
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 25px;
+  display: block;
+  position: relative;
+  padding-bottom: 5px;
 }
-#home_process p {
-  margin-bottom: 25px;
-  text-align: justify;
+#home_process h3:after, #home_process .h3:after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  bottom: 0;
+  left: 45%;
+  border-bottom: 2px solid #3BC36E;
 }
-
-#alpha {
-  padding: 400px 0;
+#home_process .icons-process {
+  margin: auto;
+  -moz-column-gap: 75px;
+       column-gap: 75px;
+  padding: 5rem;
+  border: 3px solid blue;
+}
+#home_process .icons-process .step-1, #home_process .icons-process .step-2, #home_process .icons-process .step-3 {
+  border: 3px solid red;
+  max-width: 300px;
+  height: auto;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  padding: 3rem;
+}
+#home_process .icons-process .step-1:hover, #home_process .icons-process .step-2:hover, #home_process .icons-process .step-3:hover {
+  max-width: 250px;
+  height: auto;
+}
+#home_process .icons-process .step-1 .step, #home_process .icons-process .step-2 .step, #home_process .icons-process .step-3 .step {
+  font-weight: bold;
+  border: 3px solid yellow;
+}
+#home_process .icons-process .step-1 p, #home_process .icons-process .step-2 p, #home_process .icons-process .step-3 p {
+  border: 3px solid yellow;
+}
+#home_process .icons-process .step-1 .icons-step, #home_process .icons-process .step-2 .icons-step, #home_process .icons-process .step-3 .icons-step {
+  max-width: 150px;
+  height: auto;
+  margin: 1rem auto;
+}
+#home_process .icons-process .step-1 .icons-step svg, #home_process .icons-process .step-2 .icons-step svg, #home_process .icons-process .step-3 .icons-step svg {
+  width: 100%;
+  height: auto;
 }
 
 #contact, #bill {
