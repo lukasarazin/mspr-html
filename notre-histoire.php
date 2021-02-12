@@ -32,15 +32,18 @@
 
         <details>
             <summary>En savoir plus</summary>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Aliquid amet animi architecto atque eaque eligendi est eveniet
-            facilis fuga fugit iste minima modi necessitatibus obcaecati odio
-            officiis optio, placeat provident quaerat qui quibusdam reiciendis
-            repellat repudiandae sed vel? Alias assumenda autem blanditiis cum
-            deleniti dolorem eius harum hic incidunt libero minus mollitia, necessitatibus
-            perferendis provident quaerat ratione repellendus ut! Accusantium autem beatae
-            consequuntur deserunt dolore enim excepturi id incidunt ipsa nam, numquam officiis quae qui,
-            quis rem sint soluta ullam?
+            L’objectif est de pouvoir faire participer tout le monde pour rendre ce projet efficace le plus rapidement possible.
+            <br><br>
+            Les grands scientifiques s’inquiètent déjà pour l'avenir de l’Homme car nous polluons la planète de plus en plus chaque année. Mais imaginons dans 20 ou 30 ans, à ce moment-là, c’est chaque individu qui s’inquiètera pour sa propre vie et tout le monde se dira “si seulement on avait régi avant”. C’est là que Trees intervient. Notre entreprise prévoit une solution sur le long terme et qui sera de plus en plus efficace chaque année, pour contrer l’augmentation de pollution. Un arbre. Là voilà la solution. Les arbres nous font vivre, mais nous les tuons.
+<br><br>
+            Trees donne la possibilité de planter son arbre, d’acheter son arbre et de la personnaliser. Dans deux ou trois décennies votre arbre sera grand et dominera nos regards. Vous, vos enfants ou encore vos petits enfants auront l’occasion de le voir et de découvrir une partie de la planète comme vous ne l’avez jamais vu.
+<br><br>
+            Afin de planter votre arbre, il suffit de l’acheter, en choisissant d’abord une espèce parmi quatre. Chacune des espèces que nous présentons est en voie de disparition. Pourtant, ces arbres font partie des plus importants pour notre survie. Le baobab, le Ginkgo, l’Araucaria ou encore le cocotier sont connus, mais ne sont pas nombreux.
+<br><br>
+            Le principe est finalement de planter un maximum d’arbres le plus vite possible. Les arbres plantés sont traités avec le soin dont ils ont besoin, dans le climat qui leur convient le mieux et nos plantations respectent à 100% l’écologie. A travers nos quatre biomes donc, nous plantons ces espèces d’arbres et redonnons vie à la nature dont nous avons besoin pour vivre et aujourd’hui survivre.
+<br><br>
+            A côté de ceux-ci, nos maisons en bois naturel vous attendent pour passer un séjour aux côtés de votre arbre.
+
         </details>
 
         <div>

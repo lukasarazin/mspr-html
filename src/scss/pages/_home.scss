@@ -1,5 +1,8 @@
-#home-hero {
+#main {
+  background-color: #fcfcfc;
+}
 
+#home-hero {
   padding: 150px 0 150px 0;
   min-height: calc(100vh - 70px); // 70px -- hauteur HEADER
   position: relative;
@@ -113,7 +116,7 @@
 
   p {
     margin-bottom: 25px;
-    text-align: justify;
+    text-align: center;
   }
 
   .line {
@@ -128,6 +131,7 @@
 //HOME PROCESS
 
 #home_process {
+
   .reverse{
     transform: rotate(-180deg);
     padding-top: 5rem;

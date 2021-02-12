@@ -55,13 +55,15 @@
             <div class="content">
                 <h3>Qui sommes nous ?</h3>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa ipsum minus nam? Asperiores
-                    minima quas repellat veniam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
-                    asperiores, culpa deserunt ea expedita labore laborum minus nobis repellat sint. Lorem ipsum dolor
-                    sit amet, consectetur adipisicing elit. Explicabo, nemo!</p>
+                <p>Notre projet est d'améliorer la qualité de notre air. Situés aux quatres coins du monde,
+                des arbres nécessaires pour nous sont en voie de disparition. Il faut donc les sauver
+                : et nous avons trouver la solution. Vous avez aujourd'hui la possibilité
+                de posséder votre arbre et même de le personnaliser. Choisissez parmis quatre espèces
+                et planter un arbre majestueux dans l'un de nos biomes. Un simple geste qui profitera à tous dans
+                quelques années.</p>
 
                 <div class="button-wrapper">
-                    <a class="btn btn-primary">
+                    <a href="./notre-histoire.php" class="btn btn-primary">
                         En savoir plus
                     </a>
                 </div>
