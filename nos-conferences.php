@@ -3,7 +3,7 @@
 
 <section id="meet-up">
 
-    <img src="http://welikeit.fr/wp-content/uploads/2015/06/ezgif-1367805649.gif" alt="">
+    <img class="sky" src="http://welikeit.fr/wp-content/uploads/2015/06/ezgif-1367805649.gif" width="1519" height="400" alt="">
 
     <div class="container-fluid">
         

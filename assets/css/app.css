@@ -12022,6 +12022,10 @@ h1 {
 #meet-up .img-conf4 {
   position: absolute;
 }
+#meet-up .sky {
+  margin-bottom: 15rem;
+  border: 5px solid #3BC36E;
+}
 
 .btn:not([class*=outline]) {
   color: #fff;
