@@ -1,10 +1,11 @@
 #conference {
+  background-color: #fcfcfc;
 
   h2 {
     text-align: center;
     margin-top: 5rem;
     color: #000;
-    font-weight: bold;
+    font-weight: 800;
     opacity: 60%;
   }
 
@@ -12,13 +13,17 @@
     text-align: center;
     margin-bottom: 1rem;
     color: $primary;
-    font-weight: bold;
+    font-weight: 700;
   }
 
   p {
     margin: auto;
     max-width: 400px;
     text-align: center;
-color: #000;
+    color: #000;
+  }
+
+  .img-conf4 {
+    position: absolute;
   }
 }

@@ -11997,24 +11997,30 @@ h1 {
   background: #9b59b6;
 }
 
+#conference {
+  background-color: #fcfcfc;
+}
 #conference h2, #conference .h2 {
   text-align: center;
   margin-top: 5rem;
   color: #000;
-  font-weight: bold;
+  font-weight: 800;
   opacity: 60%;
 }
 #conference h4, #conference .h4 {
   text-align: center;
   margin-bottom: 1rem;
   color: #3BC36E;
-  font-weight: bold;
+  font-weight: 700;
 }
 #conference p {
   margin: auto;
   max-width: 400px;
   text-align: center;
   color: #000;
+}
+#conference .img-conf4 {
+  position: absolute;
 }
 
 .btn:not([class*=outline]) {
