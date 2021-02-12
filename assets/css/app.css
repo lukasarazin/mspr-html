@@ -10914,14 +10914,17 @@ textarea.form-control-lg {
   border-bottom: 2px solid #3BC36E;
 }
 #home_process .icons-process {
-  margin: auto;
   -moz-column-gap: 75px;
        column-gap: 75px;
-  padding: 5rem;
-  border: 3px solid blue;
+  padding: 3rem;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 #home_process .icons-process .step-1, #home_process .icons-process .step-2, #home_process .icons-process .step-3 {
-  max-width: 300px;
+  max-width: 358px;
   height: auto;
   border-radius: 15px;
   padding: 3rem;
