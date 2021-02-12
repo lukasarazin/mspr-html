@@ -1,7 +1,7 @@
 <?php require_once 'template-parts/header.php' ?>
 
 
-<section id="conference">
+<section id="meet-up">
 
     <img src="http://welikeit.fr/wp-content/uploads/2015/06/ezgif-1367805649.gif" alt="">
 

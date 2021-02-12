@@ -11997,29 +11997,29 @@ h1 {
   background: #9b59b6;
 }
 
-#conference {
+#meet-up {
   background-color: #fcfcfc;
 }
-#conference h2, #conference .h2 {
+#meet-up h2, #meet-up .h2 {
   text-align: center;
   margin-top: 5rem;
   color: #000;
   font-weight: 800;
   opacity: 60%;
 }
-#conference h4, #conference .h4 {
+#meet-up h4, #meet-up .h4 {
   text-align: center;
   margin-bottom: 1rem;
   color: #3BC36E;
   font-weight: 700;
 }
-#conference p {
+#meet-up p {
   margin: auto;
   max-width: 400px;
   text-align: center;
   color: #000;
 }
-#conference .img-conf4 {
+#meet-up .img-conf4 {
   position: absolute;
 }
 
