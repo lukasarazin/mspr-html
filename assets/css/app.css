@@ -11992,6 +11992,13 @@ h1 {
   border: 5px solid #3BC36E;
 }
 
+#mentions .content {
+  padding: 5rem;
+}
+#mentions .button-wrapper {
+  text-align: center;
+}
+
 .btn:not([class*=outline]) {
   color: #fff;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
@@ -12073,17 +12080,17 @@ h1 {
   height: auto;
 }
 
-#contact img, #shop img, #bill img {
+#contact img, #shop img, #bill img, #mentions img {
   position: absolute;
   display: block;
 }
-#contact img.leave-top-left, #shop img.leave-top-left, #bill img.leave-top-left {
+#contact img.leave-top-left, #shop img.leave-top-left, #bill img.leave-top-left, #mentions img.leave-top-left {
   top: calc(-365px + 60px);
   left: 0;
   transform: rotate(90deg);
   transform-origin: 0 100%;
 }
-#contact img.leave-top-right, #shop img.leave-top-right, #bill img.leave-top-right {
+#contact img.leave-top-right, #shop img.leave-top-right, #bill img.leave-top-right, #mentions img.leave-top-right {
   top: 0;
   right: 0;
 }

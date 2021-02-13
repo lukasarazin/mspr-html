@@ -58,7 +58,7 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!" class="text-white">Mentions légales</a>
+                            <a href="./mentions-legales.php" class="text-white">Mentions légales</a>
                         </li>
                     </ul>
                     <img width="100px" height="auto" src="assets/image/TREES.png" alt="">

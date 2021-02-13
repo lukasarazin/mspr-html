@@ -352,7 +352,7 @@
             </div>
             <div class="button-wrapper">
                 <a href="./notre-procede.php" class="btn btn-primary">
-                    Comment fonctionnent on ?
+                    Comment fonctionnent ont ?
                 </a>
             </div>
         </div>
