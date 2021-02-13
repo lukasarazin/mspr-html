@@ -11214,6 +11214,13 @@ textarea.form-control-lg {
   }
 }
 
+#shop .container {
+  padding: 5rem;
+}
+#shop .container .button-wrapper {
+  text-align: center;
+}
+
 .tree {
   position: relative;
   display: block;
