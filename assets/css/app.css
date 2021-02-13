@@ -10913,34 +10913,6 @@ textarea.form-control-lg {
   left: 45%;
   border-bottom: 2px solid #3BC36E;
 }
-#home_process .icons-process {
-  -moz-column-gap: 75px;
-       column-gap: 75px;
-  padding: 3rem;
-  right: 0;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}
-#home_process .icons-process .step-1, #home_process .icons-process .step-2, #home_process .icons-process .step-3 {
-  max-width: 358px;
-  height: auto;
-  border-radius: 15px;
-  padding: 3rem;
-}
-#home_process .icons-process .step-1 .step, #home_process .icons-process .step-2 .step, #home_process .icons-process .step-3 .step {
-  font-weight: bold;
-}
-#home_process .icons-process .step-1 .icons-step, #home_process .icons-process .step-2 .icons-step, #home_process .icons-process .step-3 .icons-step {
-  max-width: 150px;
-  height: auto;
-  margin: 1rem auto;
-}
-#home_process .icons-process .step-1 .icons-step svg, #home_process .icons-process .step-2 .icons-step svg, #home_process .icons-process .step-3 .icons-step svg {
-  width: 100%;
-  height: auto;
-}
 
 #contact, #bill {
   position: relative;
@@ -13100,4 +13072,33 @@ body {
 #biomes-content .globe--dragging {
   cursor: -webkit-grabbing;
   cursor: grabbing;
+}
+
+#home_process .icons-process {
+  -moz-column-gap: 75px;
+       column-gap: 75px;
+  padding: 3rem;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+#home_process .icons-process .step-1, #home_process .icons-process .step-2, #home_process .icons-process .step-3 {
+  max-width: 358px;
+  height: auto;
+  border-radius: 15px;
+  padding: 3rem;
+}
+#home_process .icons-process .step-1 .step, #home_process .icons-process .step-2 .step, #home_process .icons-process .step-3 .step {
+  font-weight: bold;
+}
+#home_process .icons-process .step-1 .icons-step, #home_process .icons-process .step-2 .icons-step, #home_process .icons-process .step-3 .icons-step {
+  max-width: 150px;
+  height: auto;
+  margin: 1rem auto;
+}
+#home_process .icons-process .step-1 .icons-step svg, #home_process .icons-process .step-2 .icons-step svg, #home_process .icons-process .step-3 .icons-step svg {
+  width: 100%;
+  height: auto;
 }

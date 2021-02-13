@@ -1,31 +1,4 @@
 #home_process {
-  text-align: center;
-  background-color: #fcfcfc;
-
-  .reverse {
-    transform: rotate(-180deg);
-    padding-top: 5rem;
-  }
-
-  h3 {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 25px;
-    display: block;
-    position: relative;
-    padding-bottom: 5px;
-  }
-
-  h3:after {
-    content: "";
-    position: absolute;
-    width: 10%;
-    height: 1px;
-    bottom: 0;
-    left: 45%;
-    border-bottom: 2px solid $primary;
-  }
-
   .icons-process {
     column-gap: 75px;
     padding: 3rem;
