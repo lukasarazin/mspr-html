@@ -60,6 +60,9 @@
                         <li>
                             <a href="./mentions-legales.php" class="text-white">Mentions légales</a>
                         </li>
+                        <li>
+                        <a href="./mentions-legales.php" class="text-white">Nos concours</a>
+                        </li>
                     </ul>
                     <img width="100px" height="auto" src="assets/image/TREES.png" alt="">
                 </div>

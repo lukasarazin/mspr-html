@@ -233,6 +233,13 @@
     </div>
 </section>
 
+    <hr>
+
+    <div class="biomes-btn">
+        <h4>Tentez de gagner un voyage d'une semaine pour votre famille, auprès de votre arbre.</h4>
+        <p><em>Chaque mois, nous vous offrons la possibilité de connaître un lieu de rêve.</em></p>
+    <button class="btn btn-primary">Nos concours</button>
+    </div>
 
 <!-- <div class="main-content">
     <div class="concept concept-one">

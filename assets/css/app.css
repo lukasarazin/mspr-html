@@ -11300,7 +11300,7 @@ textarea.form-control-lg {
 }
 
 #beta {
-  margin: auto;
+  margin: 3rem auto;
   background-color: #fcfcfc;
 }
 #beta img {
@@ -11667,6 +11667,22 @@ h1 {
   }
 }
 } */
+.biomes-btn h4, .biomes-btn .h4 {
+  margin-top: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.biomes-btn p {
+  text-align: center;
+  opacity: 70%;
+}
+.biomes-btn button {
+  text-align: center;
+  align-items: center;
+  margin: 3rem auto;
+  display: block;
+}
+
 #history {
   padding: 45px;
   background: url("http://bgfons.com/upload/wood%20_texture1053.jpg");
@@ -11969,8 +11985,65 @@ h1 {
   background: #9b59b6;
 }
 
-#meet-up {
+#main-conf {
   background-color: #fcfcfc;
+}
+
+#top-conf {
+  font-family: "Poppins", sans-serif;
+  background-color: #fcfcfc;
+}
+#top-conf h1, #top-conf .h1 {
+  text-align: center;
+  padding-top: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  position: relative;
+  padding-bottom: 5px;
+}
+#top-conf h1:after, #top-conf .h1:after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  bottom: 0;
+  left: 45%;
+  border-bottom: 2px solid #3BC36E;
+}
+
+#suit h2, #suit .h2 {
+  text-align: center;
+  padding-top: 1rem;
+  display: block;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 5px;
+}
+#suit h2:after, #suit .h2:after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  bottom: 0;
+  left: 45%;
+  border-bottom: 2px solid #3BC36E;
+}
+#suit h4, #suit .h4 {
+  margin-top: 2rem;
+  opacity: 80%;
+  text-align: center;
+  font-weight: bold;
+}
+#suit p {
+  margin: 2rem;
+  text-align: justify;
+}
+
+#meet-up {
+  margin-top: 4rem;
+  background-color: #fcfcfc;
+  font-family: "Poppins", sans-serif;
 }
 #meet-up h2, #meet-up .h2 {
   text-align: center;
@@ -11997,6 +12070,193 @@ h1 {
 #meet-up .sky {
   margin-bottom: 15rem;
   border: 5px solid #3BC36E;
+}
+
+#blog-cards {
+  background-color: #fcfcfc;
+  margin: 3rem auto;
+  font-family: "Poppins", sans-serif;
+}
+#blog-cards .blog-card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+  margin-bottom: 1.6%;
+  background: #fff;
+  line-height: 1.4;
+  font-family: sans-serif;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 0;
+}
+#blog-cards .blog-card a {
+  color: inherit;
+  text-decoration: none;
+}
+#blog-cards .blog-card a:hover {
+  color: #3BC36E;
+}
+#blog-cards .blog-card:hover .photo {
+  transform: scale(1.3) rotate(3deg);
+}
+#blog-cards .blog-card .meta {
+  position: relative;
+  z-index: 0;
+  height: 200px;
+}
+#blog-cards .blog-card .photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.2s;
+}
+#blog-cards .blog-card .details,
+#blog-cards .blog-card .details ul {
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+#blog-cards .blog-card .details {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  margin: auto;
+  transition: left 0.2s;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  font-size: 0.9rem;
+}
+#blog-cards .blog-card .details a {
+  text-decoration: none;
+}
+#blog-cards .blog-card .details ul li {
+  display: inline-block;
+}
+#blog-cards .blog-card .details .author:before {
+  font-family: FontAwesome;
+  margin-right: 10px;
+  content: "";
+}
+#blog-cards .blog-card .details .date:before {
+  font-family: FontAwesome;
+  margin-right: 10px;
+  content: "";
+}
+#blog-cards .blog-card .details .tags ul:before {
+  font-family: FontAwesome;
+  content: "";
+  margin-right: 10px;
+}
+#blog-cards .blog-card .details .tags li {
+  margin-right: 2px;
+}
+#blog-cards .blog-card .details .tags li:first-child {
+  margin-left: -4px;
+}
+#blog-cards .blog-card .description {
+  padding: 1rem;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+#blog-cards .blog-card .description h1, #blog-cards .blog-card .description .h1,
+#blog-cards .blog-card .description h2,
+#blog-cards .blog-card .description .h2 {
+  font-family: Poppins, sans-serif;
+}
+#blog-cards .blog-card .description h1, #blog-cards .blog-card .description .h1 {
+  line-height: 1;
+  margin: 0;
+  font-size: 1.7rem;
+}
+#blog-cards .blog-card .description h2, #blog-cards .blog-card .description .h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #a2a2a2;
+  margin-top: 5px;
+}
+#blog-cards .blog-card .description .read-more {
+  text-align: right;
+}
+#blog-cards .blog-card .description .read-more a {
+  color: #3BC36E;
+  display: inline-block;
+  position: relative;
+}
+#blog-cards .blog-card .description .read-more a:after {
+  content: "";
+  font-family: FontAwesome;
+  margin-left: -10px;
+  opacity: 0;
+  vertical-align: middle;
+  transition: margin 0.3s, opacity 0.3s;
+}
+#blog-cards .blog-card .description .read-more a:hover:after {
+  margin-left: 5px;
+  opacity: 1;
+}
+#blog-cards .blog-card p {
+  position: relative;
+  margin: 1rem 0 0;
+}
+#blog-cards .blog-card p:first-of-type {
+  margin-top: 2.25rem;
+}
+#blog-cards .blog-card p:first-of-type:before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background: #3BC36E;
+  width: 35px;
+  top: -1.75rem;
+  border-radius: 3px;
+}
+#blog-cards .blog-card:hover .details {
+  left: 0%;
+}
+@media (min-width: 640px) {
+  #blog-cards .blog-card {
+    flex-direction: row;
+    max-width: 700px;
+  }
+  #blog-cards .blog-card .meta {
+    flex-basis: 40%;
+    height: auto;
+  }
+  #blog-cards .blog-card .description {
+    flex-basis: 60%;
+  }
+  #blog-cards .blog-card .description:before {
+    transform: skewX(-3deg);
+    content: "";
+    background: #fff;
+    width: 30px;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  #blog-cards .blog-card.alt {
+    flex-direction: row-reverse;
+  }
+  #blog-cards .blog-card.alt .description:before {
+    left: inherit;
+    right: -10px;
+    transform: skew(3deg);
+  }
+  #blog-cards .blog-card.alt .details {
+    padding-left: 25px;
+  }
 }
 
 #mentions .content {
