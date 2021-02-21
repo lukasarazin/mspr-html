@@ -11217,43 +11217,73 @@ textarea.form-control-lg {
 #shop .container {
   padding: 5rem;
 }
-#shop .container .button-wrapper {
+#shop .container table tbody {
+  border-radius: 15px;
+}
+#shop .container table tbody tr td {
+  border: 1px solid #000;
+  padding: 10px;
+}
+#shop .container table tbody tr td .message-tree {
+  display: block;
+}
+#shop .container table tbody tr td .message-tree input {
+  text-align: center;
+  padding-left: 50px;
+}
+#shop .container table .button-wrapper {
   text-align: center;
 }
 
-#our_trees {
+body {
   background-color: #fcfcfc;
-  border: 3px solid red;
 }
-#our_trees .cards_wrapper {
-  border: 3px solid blue;
+body #our_trees {
+  padding: 45px;
 }
-#our_trees .cards_wrapper .card-tree {
-  border: 3px solid green;
+body #our_trees .button-wrapper {
+  text-align: center;
+  margin-top: 50px;
+}
+body #our_trees .cards_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+body #our_trees .cards_wrapper .card-tree {
   padding: 0;
   border-radius: 15px;
+  box-shadow: 0 4px 30px 0 rgba(50, 39, 73, 0.1);
   overflow: hidden;
   width: 300px;
 }
-#our_trees .cards_wrapper .card-tree .content img {
-  max-width: 100%;
+body #our_trees .cards_wrapper .card-tree:hover {
+  box-shadow: 0 4px 30px 0 rgba(50, 39, 73, 0.3);
+  transition: 0.3s;
+}
+body #our_trees .cards_wrapper .card-tree .content .img-card {
+  width: auto;
+  height: 375px;
+  overflow: hidden;
+}
+body #our_trees .cards_wrapper .card-tree .content .img-card img {
+  width: 100%;
   height: auto;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
 }
-#our_trees .cards_wrapper .card-tree .content .tree-body {
-  border: 3px solid yellow;
+body #our_trees .cards_wrapper .card-tree .content .img-card .tree-body {
   overflow: hidden;
   padding: 5px 0 5px 0;
   text-underline: none;
+  border: 3px solid red;
 }
-#our_trees .cards_wrapper .card-tree .content .tree-body h2, #our_trees .cards_wrapper .card-tree .content .tree-body .h2 {
+body #our_trees .cards_wrapper .card-tree .content .img-card .tree-body .tree-title h2, body #our_trees .cards_wrapper .card-tree .content .img-card .tree-body .tree-title .h2 {
   color: #000;
   font-weight: bold;
 }
-#our_trees .cards_wrapper .card-tree .content .tree-body span {
+body #our_trees .cards_wrapper .card-tree .content .img-card .tree-body .country span {
   color: #000;
 }
-#our_trees .cards_wrapper .card-tree .content .tree-body label {
+body #our_trees .cards_wrapper .card-tree .content .img-card .tree-body label {
   color: #000;
 }
 

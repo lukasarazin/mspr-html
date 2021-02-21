@@ -3,13 +3,38 @@
   .container {
     padding: 5rem;
 
-    .button-wrapper {
-      text-align: center;
-    }
+    table {
 
+
+      tbody {
+        border-radius: $border-radius;
+
+        tr {
+
+          td {
+            border: 1px solid #000;
+            padding: 10px;
+
+
+            .message-tree {
+              display: block;
+
+              input {
+                text-align: center;
+                padding-left: 50px;
+              }
+            }
+          }
+        }
+      }
+
+      .button-wrapper {
+        text-align: center;
+      }
+
+    }
   }
 }
-
 
 
 
