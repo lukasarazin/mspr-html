@@ -11221,38 +11221,40 @@ textarea.form-control-lg {
   text-align: center;
 }
 
-.tree {
-  position: relative;
-  display: block;
+#our_trees {
+  background-color: #fcfcfc;
+  border: 3px solid red;
+}
+#our_trees .cards_wrapper {
+  border: 3px solid blue;
+}
+#our_trees .cards_wrapper .card-tree {
+  border: 3px solid green;
+  padding: 0;
   border-radius: 15px;
-  color: inherit;
-  text-decoration: none;
-  padding: 6rem;
   overflow: hidden;
+  width: 300px;
 }
-.tree img {
-  z-index: -1;
-  display: block;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center center;
-     object-position: center center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+#our_trees .cards_wrapper .card-tree .content img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
 }
-.tree:hover img {
-  filter: saturate(0);
-  transition: 0.3s;
+#our_trees .cards_wrapper .card-tree .content .tree-body {
+  border: 3px solid yellow;
+  overflow: hidden;
+  padding: 5px 0 5px 0;
+  text-underline: none;
 }
-.tree .tree-body {
-  padding: 2rem;
+#our_trees .cards_wrapper .card-tree .content .tree-body h2, #our_trees .cards_wrapper .card-tree .content .tree-body .h2 {
+  color: #000;
+  font-weight: bold;
 }
-.tree .tree-body .tree-title {
-  font-size: 3rem;
-  color: #fff;
+#our_trees .cards_wrapper .card-tree .content .tree-body span {
+  color: #000;
+}
+#our_trees .cards_wrapper .card-tree .content .tree-body label {
+  color: #000;
 }
 
 #global {
