@@ -16,21 +16,18 @@
         <div class="meta">
             <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
             <ul class="details">
-                <li class="author"><a href="#">John Doe</a></li>
-                <li class="date">Aug. 24, 2015</li>
+                <li class="author"><a href="#">Salle 1</a></li>
+                <li class="date">04.10.21</li>
                 <li class="tags">
                     <ul>
-                        <li><a href="#">Learn</a></li>
-                        <li><a href="#">Code</a></li>
-                        <li><a href="#">HTML</a></li>
-                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">Oscar D.</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
-        <div class="description">
-            <h1>Learning to Code</h1>
-            <h2>Opening a door to the future</h2>
+        <div class="description5">
+            <h1>Le changement du monde</h1>
+            <h2>Ouvrir une nouvelle porte au futur</h2>
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
             <p class="read-more">
                 <a href="#">Voir plus</a>
@@ -41,20 +38,18 @@
         <div class="meta">
             <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
             <ul class="details">
-                <li class="author"><a href="#">Jane Doe</a></li>
-                <li class="date">July. 15, 2015</li>
+                <li class="author"><a href="#">Salle 2</a></li>
+                <li class="date">05.10.21</li>
                 <li class="tags">
                     <ul>
-                        <li><a href="#">Learn</a></li>
-                        <li><a href="#">Code</a></li>
-                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">Luka S.</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
-        <div class="description">
-            <h1>Mastering the Language</h1>
-            <h2>Java is not the same as JavaScript</h2>
+        <div class="description5">
+            <h1>L'intérêt des arbres</h1>
+            <h2>Plutôt que de vivre, il faut survivre</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
             <p class="read-more">
                 <a href="#">Voir plus</a>
@@ -69,11 +64,10 @@
 
         <div class="row">
         <div class="col-lg-6">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores magnam minima mollitia
-            nisi possimus qui. Accusantium aperiam corporis distinctio eligendi facilis necessitatibus,
-            quo! Accusamus aliquid amet animi asperiores aut commodi deserunt dignissimos doloremque
-            doloribus ducimus, eaque eligendi esse et incidunt, ipsa neque nesciunt nostrum nulla officiis
-            perspiciatis qui repellat rerum sequi soluta ullam, vel veniam voluptatibus. <br><br>Adipisci aut dolore
+        <p>Actuellement, avec la crise sanitaire, nos conférences sont entièrement maintenues
+            en ligne. Chaque semaine, notre équipe vous propose des vidéos ou live pour en apprendre davantage
+            sur nous et nos ambitions. Nos deux principales conférences se déroulernt
+            comme prévu, devant vous, proche de vous et non dérrière un écran.<br><br>Adipisci aut dolore
             dolorem enim itaque neque optio, pariatur perspiciatis porro qui quo ratione sit soluta ut vel
             voluptas voluptatem! Aliquid aperiam asperiores blanditiis consequuntur exercitationem explicabo
             harum id libero, molestiae nihil nulla quas ratione sunt, ut, voluptatum. </p>
@@ -106,7 +100,7 @@
 
             <div class="row">
                 <div class="col-lg-2"><h2>70</h2><h4>Conférences</h4><p>À travers 6 univers thématiques : Market, Tech, Entrepreneurship, Society, Work, Design...</p></div>
-                <div class="col-lg-4"><img class="img-conf" src="assets/image/500.gif" height="350" width="494" alt=""></div>
+                <div class="col-lg-4"><img class="img-conf" src="https://p1.storage.canalblog.com/23/42/1486001/121377041.jpg" height="350" width="494" alt=""></div>
                 <div class="col-lg-2"><h2>30</h2><h4>Speakers</h4><p>Inspirés·es, experts·es, talentueux·euses, ils·elles viennent délivrer des messages différents à tous nos publics.</p></div>
             </div>
 
