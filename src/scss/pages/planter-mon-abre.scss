@@ -1,42 +1,72 @@
-.tree {
-  position: relative;
-  display: block;
-  border: 1px solid red;
-  border-radius: $border-radius;
-  color: inherit;
-  text-decoration: none;
-  padding: 6rem;
-  overflow: hidden;
+body {
+  background-color: #fcfcfc;
 
-  img {
-    z-index: -1;
-    display: block;
-    object-fit: cover;
-    object-position: center center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+  #our_trees {
+    padding: 45px;
 
-  &:hover img {
-    filter: saturate(0);
-    transition: 0.3s;
-  }
+    .button-wrapper{
+      text-align: center;
+      margin-top: 50px;
+    }
 
-  .tree-body {
-    padding: 2rem;
+    .cards_wrapper {
+      display: flex;
+      justify-content: space-between;
 
-    .tree-title {
-      font-size: 3rem;
-      color: #fff;
+      .card-tree {
+        padding: 0;
+        border-radius: $border-radius;
+        box-shadow: $shadow-hover;
+        overflow: hidden;
+        width: 300px;
+
+        &:hover {
+          box-shadow: 0 4px 30px 0 rgb(50 39 73 / 30%);;
+          transition: 0.3s;
+        }
+
+        .content {
+
+          .img-card {
+            width: auto;
+            height: 375px;
+            overflow: hidden;
+
+            img {
+              width: 100%;
+              height: auto;
+              box-shadow: $shadow;
+
+
+            }
+
+            .tree-body {
+              overflow: hidden;
+              padding: 5px 0 5px 0;
+              text-underline: none;
+              border: 3px solid red;
+
+              .tree-title {
+
+                h2 {
+                  color: #000;
+                  font-weight: bold;
+                }
+              }
+
+              .country {
+                span {
+                  color: #000;
+                }
+              }
+
+              label {
+                color: #000;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
-
-
-
-
-
-

@@ -11217,43 +11217,74 @@ textarea.form-control-lg {
 #shop .container {
   padding: 5rem;
 }
-#shop .container .button-wrapper {
+#shop .container table tbody {
+  border-radius: 15px;
+}
+#shop .container table tbody tr td {
+  border: 1px solid #000;
+  padding: 10px;
+}
+#shop .container table tbody tr td .message-tree {
+  display: block;
+}
+#shop .container table tbody tr td .message-tree input {
+  text-align: center;
+  padding-left: 50px;
+}
+#shop .container table .button-wrapper {
   text-align: center;
 }
 
-.tree {
-  position: relative;
-  display: block;
-  border: 1px solid red;
+body {
+  background-color: #fcfcfc;
+}
+body #our_trees {
+  padding: 45px;
+}
+body #our_trees .button-wrapper {
+  text-align: center;
+  margin-top: 50px;
+}
+body #our_trees .cards_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+body #our_trees .cards_wrapper .card-tree {
+  padding: 0;
   border-radius: 15px;
-  color: inherit;
-  text-decoration: none;
-  padding: 6rem;
+  box-shadow: 0 4px 30px 0 rgba(50, 39, 73, 0.1);
   overflow: hidden;
+  width: 300px;
 }
-.tree img {
-  z-index: -1;
-  display: block;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center center;
-     object-position: center center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.tree:hover img {
-  filter: saturate(0);
+body #our_trees .cards_wrapper .card-tree:hover {
+  box-shadow: 0 4px 30px 0 rgba(50, 39, 73, 0.3);
   transition: 0.3s;
 }
-.tree .tree-body {
-  padding: 2rem;
+body #our_trees .cards_wrapper .card-tree .content .img-card {
+  width: auto;
+  height: 375px;
+  overflow: hidden;
 }
-.tree .tree-body .tree-title {
-  font-size: 3rem;
-  color: #fff;
+body #our_trees .cards_wrapper .card-tree .content .img-card img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+body #our_trees .cards_wrapper .card-tree .content .img-card .tree-body {
+  overflow: hidden;
+  padding: 5px 0 5px 0;
+  text-underline: none;
+  border: 3px solid red;
+}
+body #our_trees .cards_wrapper .card-tree .content .img-card .tree-body .tree-title h2, body #our_trees .cards_wrapper .card-tree .content .img-card .tree-body .tree-title .h2 {
+  color: #000;
+  font-weight: bold;
+}
+body #our_trees .cards_wrapper .card-tree .content .img-card .tree-body .country span {
+  color: #000;
+}
+body #our_trees .cards_wrapper .card-tree .content .img-card .tree-body label {
+  color: #000;
 }
 
 #global {

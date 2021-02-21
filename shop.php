@@ -29,7 +29,11 @@ $total = 0;
                 as $item): ?>
                 <tbody>
                 <tr>
-                    <td class="trees">· <?php echo $item['name']; ?></td>
+                    <div class="message-tree">
+                        <td class="trees">· <?php echo $item['name']; ?>
+                            <input placeholder="Inscrivez votre message" required type="text">
+                    </div>
+                    </td>
                     <td class="trees"><?php echo $item['price']; ?> €</td>
                 </tr>
                 <?php endforeach; ?>
