@@ -10761,7 +10761,7 @@ textarea.form-control-lg {
 
 #footer {
   background-color: #fcfcfc;
-  margin-top: 6rem;
+  padding-top: 6rem;
 }
 #footer svg {
   position: relative;
