@@ -32,7 +32,7 @@
                         <input type="text" id="form3Example2"
 
                         <input value="" type="text" id="form3Example2"
-                               min="3" max="20" class="form-control" placeholder="Nom" name="last_name" required aria-invalid="false">
+                               min="3" max="20" class="form-control" placeholder="Nom" name="last_name" aria-invalid="false">
 
                     </div>
                 </div>
