@@ -10763,32 +10763,44 @@ textarea.form-control-lg {
   background-color: #fcfcfc;
   padding-top: 6rem;
 }
-#footer svg {
+#footer .row {
+  padding: 3rem;
+}
+#footer .row svg {
   position: relative;
   display: block;
   width: 100% !important;
 }
-#footer .social-network {
+#footer .row .social-network {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  max-width: 250px;
+  margin-top: 10px;
 }
-#footer .list-unstyled li a {
-  text-decoration: none;
-  text-align: center;
-}
-#footer .twitter {
-  margin-left: 20px;
-}
-#footer footer p {
-  font-size: 15px;
-  max-width: 450px;
-}
-#footer .text-center a:hover {
+#footer .row .social-network img:hover {
   opacity: 20%;
   color: #fff;
   transition: 0.2s;
 }
-#footer .text-uppercase {
+#footer .row .list-unstyled li a {
+  text-decoration: none;
+  text-align: center;
+}
+#footer .row .list-unstyled li a:hover {
+  opacity: 20%;
+  color: #fff;
+  transition: 0.2s;
+}
+#footer .row footer p {
+  font-size: 15px;
+  max-width: 450px;
+}
+#footer .row .text-center a:hover {
+  opacity: 20%;
+  color: #fff;
+  transition: 0.2s;
+}
+#footer .row .text-uppercase {
   color: #3BC36E;
 }
 
@@ -10875,7 +10887,6 @@ textarea.form-control-lg {
   margin-bottom: 25px;
   display: block;
   position: relative;
-  padding: 75px 0 0 0;
 }
 #home_about h3:after, #home_about .h3:after {
   content: "";
@@ -10895,7 +10906,6 @@ textarea.form-control-lg {
 #home_process {
   text-align: center;
   background-color: #fcfcfc;
-  padding: 100px 0;
 }
 #home_process h3, #home_process .h3 {
   font-size: 22px;
@@ -10903,7 +10913,7 @@ textarea.form-control-lg {
   margin-bottom: 25px;
   display: block;
   position: relative;
-  padding: 75px 0 0 0;
+  padding: 50px 0 5px 0;
 }
 #home_process h3:after, #home_process .h3:after {
   content: "";
@@ -11216,6 +11226,9 @@ textarea.form-control-lg {
   }
 }
 
+#shop {
+  background-color: #fcfcfc;
+}
 #shop .container {
   padding: 5rem;
 }

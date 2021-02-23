@@ -13,8 +13,10 @@
                     <div class="text-footer">
                         <p>
                             Nous avons trouver la solution au problème le plus controversé de 2021 : la pollution.
-                            Pour nous sauver de la destruction de la planète Terre d'ici 30 ans, c'est aujourd'hui qu'il faut réagir.
-                            Rejoignez Trees, plantez un arbre dans l'un de nos biômes, et ça n'est pas une espèce que vous sauverez,
+                            Pour nous sauver de la destruction de la planète Terre d'ici 30 ans, c'est aujourd'hui qu'il
+                            faut réagir.
+                            Rejoignez Trees, plantez un arbre dans l'un de nos biômes, et ça n'est pas une espèce que
+                            vous sauverez,
                             c'est vous.
                         </p>
                     </div>
@@ -26,10 +28,23 @@
                                  width="35px">
                         </a>
                         <a href="#">
-                            <img src="assets/svg/Icon%20awesome-twitter.svg"
+                            <img src="assets/svg/twitter.svg"
                                  alt="icon_twitter"
                                  width="35px"
-                                 class="twitter">
+                                 class="twitter"
+                        </a>
+                        <a href="#">
+                            <img src="assets/svg/pinterest.svg"
+                                 alt="icon_pinterest"
+                                 width="35px"
+                                 class="pinterest">
+                        </a>
+
+                        <a href="#">
+                            <img src="assets/svg/facebook.svg"
+                                 alt="icon_pinterest"
+                                 width="35px"
+                                 class="facebook">
                         </a>
 
                     </div>
@@ -62,7 +77,7 @@
                             <a href="./mentions-legales.php" class="text-white">Mentions légales</a>
                         </li>
                         <li>
-                        <a href="./mentions-legales.php" class="text-white">Nos concours</a>
+                            <a href="./mentions-legales.php" class="text-white">Nos concours</a>
                         </li>
                     </ul>
                     <img width="100px" height="auto" src="assets/image/TREES.png" alt="">
@@ -80,9 +95,9 @@
 <script>
     // HERO - NOS BIOMES - CAROUSEL
 
-    (function() {
+    (function () {
 
-        var $$ = function(selector, context) {
+        var $$ = function (selector, context) {
             var context = context || document;
             var elements = context.querySelectorAll(selector);
             return [].slice.call(elements);
@@ -114,16 +129,16 @@
             var $prevControl;
 
             function setIDs() {
-                $slides.forEach(function($slide, index) {
+                $slides.forEach(function ($slide, index) {
                     $slide.classList.add("fnc-slide-" + (index + 1));
                 });
 
-                $controls.forEach(function($control, index) {
+                $controls.forEach(function ($control, index) {
                     $control.setAttribute("data-slide", index + 1);
                     $control.classList.add("fnc-nav__control-" + (index + 1));
                 });
 
-                $controlsBgs.forEach(function($bg, index) {
+                $controlsBgs.forEach(function ($bg, index) {
                     $bg.classList.add("fnc-nav__bg-" + (index + 1));
                 });
             };
@@ -178,7 +193,6 @@
             };
 
 
-
             function controlClickHandler() {
                 if (sliding) return;
                 if (this.classList.contains("m--active-control")) return;
@@ -192,7 +206,7 @@
                 performSliding(slideID);
             };
 
-            $controls.forEach(function($control) {
+            $controls.forEach(function ($control) {
                 $control.addEventListener("click", controlClickHandler);
             });
 
@@ -202,7 +216,7 @@
                 curSlide++;
                 if (curSlide > numOfSlides) curSlide = 1;
 
-                autoSlidingTO = setTimeout(function() {
+                autoSlidingTO = setTimeout(function () {
                     performSliding(curSlide);
                 }, delay);
             };
@@ -219,7 +233,7 @@
                 var delay = +options.autoSlidingDelay || autoSlidingDelay;
                 delay += slidingDelay + slidingAT;
 
-                $progressAS.forEach(function($progress) {
+                $progressAS.forEach(function ($progress) {
                     $progress.style.transition = "transform " + (delay / 1000) + "s";
                 });
             }
@@ -228,10 +242,10 @@
 
         };
 
-        var fncSlider = function(sliderSelector, options) {
+        var fncSlider = function (sliderSelector, options) {
             var $sliders = $$(sliderSelector);
 
-            $sliders.forEach(function($slider) {
+            $sliders.forEach(function ($slider) {
                 _fncSliderInit($slider, options);
             });
         };
@@ -251,17 +265,17 @@
 
     var $demoCont = document.querySelector(".demo-cont");
 
-    [].slice.call(document.querySelectorAll(".fnc-slide__action-btn")).forEach(function($btn) {
-        $btn.addEventListener("click", function() {
+    [].slice.call(document.querySelectorAll(".fnc-slide__action-btn")).forEach(function ($btn) {
+        $btn.addEventListener("click", function () {
             $demoCont.classList.toggle("credits-active");
         });
     });
 
-    document.querySelector(".demo-cont__credits-close").addEventListener("click", function() {
+    document.querySelector(".demo-cont__credits-close").addEventListener("click", function () {
         $demoCont.classList.remove("credits-active");
     });
 
-    document.querySelector(".js-activate-global-blending").addEventListener("click", function() {
+    document.querySelector(".js-activate-global-blending").addEventListener("click", function () {
         document.querySelector(".example-slider").classList.toggle("m--global-blending-active");
     });</script>
 

@@ -2,39 +2,56 @@
   background-color: #fcfcfc;
   padding-top: 6rem;
 
-  svg {
-    position: relative;
-    display: block;
-    width: 100% !important;
-  }
+  .row {
+    padding: 3rem;
 
-  .social-network {
-    display: flex;
-    align-items: center;
-  }
 
-  .list-unstyled li a {
-    text-decoration: none;
-    text-align: center;
-  }
+    svg {
+      position: relative;
+      display: block;
+      width: 100% !important;
+    }
 
-  .twitter {
-    margin-left: 20px;
-  }
+    .social-network {
+      display: flex;
+      justify-content: space-between;
+      max-width: 250px;
+      margin-top: 10px;
 
-  footer p {
-    font-size: 15px;
-    max-width: 450px;
-  }
+      img {
+        &:hover {
+          opacity: 20%;
+          color: #fff;
+          transition: 0.2s;
+        }
+      }
+    }
 
-  .text-center a:hover {
-    opacity: 20%;
-    color: #fff;
-    transition: 0.2s;
-  }
+    .list-unstyled li a {
+      text-decoration: none;
+      text-align: center;
 
-  .text-uppercase {
-    color: $primary;
+      &:hover {
+        opacity: 20%;
+        color: #fff;
+        transition: 0.2s;
+      }
+    }
+
+    footer p {
+      font-size: 15px;
+      max-width: 450px;
+    }
+
+    .text-center a:hover {
+      opacity: 20%;
+      color: #fff;
+      transition: 0.2s;
+    }
+
+    .text-uppercase {
+      color: $primary;
+    }
   }
 }
 

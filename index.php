@@ -94,7 +94,7 @@
                             </svg>
                         </div>
                         <span class="step">Étape 1 :</span>
-                        <p>Achetez votre graine sur le site et nous nous chargerons de la planté</p>
+                        <p>Achetez votre graine sur le site et nous nous chargerons de la planté.</p>
                     </div>
                     <div class="step-2 shadow-lg">
                         <div class="icons-step">
@@ -162,7 +162,7 @@
                             </svg>
                         </div>
                         <span class="step">Étape 2 :</span>
-                        <p>L'entretien de votre arbre est assuré chaque jours par une équipe de professionnelle</p>
+                        <p>L'entretien de votre arbre est assuré chaque jours par une équipe de professionnelle.</p>
                     </div>
                     <div class="step-3 shadow-lg">
                         <div class="icons-step">
@@ -225,7 +225,7 @@
                         </div>
 
                         <span class="step">Étape 3 :</span>
-                        <p>Une fois, votre que votre arbre à atteind maturité, nous inscrivons votre message</p>
+                        <p>Une fois, votre que votre arbre à atteind maturité, nous inscrivons votre message.</p>
                     </div>
                 </div>
             </div>
@@ -283,9 +283,9 @@
                                                 <li>Sous-titre</li>
                                             </ul>
                                             <span>
-                                                Voir le programme
-                                                <img src="assets/svg/icon_plus.svg" alt="">
-                                            </span>
+                                               Voir le programme
+                                               <img src="assets/svg/icon_plus.svg" alt="">
+                                           </span>
                                         </div>
                                     </div>
                                 </div>
@@ -316,9 +316,9 @@
                                                     <li>Sous-titre</li>
                                                 </ul>
                                                 <span>
-                                                Voir le programme
-                                                <img src="assets/svg/icon_plus.svg" alt="">
-                                            </span>
+                                               Voir le programme
+                                               <img src="assets/svg/icon_plus.svg" alt="">
+                                           </span>
                                             </div>
                                         </div>
                                     </div>
@@ -333,7 +333,7 @@
 
     <section id="home_about">
         <div id="dernieres-nouvelles">
-            <svg class="reverse" viewBox="0 0 1920 50" xmlns="http://www.w3.org/2000/svg">
+            <svg class="reverse" viewBox="0 0 1920 40" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.5 13.5V83.5L1921.5 78.5V12L1919 13.5C1901.8 22.3 1758.5 17.1667 1689 13.5C1689 13.5 1518.67 3 1455.5 2.5L1286.5 13.5C1286.5 13.5 909.333 17.8333 761.5 13.5L376 0.5L0.5 13.5Z"
                       fill="#333333"/>
             </svg>
@@ -361,8 +361,3 @@
 </main>
 
 <?php require_once 'template-parts/footer.php' ?>
-
-
-
-
-
