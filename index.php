@@ -237,6 +237,7 @@
         </div>
     </section>
 
+<<<<<<< Updated upstream
     <section id="conference">
         <svg viewBox="0 0 1900 50" xmlns="http://www.w3.org/2000/svg">
             <path d="M0.5 13.5V83.5L1921.5 78.5V12L1919 13.5C1901.8 22.3 1758.5 17.1667 1689 13.5C1689 13.5 1518.67 3 1455.5 2.5L1286.5 13.5C1286.5 13.5 909.333 17.8333 761.5 13.5L376 0.5L0.5 13.5Z"
@@ -355,9 +356,16 @@
                         </a>
                     </div>
                 </div>
+=======
+    <section id="home_information">
+        <div class="container">
+            <div class="info_content">
+                <h2 class="title">QUI SOMMES NOUS ?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsa ipsum minus nam? Asperiores minima quas repellat veniam! Ab deleniti earum minus, nam natus ut.</p>
+                <button class="button-primary">En savoir plus</button>
+>>>>>>> Stashed changes
             </div>
     </section>
-
 </main>
 
 <?php require_once 'template-parts/footer.php' ?>

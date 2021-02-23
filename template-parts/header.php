@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< Updated upstream
 require_once 'head.php';
 
 $page_uri = $_SERVER['REQUEST_URI'];
@@ -8,6 +9,10 @@ $page_uri = $_SERVER['REQUEST_URI'];
 
 <header id="header">
     <nav class="navbar navbar-expand-md navbar-light" style="background-color: #fcfcfc;">
+=======
+<header>
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+>>>>>>> Stashed changes
         <div class="container-fluid">
 
             <a class="navbar-brand" href="/mspr-html/">
