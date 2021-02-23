@@ -9,11 +9,12 @@
       }
 
       .step-1, .step-2, .step-3 {
-        padding: 45px;
+        padding: 60px;
         background-color: #fcfcfc;
         border-radius: 15px;
         box-shadow: 0 4px 30px 0 rgb(50 39 73 / 20%);
-        margin-bottom: 45px;
+        max-width: 1000px;
+        margin: 45px auto;
 
         &:hover {
           box-shadow: 0 4px 30px 0 rgb(50 39 73 / 30%);
@@ -23,6 +24,10 @@
         .img-step {
           margin: auto;
           text-align: center;
+        }
+
+        .img-step-2 {
+          transform: rotateY(180deg);
         }
       }
     }

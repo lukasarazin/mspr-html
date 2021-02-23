@@ -11861,11 +11861,12 @@ h1 {
   text-align: center;
 }
 #process .container .content .step-1, #process .container .content .step-2, #process .container .content .step-3 {
-  padding: 45px;
+  padding: 60px;
   background-color: #fcfcfc;
   border-radius: 15px;
   box-shadow: 0 4px 30px 0 rgba(50, 39, 73, 0.2);
-  margin-bottom: 45px;
+  max-width: 1000px;
+  margin: 45px auto;
 }
 #process .container .content .step-1:hover, #process .container .content .step-2:hover, #process .container .content .step-3:hover {
   box-shadow: 0 4px 30px 0 rgba(50, 39, 73, 0.3);
@@ -11874,6 +11875,9 @@ h1 {
 #process .container .content .step-1 .img-step, #process .container .content .step-2 .img-step, #process .container .content .step-3 .img-step {
   margin: auto;
   text-align: center;
+}
+#process .container .content .step-1 .img-step-2, #process .container .content .step-2 .img-step-2, #process .container .content .step-3 .img-step-2 {
+  transform: rotateY(180deg);
 }
 
 #main-conf {
@@ -12380,19 +12384,20 @@ h1 {
   height: auto;
 }
 
-#contact img, #shop img, #bill img, #mentions img {
-  position: absolute;
+#contact img, #shop img, #bill img, #mentions img, #process img {
   display: block;
 }
-#contact img.leave-top-left, #shop img.leave-top-left, #bill img.leave-top-left, #mentions img.leave-top-left {
+#contact img.leave-top-left, #shop img.leave-top-left, #bill img.leave-top-left, #mentions img.leave-top-left, #process img.leave-top-left {
   top: calc(-365px + 60px);
   left: 0;
   transform: rotate(90deg);
   transform-origin: 0 100%;
+  position: absolute;
 }
-#contact img.leave-top-right, #shop img.leave-top-right, #bill img.leave-top-right, #mentions img.leave-top-right {
+#contact img.leave-top-right, #shop img.leave-top-right, #bill img.leave-top-right, #mentions img.leave-top-right, #process img.leave-top-right {
   top: 0;
   right: 0;
+  position: absolute;
 }
 
 @-webkit-keyframes float {

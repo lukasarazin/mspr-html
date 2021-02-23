@@ -1,7 +1,7 @@
-#contact, #shop, #bill, #mentions{
+#contact, #shop, #bill, #mentions, #process {
 
   img {
-    position: absolute;
+
     display: block;
 
     &.leave-top-left {
@@ -9,11 +9,13 @@
       left: 0;
       transform: rotate(90deg);
       transform-origin: 0 100%;
+      position: absolute;
     }
 
     &.leave-top-right {
       top: 0;
       right: 0;
+      position: absolute;
     }
   }
 }
