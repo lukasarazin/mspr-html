@@ -11274,6 +11274,9 @@ body #our_trees .cards_wrapper .card-tree .content .img-card .tree-body {
   text-underline: none;
   border: 3px solid red;
 }
+body #our_trees .cards_wrapper .card-tree .content .img-card .tree-body .price {
+  margin-left: 1rem;
+}
 body #our_trees .cards_wrapper .card-tree .content .img-card .tree-body .tree-title h2, body #our_trees .cards_wrapper .card-tree .content .img-card .tree-body .tree-title .h2 {
   color: #000;
   font-weight: bold;

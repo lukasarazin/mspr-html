@@ -27,7 +27,7 @@ include 'template-parts/header.php' ?>
             </div>
 
             <div class="button-wrapper">
-                <a class="btn btn-outline-secondary">
+                <a class="btn btn-outline-secondary" href="./index.php">
                     Retour à l'accueil
                 </a>
             </div>

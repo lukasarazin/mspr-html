@@ -54,7 +54,7 @@ require_once 'template-parts/header.php';
                                 </div>
                                 <div class="tree-body">
                                     <h2 class="tree-title" style="margin-left: 1rem; margin-top: 1rem; text-transform: uppercase; font-weight: 550;"><?php echo $tree['name']; ?></h2>
-                                    <span class="country" style="margin-left: 1rem;"><?php echo $tree['country']; ?></span>
+                                    <span class="country" style="margin-left: 1rem;"><?php echo $tree['country']; ?> 5€</span>
 
                                     <div class="form-group">
                                         <label class="choose"
