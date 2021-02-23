@@ -11660,6 +11660,7 @@ h1 {
     transform: scale(2);
   }
 }
+<<<<<<< Updated upstream
 
 .concept-eight {
   background: url(https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/falls.jpg)
@@ -11728,6 +11729,19 @@ h1 {
   align-items: center;
   margin: 3rem auto;
   display: block;
+=======
+.info_content {
+  border: 3px solid blue;
+}
+
+.button-primary {
+  border-radius: 50px;
+  background-color: #3bc36e;
+  height: 35px;
+  color: white;
+  border: transparent;
+  padding: 0 15px 0 15px;
+>>>>>>> Stashed changes
 }
 
 #history {
@@ -11870,6 +11884,7 @@ h1 {
   filter: grayscale(0);
 }
 
+<<<<<<< Updated upstream
 #process {
   padding: 65px;
 }
@@ -11894,12 +11909,22 @@ h1 {
 }
 #process .container .content .step-1 .img-step-2, #process .container .content .step-2 .img-step-2, #process .container .content .step-3 .img-step-2 {
   transform: rotateY(180deg);
+=======
+.button-secondary {
+  border-radius: 50px;
+  background-color: transparent;
+  height: 35px;
+  color: #333333;
+  border: 2px solid #333333;
+  padding: 0 15px 0 15px;
+>>>>>>> Stashed changes
 }
 
 #main-conf {
   background-color: #fcfcfc;
 }
 
+<<<<<<< Updated upstream
 #top-conf {
   padding: 10rem;
   font-family: "Poppins", sans-serif;
@@ -12054,6 +12079,13 @@ h1 {
   margin: auto;
   transition: left 0.2s;
   background: rgba(0, 0, 0, 0.6);
+=======
+#home_information .card {
+  padding: 45px;
+  border-radius: 15px;
+}
+#home_information .number {
+>>>>>>> Stashed changes
   color: #fff;
   padding: 10px;
   width: 100%;
@@ -12183,7 +12215,9 @@ h1 {
     padding-left: 25px;
   }
 }
+<<<<<<< Updated upstream
 
+<<<<<<< Updated upstream
 #gifs {
   font-family: "Poppins", sans-serif;
 }
@@ -12515,7 +12549,7 @@ h1 {
 }
 
 #conference {
-  margin-top: 5rem;
+  margin-top: 9rem;
 }
 #conference .test {
   background: #333333;
@@ -13439,4 +13473,20 @@ body {
 #home_process .icons-process .step-1 .icons-step svg, #home_process .icons-process .step-2 .icons-step svg, #home_process .icons-process .step-3 .icons-step svg {
   width: 100%;
   height: auto;
+=======
+.text {
+  color: white;
+=======
+#home_information .card span {
+  color: #fff;
+>>>>>>> Stashed changes
+}
+#home_information .title {
+  border: 3px solid yellow;
+  text-align: center;
+}
+#home_information p {
+  border: 3px solid greenyellow;
+  text-align: center;
+>>>>>>> Stashed changes
 }
