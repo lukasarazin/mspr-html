@@ -79,9 +79,14 @@
 // HOME ABOUT
 
 #home_about {
-  padding: 75px 0;
+
   text-align: center;
   background-color: #fcfcfc;
+
+  .reverse {
+    transform: rotate(-180deg);
+    padding-top: 5rem;
+  }
 
   .button-wrapper {
     text-align: center;
@@ -93,7 +98,7 @@
     margin-bottom: 25px;
     display: block;
     position: relative;
-    padding-bottom: 5px;
+    padding: 75px 0 0 0;
   }
 
   h3:after {
@@ -105,6 +110,7 @@
     bottom: 0;
     left: 45%;
     border-bottom: 2px solid $primary;
+    padding-bottom: 5px;
   }
 
   p {
@@ -118,11 +124,7 @@
 #home_process {
   text-align: center;
   background-color: #fcfcfc;
-
-  .reverse {
-    transform: rotate(-180deg);
-    padding-top: 5rem;
-  }
+  padding: 100px 0;
 
   h3 {
     font-size: 22px;
@@ -130,7 +132,7 @@
     margin-bottom: 25px;
     display: block;
     position: relative;
-    padding-bottom: 5px;
+    padding: 75px 0 0 0;
   }
 
   h3:after {
@@ -141,6 +143,7 @@
     bottom: 0;
     left: 45%;
     border-bottom: 2px solid $primary;
+    padding-bottom: 5px;
   }
 }
 

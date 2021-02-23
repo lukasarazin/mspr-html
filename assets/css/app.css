@@ -10859,9 +10859,12 @@ textarea.form-control-lg {
 }
 
 #home_about {
-  padding: 75px 0;
   text-align: center;
   background-color: #fcfcfc;
+}
+#home_about .reverse {
+  transform: rotate(-180deg);
+  padding-top: 5rem;
 }
 #home_about .button-wrapper {
   text-align: center;
@@ -10872,7 +10875,7 @@ textarea.form-control-lg {
   margin-bottom: 25px;
   display: block;
   position: relative;
-  padding-bottom: 5px;
+  padding: 75px 0 0 0;
 }
 #home_about h3:after, #home_about .h3:after {
   content: "";
@@ -10882,6 +10885,7 @@ textarea.form-control-lg {
   bottom: 0;
   left: 45%;
   border-bottom: 2px solid #3BC36E;
+  padding-bottom: 5px;
 }
 #home_about p {
   margin-bottom: 25px;
@@ -10891,10 +10895,7 @@ textarea.form-control-lg {
 #home_process {
   text-align: center;
   background-color: #fcfcfc;
-}
-#home_process .reverse {
-  transform: rotate(-180deg);
-  padding-top: 5rem;
+  padding: 100px 0;
 }
 #home_process h3, #home_process .h3 {
   font-size: 22px;
@@ -10902,7 +10903,7 @@ textarea.form-control-lg {
   margin-bottom: 25px;
   display: block;
   position: relative;
-  padding-bottom: 5px;
+  padding: 75px 0 0 0;
 }
 #home_process h3:after, #home_process .h3:after {
   content: "";
@@ -10912,6 +10913,7 @@ textarea.form-control-lg {
   bottom: 0;
   left: 45%;
   border-bottom: 2px solid #3BC36E;
+  padding-bottom: 5px;
 }
 
 #contact, #bill {
