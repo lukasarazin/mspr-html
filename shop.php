@@ -24,18 +24,13 @@ $total = 0;
         <h1>Votre panier</h1>
         <div class="row g-4">
             <table>
-                <?php foreach ($cartItems
-
-                as $item): ?>
+                <?php foreach ($cartItems as $item): ?>
                 <tbody>
                 <tr>
-                    <div class="test">
+                    <div class="tree-product">
                         <td class="trees">
-
                             <?php echo $item['name']; ?>
                             <input placeholder="Inscrivez votre message" required type="text">
-                            <img src="https://placehold.it/100" alt="">
-
                         </td>
                     </div>
                     <td class="trees"><?php echo $item['price']; ?> €</td>
