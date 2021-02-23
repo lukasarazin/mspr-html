@@ -11854,166 +11854,26 @@ h1 {
   filter: grayscale(0);
 }
 
-#timeline {
-  width: 80%;
-  margin: 20px auto;
-  position: relative;
+#process {
+  padding: 65px;
 }
-#timeline:before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 50%;
-  top: 0;
-  margin: 0 0 0 -1px;
-  width: 2px;
-  height: 100%;
-  background: grey;
-}
-#timeline article {
-  width: 100%;
-  margin: 0 0 20px 0;
-  position: relative;
-}
-#timeline article:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-#timeline article div.inner {
-  width: 40%;
-  float: left;
-  margin: 5px 0 0 0;
-  border-radius: 6px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
-}
-#timeline article div.inner span.date {
-  display: block;
-  width: 60px;
-  height: 50px;
-  padding: 5px 0;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  margin: 0 0 0 -32px;
-  border-radius: 100%;
-  font-size: 12px;
-  font-weight: 900;
-  text-transform: uppercase;
-  background: #fff;
-  color: #000;
-}
-#timeline article div.inner span.date span {
-  display: block;
+#process .container .content .button-wrapper {
   text-align: center;
 }
-#timeline article div.inner span.date1 {
-  box-shadow: 0 0 0 4px #e74c3c;
+#process .container .content .step-1, #process .container .content .step-2, #process .container .content .step-3 {
+  padding: 45px;
+  background-color: #fcfcfc;
+  border-radius: 15px;
+  box-shadow: 0 4px 30px 0 rgba(50, 39, 73, 0.2);
+  margin-bottom: 45px;
 }
-#timeline article div.inner span.date2 {
-  box-shadow: 0 0 0 4px #2ecc71;
+#process .container .content .step-1:hover, #process .container .content .step-2:hover, #process .container .content .step-3:hover {
+  box-shadow: 0 4px 30px 0 rgba(50, 39, 73, 0.3);
+  transition: 0.5s;
 }
-#timeline article div.inner span.date3 {
-  box-shadow: 0 0 0 4px #e67e22;
-}
-#timeline article div.inner span.date4 {
-  box-shadow: 0 0 0 4px #1abc9c;
-}
-#timeline article div.inner span.date5 {
-  box-shadow: 0 0 0 4px #9b59b6;
-}
-#timeline article div.inner span.date span.month {
-  font-size: 18px;
+#process .container .content .step-1 .img-step, #process .container .content .step-2 .img-step, #process .container .content .step-3 .img-step {
+  margin: auto;
   text-align: center;
-  display: block;
-  margin-top: 6px;
-}
-#timeline article div.inner span.date span.month1 {
-  color: #e74c3c;
-}
-#timeline article div.inner span.date span.month2 {
-  color: #2ecc71;
-}
-#timeline article div.inner span.date span.month3 {
-  color: #e67e22;
-}
-#timeline article div.inner span.date span.month4 {
-  color: #1abc9c;
-}
-#timeline article div.inner span.date span.month5 {
-  color: #9b59b6;
-}
-#timeline article div.inner h2, #timeline article div.inner .h2 {
-  padding: 15px;
-  margin: 0;
-  color: #fff;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  border-radius: 6px 6px 0 0;
-  position: relative;
-}
-#timeline img {
-  width: 487px;
-  height: 200px;
-  transition: 0.5s;
-}
-#timeline img:hover {
-  height: 270px;
-  transition: 0.5s;
-}
-#timeline article div.inner h2:after, #timeline article div.inner .h2:after {
-  content: "";
-  position: absolute;
-  top: 20px;
-  right: -5px;
-  width: 10px;
-  height: 10px;
-  -webkit-transform: rotate(-45deg);
-}
-#timeline article div.inner p {
-  padding: 15px;
-  margin: 0;
-  font-size: 14px;
-  background: lightgrey;
-  color: #000;
-  border-radius: 0 0 6px 6px;
-}
-#timeline article:nth-child(2n+2) div.inner {
-  float: right;
-}
-#timeline article:nth-child(2n+2) div.inner h2:after, #timeline article:nth-child(2n+2) div.inner .h2:after {
-  left: -5px;
-}
-#timeline article:nth-child(1) div.inner h2, #timeline article:nth-child(1) div.inner .h2 {
-  background: #e74c3c;
-}
-#timeline article:nth-child(1) div.inner h2:after, #timeline article:nth-child(1) div.inner .h2:after {
-  background: #e74c3c;
-}
-#timeline article:nth-child(2) div.inner h2, #timeline article:nth-child(2) div.inner .h2 {
-  background: #2ecc71;
-}
-#timeline article:nth-child(2) div.inner h2:after, #timeline article:nth-child(2) div.inner .h2:after {
-  background: #2ecc71;
-}
-#timeline article:nth-child(3) div.inner h2, #timeline article:nth-child(3) div.inner .h2 {
-  background: #e67e22;
-}
-#timeline article:nth-child(3) div.inner h2:after, #timeline article:nth-child(3) div.inner .h2:after {
-  background: #e67e22;
-}
-#timeline article:nth-child(4) div.inner h2, #timeline article:nth-child(4) div.inner .h2 {
-  background: #1abc9c;
-}
-#timeline article:nth-child(4) div.inner h2:after, #timeline article:nth-child(4) div.inner .h2:after {
-  background: #1abc9c;
-}
-#timeline article:nth-child(5) div.inner h2, #timeline article:nth-child(5) div.inner .h2 {
-  background: #9b59b6;
-}
-#timeline article:nth-child(5) div.inner h2:after, #timeline article:nth-child(5) div.inner .h2:after {
-  background: #9b59b6;
 }
 
 #main-conf {

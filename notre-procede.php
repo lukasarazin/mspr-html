@@ -1,57 +1,54 @@
 <?php require_once 'template-parts/header.php' ?>
 
 
-    <section id="timeline">
-        <article>
-            <div class="inner">
-      <span class="date date1">
-        <span class="month month1">01</span>
-      </span>
-                <h2>The Title</h2>
-                <img src="assets/image/graines2.0.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</p>
+    <section id="process">
+        <div class="container">
+            <div class="content">
+
+                <div class="step-1 row">
+                    <div class="img-step col-lg-6">
+                        <img src="assets/svg/icon%201.svg" alt="">
+                    </div>
+                    <div class="text-step col-lg-6">
+                        <h2>Etape 1 :</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cupiditate eveniet illo ipsam
+                            iusto, laborum, magnam maxime nam necessitatibus nemo obcaecati, pariatur perspiciatis quas
+                            totam.</p>
+                    </div>
+                </div>
+
+                <div class="step-2 row">
+                    <div class="text-step col-lg-6">
+                        <h2>Etape 1 :</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cupiditate eveniet illo ipsam
+                            iusto, laborum, magnam maxime nam necessitatibus nemo obcaecati, pariatur perspiciatis quas
+                            totam.</p>
+                    </div>
+                    <div class="img-step col-lg-6">
+                        <img src="assets/svg/icon%202.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="step-3 row">
+                    <div class="img-step col-lg-6">
+                        <img src="assets/svg/icon%203.svg" alt="">
+                    </div>
+                    <div class="text-step col-lg-6">
+                        <h2>Etape 1 :</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cupiditate eveniet illo ipsam
+                            iusto, laborum, magnam maxime nam necessitatibus nemo obcaecati, pariatur perspiciatis quas
+                            totam.</p>
+                    </div>
+                </div>
+
+                <div class="button-wrapper">
+                    <a href="./notre-histoire.php" class="btn btn-primary">
+                        En savoir plus
+                    </a>
+                </div>
+
             </div>
-        </article>
-        <article>
-            <div class="inner">
-      <span class="date date2">
-        <span class="month month2">02</span>
-      </span>
-                <h2>The Title</h2>
-                <img src="assets/image/graines2.0.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</p>
-            </div>
-        </article>
-        <article>
-            <div class="inner">
-      <span class="date date3">
-       <span class="month month3">03</span>
-      </span>
-                <h2>The Title</h2>
-                <img src="assets/image/graines2.0.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</p>
-            </div>
-        </article>
-        <article>
-            <div class="inner">
-      <span class="date date4">
-        <span class="month month4">04</span>
-      </span>
-                <h2>The Title</h2>
-                <img src="assets/image/graines2.0.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</p>
-            </div>
-        </article>
-        <article>
-            <div class="inner">
-      <span class="date date5">
-        <span class="month month5">05</span>
-      </span>
-                <h2>The Title</h2>
-                <img src="assets/image/graines2.0.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</p>
-            </div>
-        </article>
+        </div>
     </section>
 
 
