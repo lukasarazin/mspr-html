@@ -42,8 +42,8 @@
                 </div>
 
                 <div class="button-wrapper">
-                    <a href="./notre-histoire.php" class="btn btn-primary">
-                        En savoir plus
+                    <a href="./notre-procede.php.php" class="btn btn-primary">
+                        Accéder à nos conférences
                     </a>
                 </div>
 

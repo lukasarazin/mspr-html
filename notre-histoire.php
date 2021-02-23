@@ -75,7 +75,7 @@
         </div>
 
         <div class="button-wrapper">
-            <a class="btn btn-primary" href="#">
+            <a class="btn btn-primary" href="./nos-biomes.php">
                 Nos biomes
             </a>
         </div>

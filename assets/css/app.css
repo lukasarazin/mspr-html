@@ -11937,6 +11937,9 @@ h1 {
   background-color: #fcfcfc;
   font-family: "Poppins", sans-serif;
 }
+#meet-up .button-wrapper {
+  text-align: center;
+}
 #meet-up h2, #meet-up .h2 {
   text-align: center;
   margin-top: 5rem;
