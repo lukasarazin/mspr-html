@@ -94,7 +94,7 @@
                             </svg>
                         </div>
                         <span class="step">Étape 1 :</span>
-                        <p>Achetez votre graine sur le site et nous nous chargerons de la planté</p>
+                        <p>Achetez votre graine sur le site et nous nous chargerons de la planté.</p>
                     </div>
                     <div class="step-2 shadow-lg">
                         <div class="icons-step">
@@ -162,7 +162,7 @@
                             </svg>
                         </div>
                         <span class="step">Étape 2 :</span>
-                        <p>L'entretien de votre arbre est assuré chaque jours par une équipe de professionnelle</p>
+                        <p>L'entretien de votre arbre est assuré chaque jours par une équipe de professionnelle.</p>
                     </div>
                     <div class="step-3 shadow-lg">
                         <div class="icons-step">
@@ -225,7 +225,7 @@
                         </div>
 
                         <span class="step">Étape 3 :</span>
-                        <p>Une fois, votre que votre arbre à atteind maturité, nous inscrivons votre message</p>
+                        <p>Une fois, votre que votre arbre à atteind maturité, nous inscrivons votre message.</p>
                     </div>
                 </div>
             </div>
