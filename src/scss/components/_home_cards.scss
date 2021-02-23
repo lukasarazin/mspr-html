@@ -2,7 +2,7 @@
   padding: 45px;
   border-radius: $border-radius;
   margin: auto;
-  background-color: grey;
+  background-color: #efefef;
   height: 100%;
   text-align: center;
   color: $primary;
@@ -12,7 +12,7 @@
   z-index: 999;
 
   &:hover {
-    background-color: red;
+    background-color: #fff;
   }
 
   & > * {
@@ -38,9 +38,3 @@
     color: #fff;
   }
 }
-
-
-
-
-
-

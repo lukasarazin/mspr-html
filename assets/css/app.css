@@ -11885,8 +11885,10 @@ h1 {
 }
 
 #top-conf {
+  padding: 10rem;
   font-family: "Poppins", sans-serif;
-  background-color: #fcfcfc;
+  background: url("https://www.laboiteverte.fr/wp-content/uploads/2014/08/cinemagraph-voyage-alberta-canada-04.gif");
+  background-size: cover;
 }
 #top-conf h1, #top-conf .h1 {
   text-align: center;
@@ -11896,6 +11898,8 @@ h1 {
   display: block;
   position: relative;
   padding-bottom: 5px;
+  color: #fff;
+  margin-bottom: 5rem;
 }
 #top-conf h1:after, #top-conf .h1:after {
   content: "";
@@ -11943,6 +11947,12 @@ h1 {
 }
 #meet-up .button-wrapper {
   text-align: center;
+}
+#meet-up .numero1, #meet-up .numero3 {
+  background-color: #dddddd;
+}
+#meet-up .numero2 {
+  background-color: #fff;
 }
 #meet-up h2, #meet-up .h2 {
   text-align: center;
@@ -12195,7 +12205,7 @@ h1 {
   background-image: url("https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
 }
 #gifs .card--3 .card__img, #gifs .card--3 .card__img--hover {
-  background-image: url("https://lh3.googleusercontent.com/proxy/3KDqejeHpQqcllf0BmZgAfL8yU2gK2Ek2LAdUU7GaJii2mItzmxkPBr4xIW-YbpTvBD5CVt_-IuGJeIt_tw4IdhmIcAwU0YkjC9ku4qRUWCJ22iSzIm0Ha2n");
+  background-image: url("https://www.elagage.net/public/upload/news/espece-arbre-protege.jpg");
 }
 #gifs .card__like {
   width: 18px;
@@ -12344,7 +12354,7 @@ h1 {
   padding: 45px;
   border-radius: 15px;
   margin: auto;
-  background-color: grey;
+  background-color: #efefef;
   height: 100%;
   text-align: center;
   color: #3BC36E;
@@ -12353,7 +12363,7 @@ h1 {
   z-index: 999;
 }
 .home_card:hover {
-  background-color: red;
+  background-color: #fff;
 }
 .home_card > * {
   display: block;

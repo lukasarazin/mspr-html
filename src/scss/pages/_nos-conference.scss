@@ -3,8 +3,10 @@
 }
 
 #top-conf {
+  padding: 10rem;
   font-family: 'Poppins', sans-serif;
-  background-color: #fcfcfc;
+  background: url("https://www.laboiteverte.fr/wp-content/uploads/2014/08/cinemagraph-voyage-alberta-canada-04.gif");
+  background-size: cover;
 
   h1 {
     text-align: center;
@@ -14,6 +16,8 @@
     display: block;
     position: relative;
     padding-bottom: 5px;
+    color: #fff;
+    margin-bottom: 5rem;
 
     &:after {
       content: "";
@@ -68,6 +72,14 @@
 
   .button-wrapper {
     text-align: center;
+  }
+
+  .numero1, .numero3 {
+    background-color: #dddddd;
+  }
+
+  .numero2 {
+    background-color: #fff;
   }
 
   h2 {
@@ -371,7 +383,7 @@
   }
 
   .card--3 .card__img, .card--3 .card__img--hover {
-    background-image: url('https://lh3.googleusercontent.com/proxy/3KDqejeHpQqcllf0BmZgAfL8yU2gK2Ek2LAdUU7GaJii2mItzmxkPBr4xIW-YbpTvBD5CVt_-IuGJeIt_tw4IdhmIcAwU0YkjC9ku4qRUWCJ22iSzIm0Ha2n');
+    background-image: url('https://www.elagage.net/public/upload/news/espece-arbre-protege.jpg');
   }
 
   .card__like {
