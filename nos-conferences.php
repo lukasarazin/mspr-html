@@ -136,7 +136,7 @@
                 <div class="card__info">
                     <span class="card__category">Voyages</span>
                     <h3 class="card__title">Période de covid-19</h3>
-                    <span class="card__by">de <a href="#" class="card__author" title="author">Celeste Mills</a></span>
+                    <span class="card__by">de <a href="#" class="card__author" title="author">Vladimir Patine</a></span>
                 </div>
             </article>
 
@@ -159,7 +159,7 @@
                 <div class="card__info">
                     <span class="card__category">Dômes</span>
                     <h3 class="card__title">Découvrez Tahiti</h3>
-                    <span class="card__by">de <a href="#" class="card__author" title="author">John Doe</a></span>
+                    <span class="card__by">de <a href="#" class="card__author" title="author">François Pays-Bas</a></span>
                 </div>
             </article>
 
@@ -181,7 +181,7 @@
                 <div class="card__info">
                     <span class="card__category">Achats</span>
                     <h3 class="card__title">Nouvelles espèces</h3>
-                    <span class="card__by">de <a href="#" class="card__author" title="author">Celeste Mills</a></span>
+                    <span class="card__by">de <a href="#" class="card__author" title="author">Barack Obamako</a></span>
                 </div>
             </article>
 

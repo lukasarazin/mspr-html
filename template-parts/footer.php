@@ -12,9 +12,10 @@
                     <h5 class="text-uppercase">TREES</h5>
                     <div class="text-footer">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-                            voluptatem veniam, est atque cumque eum delectus sint! Lorem ipsum dolor sit amet.
+                            Nous avons trouver la solution au problème le plus controversé de 2021 : la pollution.
+                            Pour nous sauver de la destruction de la planète Terre d'ici 30 ans, c'est aujourd'hui qu'il faut réagir.
+                            Rejoignez Trees, plantez un arbre dans l'un de nos biômes, et ça n'est pas une espèce que vous sauverez,
+                            c'est vous.
                         </p>
                     </div>
                     <div class="social-network">

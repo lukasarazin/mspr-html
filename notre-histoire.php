@@ -68,7 +68,8 @@
 
             <div class="figures row">
                 <figure class="snip1581 col-lg-5"><img
-                            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample4.jpg"
+                            style="background-size: cover;"
+                            src="assets/image/oscar.jpg"
                             alt="profile-sample2"/>
                     <figcaption>
                         <h5 class="title1">Oscar</h5>
@@ -79,7 +80,8 @@
                 </figure>
                 <h2 class="col-lg-2">&</h2>
                 <figure class="snip1581 col-lg-5"><img
-                            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/pr-sample9.jpg"
+                            style="width: 100%;"
+                            src="assets/image/luka.jpg"
                             alt="profile-sample6"/>
                     <figcaption>
                         <h5 class="title1">Luka</h5>

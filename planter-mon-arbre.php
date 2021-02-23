@@ -53,13 +53,13 @@ require_once 'template-parts/header.php';
                                     <img class="tree-thumbnail" src="<?php echo $tree['img']; ?>" alt="">
                                 </div>
                                 <div class="tree-body">
-                                    <h2 class="tree-title"><?php echo $tree['name']; ?></h2>
-                                    <span class="country"><?php echo $tree['country']; ?></span>
+                                    <h2 class="tree-title" style="margin-left: 1rem; margin-top: 1rem; text-transform: uppercase; font-weight: 550;"><?php echo $tree['name']; ?></h2>
+                                    <span class="country" style="margin-left: 1rem;"><?php echo $tree['country']; ?></span>
 
                                     <div class="form-group">
                                         <label class="choose"
-                                               for="select-tree-<?php echo $index; ?>">Sélectionner</label>
-                                        <input type="checkbox" name="trees[]" id="select-tree-<?php echo $index; ?>"
+                                               for="select-tree-<?php echo $index; ?>"></label>
+                                        <input type="checkbox" style="margin-left: 1rem; margin-bottom: 1rem;" name="trees[]" id="select-tree-<?php echo $index; ?>"
                                                value="<?php echo $index; ?>">
                                     </div>
                                 </div>
@@ -70,7 +70,7 @@ require_once 'template-parts/header.php';
                 </div>
 
                 <div class="button-wrapper">
-                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                    <button type="submit" class="btn btn-primary">Ajouter au panier</button>
                 </div>
 
             </form>

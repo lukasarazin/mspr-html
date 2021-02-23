@@ -97,14 +97,14 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda dolores eius
                             eveniet excepturi expedita magnam saepe, similique voluptate voluptatem.</p>
                         <div class="button-wrapper pt-2">
-                            <button type="submit" class="btn btn-primary">Voir programme</button>
+                            <a href="./nos-conferences.php"><button type="submit" class="btn btn-primary">Voir programme</button></a>
                         </div>
                     </div>
 
                     <!--CARD 1-->
                     <div class="content col-lg-6">
                         <div class="cards_wrapper shadow-lg p-3 mb-5 bg-white rounded">
-                            <a class="card_conf" href="#">
+                            <a class="card_conf" href="./nos-conferences.php">
                                 <div class="row g-0">
                                     <div class=" lottie_content col-sm-12 col-lg-3">
                                         <i id="lottie">
@@ -120,9 +120,9 @@
 
                                     <div class="card_container col-sm-12 col-lg-9">
                                         <div class="card_content">
-                                            <h3>Titre</h3>
+                                            <h3 style="font-size: 23px;">Le changement du monde</h3>
                                             <ul>
-                                                <li>Sous-titre</li>
+                                                <li>Ouvrir une nouvelle porte au futur</li>
                                                 <li>Sous-titre</li>
                                             </ul>
                                             <span>
@@ -153,9 +153,9 @@
 
                                         <div class="card_container col-sm-12 col-lg-9">
                                             <div class="card_content">
-                                                <h3>Titre</h3>
+                                                <h3 style="font-size: 23px;">L'intérêt des arbres</h3>
                                                 <ul>
-                                                    <li>Sous-titre</li>
+                                                    <li>Plutôt que de vivre, il faut survivre</li>
                                                     <li>Sous-titre</li>
                                                 </ul>
                                                 <span>
@@ -214,7 +214,7 @@
                                 </g>
                             </svg>
                         </div>
-                        <span class="step">étape 1:</span>
+                        <span class="step">Étape 1 :</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, earum!</p>
                     </div>
                     <div class="step-2 shadow-lg">
@@ -282,7 +282,7 @@
                                 </g>
                             </svg>
                         </div>
-                        <span class="step">étape 2:</span>
+                        <span class="step">Étape 2 :</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, earum!</p>
                     </div>
                     <div class="step-3 shadow-lg">
@@ -345,7 +345,7 @@
                             </svg>
                         </div>
 
-                        <span class="step">étape 3:</span>
+                        <span class="step">Étape 3 :</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, earum!</p>
                     </div>
                 </div>
